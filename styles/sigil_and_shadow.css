@@ -1,3 +1,60 @@
+/* Deprecated vars */
+/* ----------------------------------------- */
+/*  Fonts                                    */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/*  Sheet Styles                             */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/*  Flexbox                                  */
+/* ----------------------------------------- */
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.flexrow > * {
+  flex: 1;
+}
+.flexrow .flex1 {
+  flex: 1;
+}
+.flexrow .flex2 {
+  flex: 2;
+}
+.flexrow .flex3 {
+  flex: 3;
+}
+.flexrow .flex4 {
+  flex: 4;
+}
+.flexcol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.flexcol > * {
+  flex: 1;
+}
+.flexcol .flex1 {
+  flex: 1;
+}
+.flexcol .flex2 {
+  flex: 2;
+}
+.flexcol .flex3 {
+  flex: 3;
+}
+.flexcol .flex4 {
+  flex: 4;
+}
+/* ----------------------------------------- */
+/*  Common                                   */
+/* ----------------------------------------- */
+.full-width {
+  width: 100%;
+}
 .sis.sheet.item form {
   display: flex;
   flex-direction: column;
@@ -8,5 +65,29 @@
   flex-direction: column;
 }
 .sis.sheet.item .sheet-content .editor {
+  height: 100%;
+}
+.sis.sheet.actor.player-character form {
+  display: flex;
+  flex-direction: column;
+}
+.sis.sheet.actor.player-character .sheet-header {
+  min-width: 720px;
+  min-height: 680px;
+}
+.sis.sheet.actor.player-character .sheet-header img.profile {
+  flex: 0 0 160px;
+  max-width: 160px;
+  height: 160px;
+}
+.sis.sheet.actor.player-character .sheet-header .editor {
+  height: 100%;
+}
+.sis.sheet.actor.player-character .sheet-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.sis.sheet.actor.player-character .sheet-content .editor {
   height: 100%;
 }

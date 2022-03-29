@@ -9,14 +9,14 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         return mergeObject(super.defaultOptions, {
             width: 530,
             innerHeight: 360,
-            classes: ["sis", "sheet", "actor"]
+            classes: ["sis", "sheet", "actor", "player-character"]
         });
     }
 
     /** @override */
     get template() {
         // return `systems/sigil_and_shadow/templates/actor/${this.actor.data.type}-sheet.html`
-        return "systems/sigil_and_shadow/templates/actor/player-character-sheet.html"
+        return "systems/sigil_and_shadow/templates/actor/player-character-sheet.hbs"
     }    
 
     /** @override */

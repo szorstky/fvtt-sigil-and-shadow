@@ -9,5 +9,7 @@
     "ITEM.WeaponNotes": "Notes",
 
     "ACTOR.PlayerAlignmentTheIlluminated": "The Illuminated",
-    "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed"
+    "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed",
+
+    "SIS.Name": "Name"
 }

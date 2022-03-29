@@ -1,15 +1,15 @@
-export default class SigilPlayerCharacterSheet extends ItemSheet {
+export default class SigilPlayerCharacterSheet extends ActorSheet {
 
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             width: 530,
             innerHeight: 360,
-            classes: ["sis", "sheet", "sigil-actor"]
+            classes: ["sis", "sheet", "actor"]
         });
     }
 
     get tempate() {
-        return `systems/sigil_and_shadow/templates/actor/${this.item.data.type}-sheet.hbs`
+        return `systems/sigil_and_shadow/templates/actor/${this.actor.data.type}-sheet.hbs`
     }    
 
     getData() {

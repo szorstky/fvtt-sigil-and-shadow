@@ -17,15 +17,16 @@
                 </section>
             </header>
         </div>
+        test
         <section class="oddities-list">
             {{#each weapons as |weapon id|}}
             {{> "systems/sigil_and_shadow/templates/partials/weapon-card.hbs" weapon}}
             {{/each}}
         </section>
-        <div class="flexcol">
+        {{!-- <div class="flexcol">
             <div class="sheet-content">
                 {{> "systems/sigil_and_shadow/templates/actors/partials/player-attributes-partial.hbs"}}
             </div>
-        </div>
+        </div> --}}
     </div>
 </form>

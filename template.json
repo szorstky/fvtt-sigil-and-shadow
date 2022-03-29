@@ -100,9 +100,47 @@
         }
     },
     "Item": {
-        "types": [ "oddity", "perk", "special_power", "descriptor", "equipment", "weapon"],
+        "types": [ "oddity", "perk", "special-power", "descriptor", "equipment", "weapon"],
         "templates": {
-
+            "base_item" : {
+                "notes": ""
+            }
+        },
+        "oddity" : {
+            "templates": [
+                "base_item"
+            ]
+        },
+        "perk" : {
+            "templates": [
+                "base_item"
+            ]
+        },
+        "special_power" : {
+            "templates": [
+                "base_item"
+            ]
+        },
+        "descriptor" : {
+            "templates": [
+                "base_item"
+            ],
+            "type": ""
+        },
+        "equipment" : {
+            "templates": [
+                "base_item"
+            ]
+        },
+        "weapon" : {
+            "templates": [
+                "base_item"
+            ],
+            "damage": "",
+            "range": "",
+            "ammo": "",
+            "conceal": "",
+            "notes": ""
         }
     }
 }

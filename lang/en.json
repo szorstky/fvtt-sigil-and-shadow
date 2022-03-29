@@ -1,0 +1,10 @@
+{
+    "ITEM.DescriptorPositive": "Positive",
+    "ITEM.DescriptorNegative": "Negative",
+    "ITEM.WeaponName": "Damage",
+    "ITEM.WeaponDamage": "Damage",
+    "ITEM.WeaponRange": "Range",
+    "ITEM.WeaponAmmo": "Ammo",
+    "ITEM.WeaponConceal": "Conceal",
+    "ITEM.WeaponNotes": "Notes"
+}

@@ -9,8 +9,7 @@
                 <th>{{localize "ITEM.WeaponDamage"}}</th>
                 <th>{{localize "ITEM.WeaponRange"}}</th>
                 <th>{{localize "ITEM.WeaponAmmo"}}</th>
-                <th>{{localize "ITEM.WeaponConceal"}}</th> 
-                <th>{{localize "ITEM.WeaponNotes"}}</th>                
+                <th>{{localize "ITEM.WeaponConceal"}}</th>           
             </tr>
             <tr>               
                 <td>
@@ -28,6 +27,6 @@
             </tr>
         </table>
         <!-- <textarea name="data.notes">{{data.description}}</textarea> -->
-        {{editor content=data.notes target="data.notes" button=true editable=editable}}
+        {{ editor content=data.notes target="data.notes" owner=owner button=true editable=editable }}
     </div>
 </form>

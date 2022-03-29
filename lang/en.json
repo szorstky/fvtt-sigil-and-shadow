@@ -6,5 +6,8 @@
     "ITEM.WeaponRange": "Range",
     "ITEM.WeaponAmmo": "Ammo",
     "ITEM.WeaponConceal": "Conceal",
-    "ITEM.WeaponNotes": "Notes"
+    "ITEM.WeaponNotes": "Notes",
+
+    "ACTOR.PlayerAlignmentTheIlluminated": "The Illuminated",
+    "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed"
 }

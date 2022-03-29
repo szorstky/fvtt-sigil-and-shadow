@@ -2,8 +2,8 @@
     "Actor": {
         "types": [
             "player",
-            "npc_minor",
-            "npc_major",
+            "npc-minor",
+            "npc-major",
             "creature"
         ],
         "templates": {
@@ -35,6 +35,7 @@
             ],
             "milestones": 0,
             "rank": 1,
+            "alignment": "",
             "casting": "",
             "drive": "",
             "oddity": "",
@@ -100,7 +101,7 @@
         }
     },
     "Item": {
-        "types": [ "oddity", "perk", "special-power", "descriptor", "equipment", "weapon"],
+        "types": [ "oddity", "perk", "power", "descriptor", "equipment", "weapon"],
         "templates": {
             "base_item" : {
                 "notes": ""

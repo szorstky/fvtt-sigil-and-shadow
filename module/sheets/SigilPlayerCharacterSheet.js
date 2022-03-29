@@ -25,6 +25,9 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
 
         data.config = CONFIG.sigil_and_shadow;
 
+        data.actor = actorData;
+        data.data = actorData.data;        
+
         data.oddities = data.items.filter(function(item){ return item.type == "oddity"});
         data.descriptors = data.items.filter(function(item){ return item.type == "descriptor"});
         data.perks = data.items.filter(function(item){ return item.type == "perk"});

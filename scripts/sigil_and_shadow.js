@@ -4,7 +4,7 @@ import SigilActorSheet from "../module/sheets/SigilActorSheet.js"
 
 async function preloadHandlebarsTemplates() {
     const templatePaths = [
-        "systems/sigil_and_shadow/templates/actors/partials/player-attributes-partial.hbs"
+        // "systems/sigil_and_shadow/templates/actors/partials/player-attributes-partial.hbs"
     ];
     return loadTemplates(templatePaths);
 }

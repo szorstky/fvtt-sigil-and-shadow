@@ -9,7 +9,7 @@ export default class SigilItemSheet extends ItemSheet {
     }
 
     get tempate() {
-        return `systems/sigil_and_shadow/templates/sheets/item/${this.item.data.type}-sheet.html`
+        return `systems/sigil_and_shadow/templates/item/${this.item.data.type}-sheet.html`
     }    
 
     getData() {

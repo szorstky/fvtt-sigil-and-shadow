@@ -20,13 +20,27 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
     }    
 
     /** @override */
-    getData() {
-        const data = super.getData();
+    getData(options) {
+        let isOwner = this.actor.isOwner;
+        const data = {
+        owner: isOwner,
+        limited: this.actor.limited,
+        options: this.options,
+        editable: this.isEditable,
+        // cssClass: isOwner ? "editable" : "locked",
+        // isCharacter: this.actor.type === "character",
+        // isNPC: this.actor.type === "npc",
+        // isVehicle: this.actor.type === "vehicle",
+        config: CONFIG.sigil_and_shadow,
+        // rollData: this.actor.getRollData.bind(this.actor)
+        };
 
-        data.config = CONFIG.sigil_and_shadow;
+        // The Actor's data
+        const actorData = this.actor.data.toObject(false);
+        const source = this.actor.data._source.data;
 
         data.actor = actorData;
-        data.data = actorData.data;        
+        data.data = actorData.data;
 
         data.oddities = data.items.filter(function(item){ return item.type == "oddity"});
         data.descriptors = data.items.filter(function(item){ return item.type == "descriptor"});

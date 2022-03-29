@@ -1,5 +1,10 @@
 export default class SigilPlayerCharacterSheet extends ActorSheet {
 
+    constructor(...args) {
+        super(...args);
+    }
+
+    /** @override */
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             width: 530,
@@ -8,10 +13,12 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         });
     }
 
+    /** @override */
     get tempate() {
         return `systems/sigil_and_shadow/templates/actor/${this.actor.data.type}-sheet.html`
     }    
 
+    /** @override */
     getData() {
         const data = super.getData();
 

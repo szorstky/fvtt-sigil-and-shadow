@@ -5,7 +5,7 @@ gulp.task('less', function(cb){
     gulp
         .src('less/sigil_and_shadow.less')
         .pipe(less())
-        .pipe(gulp.dest("./styles/"));
+        .pipe(gulp.dest("./"));
     cb();
 });
 

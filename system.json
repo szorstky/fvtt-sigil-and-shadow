@@ -8,10 +8,10 @@
     "author": "Szorstky",
     "scripts": [],
     "esmodules": [
-      "scripts/sigil_and_shadow.js"
+      "sigil_and_shadow.js"
     ],  
     "styles": [
-      "styles/sigil_and_shadow.css"
+      "sigil_and_shadow.css"
     ],
     "packs": [],
     "languages": [

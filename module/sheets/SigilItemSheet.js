@@ -7,7 +7,7 @@ export default class SigilItemSheet extends ItemSheet {
     /** @override */
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            width: 530,
+            width: 520,
             innerHeight: 360,
             classes: ["sis", "sheet", "item"]
         });
@@ -19,11 +19,13 @@ export default class SigilItemSheet extends ItemSheet {
     }    
 
     /** @override */
-    getData() {
-        const data = super.getData();
+    getData(options) {
+        const data = super.getData(options);
+        const itemData = data.data;
 
         data.config = CONFIG.sigil_and_shadow;
-        
+        data.item = itemData;
+        data.data = itemData.data;
         return data;
     }
 }

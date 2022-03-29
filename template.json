@@ -1,0 +1,108 @@
+{
+    "Actor": {
+        "types": [
+            "player",
+            "npc_minor",
+            "npc_major",
+            "creature"
+        ],
+        "templates": {
+            "character_stats": {
+                "ability": {
+                    "strength": 40,
+                    "dexterity": 40,
+                    "logic": 40,
+                    "willpower": 40
+                }
+            },
+            "combat_stats": {
+                "initiative": 1,
+                "damage_bonus": {
+                    "melee": 0,
+                    "range": 0
+                },
+                "damage_resistance": 0,
+                "health": {
+                    "value": 0,
+                    "max": 0
+                }
+            }
+        }, 
+        "player": {
+            "templates": [
+                "character_stats",
+                "combat_stats"
+            ],
+            "milestones": 0,
+            "rank": 1,
+            "casting": "",
+            "drive": "",
+            "oddity": "",
+            "background": "",
+            "lifestyle": "",
+            "biography": "",
+            "bones": {
+                "pile": 5,
+                "current": 0
+            },
+            "skill": {
+                "arcana": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                },
+                "combat": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                },
+                "education": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                },
+                "investigation": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                },
+                "larceny": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                },
+                "medicine": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                },
+                "mysticism": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                },
+                "social": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                },
+                "survival": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                },
+                "tecnnical": {
+                    "ability": "",
+                    "level": -1,
+                    "score": 0
+                }
+            }            
+        }
+    },
+    "Item": {
+        "types": [ "oddity", "perk", "special_power", "descriptor", "equipment", "weapon"],
+        "templates": {
+
+        }
+    }
+}

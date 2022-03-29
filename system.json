@@ -1,0 +1,33 @@
+{
+    "name": "sigil_and_shadow",
+    "title": "Sigil And Shadow",
+    "description": "Many details here.",
+    "version": "1.0.0",
+    "compatibleCoreVersion": "0.8.6",
+    "templateVersion": 1,
+    "author": "Szorstky",
+    "scripts": [],
+    "esmodules": [
+      "scripts/sigil_and_shadow.js"
+    ],  
+    "styles": [
+      "styles/sigil_and_shadow.css"
+    ],
+    "packs": [],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "socket": false,
+    "initiative": "1d10",
+    "gridDistance": 1,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.power",
+    "url": "https://github.com/szorstky/sigil_and_shadow",
+    "manifest": "https://raw.githubusercontent.com/szorstky/sigil_and_shadow/main/system.json",
+    "download": "https://github.com/szorstky/sigil_and_shadow/archive.zip"
+  }

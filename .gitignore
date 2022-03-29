@@ -1,3 +1,4 @@
 /.vscode
 /node_modules
 /sigil_and_shadow.code-workspace
+package-lock.json

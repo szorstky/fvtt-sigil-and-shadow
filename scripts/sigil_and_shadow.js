@@ -1,6 +1,6 @@
 import { sigil_and_shadow } from "../module/config.js";
-import SigilItemSheet from "../module/sheets/SigilItemSheet";
-import SigilActorSheet from "../module/sheets/SigilActorSheet"
+import SigilItemSheet from "../module/sheets/SigilItemSheet.js";
+import SigilActorSheet from "../module/sheets/SigilActorSheet.js"
 
 async function preloadHandlebarsTemplates() {
     const templatePaths = [

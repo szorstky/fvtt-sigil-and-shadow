@@ -9,7 +9,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
     }
 
     get tempate() {
-        return `systems/sigil_and_shadow/templates/actor/${this.actor.data.type}-sheet.hbs`
+        return `systems/sigil_and_shadow/templates/actor/${this.actor.data.type}-sheet.html`
     }    
 
     getData() {

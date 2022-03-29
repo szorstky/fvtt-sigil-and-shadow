@@ -1,6 +1,6 @@
-import { sigil_and_shadow } from "./module/config.js";
-import SigilItemSheet from "./module/sheets/SigilItemSheet.js";
-import SigilActorSheet from "./module/sheets/SigilActorSheet.js"
+import { sigil_and_shadow } from "../module/config.js";
+import SigilItemSheet from "../module/sheets/SigilItemSheet.js";
+import SigilPlayerCharacterSheet from "../module/sheets/SigilPlayerCharacterSheet.js"
 
 async function preloadHandlebarsTemplates() {
     const templatePaths = [
@@ -17,8 +17,8 @@ Hooks.once("init", function(){
     Items.unregisterSheet("core", ItemSheet);
     Items.registerSheet("sigil_and_shadow", SigilItemSheet, { makeDefault: true });
 
-    Items.unregisterSheet("core", ActorSheet);
-    Items.registerSheet("sigil_and_shadow", SigilActorSheet, { makeDefault: true });
+    Actors.unregisterSheet("core", ActorSheet);
+    Actors.registerSheet("sigil_and_shadow", SigilPlayerCharacterSheet, { makeDefault: true });
 
     preloadHandlebarsTemplates();
 

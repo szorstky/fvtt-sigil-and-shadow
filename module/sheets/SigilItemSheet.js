@@ -14,7 +14,7 @@ export default class SigilItemSheet extends ItemSheet {
     }
 
     /** @override */
-    get tempate() {
+    get template() {
         return `systems/sigil_and_shadow/templates/item/${this.item.data.type}-sheet.html`
     }    
 

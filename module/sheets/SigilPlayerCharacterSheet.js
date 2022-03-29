@@ -14,7 +14,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
     }
 
     /** @override */
-    get tempate() {
+    get template() {
         // return `systems/sigil_and_shadow/templates/actor/${this.actor.data.type}-sheet.html`
         return "systems/sigil_and_shadow/templates/actor/player-character-sheet.html"
     }    

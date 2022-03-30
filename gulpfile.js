@@ -9,6 +9,6 @@ gulp.task('less', function(cb){
     cb();
 });
 
-gulp.task('sigil_and_shadow', function(cb){
+gulp.task('default', function(cb){
     gulp.watch('less/*.less', gulp.series('less'));
 });

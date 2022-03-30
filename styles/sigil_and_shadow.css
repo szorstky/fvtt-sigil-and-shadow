@@ -55,30 +55,51 @@
 .full-width {
   width: 100%;
 }
-.sis.sheet.item form {
-  display: flex;
-  flex-direction: column;
+.sis.sheet.actor {
+  /* ----------------------------------------- */
+  /*  Shared Styles                            */
+  /* ----------------------------------------- */
+  /* ----------------------------------------- */
+  /*  Sheet Header                             */
+  /* ----------------------------------------- */
 }
-.sis.sheet.item .sheet-content {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+.sis.sheet.actor .config-button {
+  color: #4b4a44;
+  right: -6px;
+  top: -3px;
+  font-size: 10px;
+  font-weight: normal;
 }
-.sis.sheet.item .sheet-content .editor {
-  height: 100%;
+.sis.sheet.actor .sheet-header img.profile {
+  flex: 0 0 80px;
+  max-width: 80px;
+  height: 80px;
+}
+.sis.sheet.actor .sheet-header div.input-box {
+  padding: 0;
+  margin: 10px 10px 0 10px;
+}
+.sis.sheet.actor .sheet-header div.input-box h5 {
+  color: red;
+  margin: 0;
+}
+.sis.sheet.actor .sheet-header div.input-box input {
+  height: 30px;
+  margin: 0;
 }
 .sis.sheet.actor.player-character form {
   display: flex;
   flex-direction: column;
 }
 .sis.sheet.actor.player-character .sheet-header {
-  min-width: 720px;
-  min-height: 680px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 .sis.sheet.actor.player-character .sheet-header img.profile {
-  flex: 0 0 160px;
-  max-width: 160px;
-  height: 160px;
+  flex: 0 0 180px;
+  max-width: 180px;
+  height: 180px;
 }
 .sis.sheet.actor.player-character .sheet-header .editor {
   height: 100%;

@@ -5,8 +5,8 @@
   /* ----------------------------------------- */
 
   // Attribute Configuration
-  .config-button {
-    color: @colorOlive;
+  .config-button { 
+    color: @colorOlive; 
     right: -6px;
     top: -3px;
     font-size: 10px;
@@ -17,23 +17,26 @@
   /*  Sheet Header                             */
   /* ----------------------------------------- */
   .sheet-header {
-
+ 
     // Portrait Artwork
-    img.profile {
-      flex: 0 0 160px;
-      max-width: 160px;
-      height: 160px;
+    img.profile { 
+      flex: 0 0 80px; 
+      max-width: 80px;
+      height: 80px;
     }
 
     // Character Name
-    h1.charname {
-      flex: 1;
-      height: @actorNameHeight;
+    div.input-box {      
       padding: 0;
+      margin: 10px 10px 0 10px;  
+      h5 {        
+        color: red;
+        margin: 0;        
+      }    
       input {
-        height: @actorNameHeight - 20px;
-        margin: 10px 0;
+        height: 30px;
+        margin: 0;        
       }
-    }
+    }    
   }
 }

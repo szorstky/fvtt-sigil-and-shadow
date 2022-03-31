@@ -8,6 +8,9 @@
 /* ----------------------------------------- */
 /*  Flexbox                                  */
 /* ----------------------------------------- */
+.shrink {
+  flex-shrink: 1;
+}
 .flexrow {
   display: flex;
   flex-direction: row;
@@ -77,29 +80,51 @@
 }
 .sis.sheet.actor .sheet-header div.input-box {
   padding: 0;
-  margin: 10px 10px 0 10px;
-}
-.sis.sheet.actor .sheet-header div.input-box h5 {
-  color: red;
   margin: 0;
+}
+.sis.sheet.actor .sheet-header div.input-box label {
+  color: blue;
 }
 .sis.sheet.actor .sheet-header div.input-box input {
   height: 30px;
   margin: 0;
+  width: 100%;
+}
+.sis.sheet.actor .sheet-header div.resource-box {
+  padding: 0;
+  margin: 10px 10px 0 10px;
+}
+.sis.sheet.actor .sheet-header div.resource-box h5 {
+  margin: 0;
+}
+.sis.sheet.actor .sheet-header div.resource-box h5.title {
+  text-align: center;
+}
+.sis.sheet.actor .sheet-header div.resource-box div.input-cell {
+  margin: 0 4px;
+}
+.sis.sheet.actor .sheet-header div.resource-box input {
+  width: 100%;
 }
 .sis.sheet.actor.player-character form {
   display: flex;
   flex-direction: column;
 }
 .sis.sheet.actor.player-character .sheet-header {
-  height: 100%;
   display: flex;
   flex-direction: row;
 }
 .sis.sheet.actor.player-character .sheet-header img.profile {
-  flex: 0 0 180px;
-  max-width: 180px;
-  height: 180px;
+  flex: 0 0 160px;
+  max-width: 160px;
+  height: 160px;
+}
+.sis.sheet.actor.player-character .sheet-header .charname {
+  flex-grow: 4;
+}
+.sis.sheet.actor.player-character .sheet-header div.rank,
+.sis.sheet.actor.player-character .sheet-header div.milestones {
+  display: inline-block;
 }
 .sis.sheet.actor.player-character .sheet-header .editor {
   height: 100%;

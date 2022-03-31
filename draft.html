@@ -7,42 +7,120 @@
 <body>
     <form class="sis sheet actor player-character" autocomplete="off">
         <header class="sheet-header">
-            <img class="profile" src="" title="actor.name" data-edit="img" />
+            <img class="profile" src="" title="actor.name" data-edit="img" />                         
             <div class="full-width">
                 <div class="flexrow">
-                    <div class="input-box flex2">
-                        <input class="full-width" name="name" type="text" value="{{actor.name}}"
-                            placeholder="{{ localize 'SIS.Name' }}" />
-                        <h5>Name</p>
-                    </div>
+                    <div class="input-box charname">
+                        <label>Character name</label>
+                        <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'SIS.Name' }}" />                        
+                    </div>   
+                    <div class="input-box rank">
+                        <label>Rank</label>
+                        <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'SIS.Name' }}" />                        
+                    </div>                                 
                 </div>
                 <div class="flexrow">
                     <div class="input-box">
-                        <input class="full-width" name="name" type="text" value="{{actor.name}}"
+                        <label>Casting</label>
+                        <input name="name" type="text" value="{{actor.name}}"
                             placeholder="{{ localize 'SIS.Name' }}" />
-                        <h5>Casting</span>
                     </div>
                     <div class="input-box">
-                        <input class="full-width" name="name" type="text" value="{{actor.name}}"
+                        <label>Drive</label>
+                        <input name="name" type="text" value="{{actor.name}}"
                             placeholder="{{ localize 'SIS.Name' }}" />
-                        <h5>Drive</p>
                     </div>
-                </div>
+                    <div class="input-box">
+                        <label>Background</label>
+                        <input name="name" type="text" value="{{actor.name}}"
+                            placeholder="{{ localize 'SIS.Name' }}" />
+                    </div>
+                </div>    
+                <div class="input-box">                    
+                    <label>Oddity</h5>
+                    <input name="name" type="text" value="{{actor.name}}"
+                        placeholder="{{ localize 'SIS.Name' }}" />
+                </div>            
                 <div class="flexrow">
-                    <div class="input-box">
-                        <input class="full-width" name="name" type="text" value="{{actor.name}}"
-                            placeholder="{{ localize 'SIS.Name' }}" />
-                        <h5>Milestones</p>
+                    <div class="resource-box">
+                        <h5 class="title">Health</h5>
+                        <div class="flexrow">
+                            <div class="input-cell">
+                                <input name="name" type="text" value="{{health.value}}"
+                                    placeholder="{{ localize 'SIS.Name' }}" />
+                                <h5>Curr</h5>
+                            </div>
+                            <div class="input-cell">
+                                <input name="name" type="text" value="{{health.max}}"
+                                    placeholder="{{ localize 'SIS.Name' }}" />
+                                <h5>Max</h5>
+                            </div>
+                        </div>
                     </div>
-                    <div class="input-box">
-                        <input class="full-width" name="name" type="text" value="{{actor.name}}"
-                            placeholder="{{ localize 'SIS.Name' }}" />
-                        <h5>Rank</span>
+                    <div class="resource-box">
+                        <h5 class="title">Bone Pile</h5>
+                        <div class="flexrow">
+                            <div class="input-cell">
+                                <input name="name" type="text" value="{{health.value}}"
+                                    placeholder="{{ localize 'SIS.Name' }}" />
+                                <h5>Curr</h5>
+                            </div>
+                            <div class="input-cell">
+                                <input name="name" type="text" value="{{health.max}}"
+                                    placeholder="{{ localize 'SIS.Name' }}" />
+                                <h5>Max</h5>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div class="resource-box">
+                        <h5 class="title">Initiative</h5>
+                        <div>
+                            <input name="name" type="text" value="{{health.value}}" placeholder="{{ localize 'SIS.Name' }}" />                            
+                        </div>
+                    </div>
+                    <div class="resource-box">
+                        <h5 class="title">Damage Resistance</h5>
+                        <div>
+                            <input name="name" type="text" value="{{health.value}}" placeholder="{{ localize 'SIS.Name' }}" />                            
+                        </div>
+                    </div>       
+                    <div class="resource-box">
+                        <h5 class="title">Milestones</h5>
+                        <div>
+                            <input name="name" type="text" value="{{health.value}}" placeholder="{{ localize 'SIS.Name' }}" />                            
+                        </div>
+                    </div>                    
+                </div>                
             </div>
-
         </header>
+        <div class="sheet-content">
+            <div class="flexrow">
+                <div class="resource-box">
+                    <h5 class="title">Strength</h5>
+                    <div>
+                        <input name="name" type="text" value="{{health.value}}" placeholder="{{ localize 'SIS.Name' }}" />                            
+                    </div>
+                </div>
+                <div class="resource-box">
+                    <h5 class="title">Dexterity</h5>
+                    <div>
+                        <input name="name" type="text" value="{{health.value}}" placeholder="{{ localize 'SIS.Name' }}" />                            
+                    </div>
+                </div>
+                <div class="resource-box">
+                    <h5 class="title">Logic</h5>
+                    <div>
+                        <input name="name" type="text" value="{{health.value}}" placeholder="{{ localize 'SIS.Name' }}" />                            
+                    </div>
+                </div>
+                <div class="resource-box">
+                    <h5 class="title">Willpower</h5>
+                    <div>
+                        <input name="name" type="text" value="{{health.value}}" placeholder="{{ localize 'SIS.Name' }}" />                            
+                    </div>
+                </div>
+            </div>            
+        </div>
     </form>
 </body>
 

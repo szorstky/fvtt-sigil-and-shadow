@@ -42,8 +42,8 @@
             "lifestyle": "",
             "biography": "",
             "bones": {
-                "pile": 5,
-                "current": 0
+                "max": 5,
+                "value": 0
             },
             "skill": {
                 "arcana": {

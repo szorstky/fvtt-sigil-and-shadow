@@ -1,12 +1,134 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
     {{!-- Sheet Header --}}
-    <header class="sheet-header flexrow">
-        <img class="profile" src="{{actor.img}}" title="{{actor.name}}" data-edit="img"/>
-
-        <section class="header-details flexrow">
-            <h1 class="charname">
-                <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'SIS.Name' }}"/>
-            </h1>
-        </section>
+    <header class="sheet-header">
+        {{!-- Left Side --}}}
+        <div class="leftside">
+            <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
+            <div class="resource-box">
+                <h5 class="title">{{ localize 'ACTOR.Rank' }}</h5>
+                <div>
+                    <input name="data.rank" type="number" value="{{data.rank}}"
+                        placeholder="{{ localize 'ACTOR.Rank' }}" data-dtype="Number" />
+                </div>
+            </div>
+            <div class="resource-box">
+                <h5 class="title">{{ localize 'ACTOR.Milestones' }}</h5>
+                <div>
+                    <input name="data.milestones" type="number" value="{{data.milestones}}"
+                        placeholder="{{ localize 'ACTOR.Milestones' }}" data-dtype="Number" />
+                </div>
+            </div>
+            <div class="resource-box">
+                <h5 class="title">{{ localize 'ACTOR.Initiative' }}</h5>
+                <div>
+                    <input name="data.initiative" type="number" value="{{data.initiative}}"
+                        placeholder="{{ localize 'ACTOR.Initiative' }}" data-dtype="Number" />
+                </div>
+            </div>
+            <div class="resource-box">
+                <h5 class="title">{{ localize 'ACTOR.DamageResistance' }}</h5>
+                <div>
+                    <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
+                        placeholder="{{ localize 'ACTOR.DamageResistance' }}" data-dtype="Number" />
+                </div>
+            </div>
+            <div class="resource-box">
+                <h5 class="title">{{ localize 'ACTOR.Health' }}</h5>
+                <div class="flexrow">
+                    <div class="input-cell">
+                        <input name="data.health.value" type="text" value="{{data.health.value}}"
+                            placeholder="{{ localize 'ACTOR.Current' }}" data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Current' }}</h5>
+                    </div>
+                    <div class="input-cell">
+                        <input name="data.health.max" type="text" value="{{data.health.max}}"
+                            placeholder="{{ localize 'ACTOR.Max' }}" data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Max' }}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="resource-box">
+                <h5 class="title">{{ localize 'ACTOR.BonePile' }}</h5>
+                <div class="flexrow">
+                    <div class="input-cell">
+                        <input name="data.bones.value" type="number" value="{{data.bones.value}}"
+                            placeholder="{{ localize 'ACTOR.Current' }}" data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Current' }}</h5>
+                    </div>
+                    <div class="input-cell">
+                        <input name="data.bones.max" type="number" value="{{data.bones.max}}"
+                            placeholder="{{ localize 'ACTOR.Max' }}" data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Max' }}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="resource-box">
+                <h5 class="title">{{ localize 'ACTOR.Background' }}</h5>
+                <div>
+                    <input name="data.background" type="text" value="{{data.background}}"
+                        placeholder="{{ localize 'ACTOR.Background' }}" />
+                </div>
+            </div>
+            <div class="resource-box">
+                <h5 class="title">{{ localize 'ACTOR.Lifestyle' }}</h5>
+                <div>
+                    <input name="data.lifestyle" type="text" value="{{data.lifestyle}}"
+                        placeholder="{{ localize 'ACTOR.Lifestyle' }}" />
+                </div>
+            </div>
+        </div>
+        {{!-- Center --}}}
+        <div class="full-width">
+            <div class="flexrow">
+                <div class="input-box charname">
+                    <label>{{ localize 'ACTOR.Lifestyle' }}</label>
+                    <input name="name" type="text" value="{{actor.name}}"
+                        placeholder="{{ localize 'ACTOR.CharacterName' }}" />
+                </div>
+            </div>
+            <div class="flexrow">
+                <div class="input-box">
+                    <label>{{ localize 'ACTOR.Casting' }}</label>
+                    <input name="data.casting" type="text" value="{{data.casting}}"
+                        placeholder="{{ localize 'ACTOR.Casting' }}" />
+                </div>
+                <div class="input-box">
+                    <label>{{ localize 'ACTOR.Drive' }}</label>
+                    <input name="data.drive" type="text" value="{{data.drive}}"
+                        placeholder="{{ localize 'ACTOR.Drive' }}" />
+                </div>
+            </div>
+            <div class="input-box">
+                <label>{{ localize 'ACTOR.Oddity' }}</label>
+                <input name="data.oddity" type="text" value="{{data.oddity}}"
+                    placeholder="{{ localize 'ACTOR.Oddity' }}" />
+            </div>
+            <div class="flexrow">
+                <div class="resource-box">
+                    <h5 class="title">{{ localize 'ACTOR.Strength' }}</h5>
+                    <div>
+                        <input name="data.ability.strength" type="text" value="{{data.ability.strength}}" />
+                    </div>
+                </div>
+                <div class="resource-box">
+                    <h5 class="title">{{ localize 'ACTOR.Dexterity' }}</h5>
+                    <div>
+                        <input name="data.ability.dexterity" type="text" value="{{data.ability.dexterity}}" />
+                    </div>
+                </div>
+                <div class="resource-box">
+                    <h5 class="title">{{ localize 'ACTOR.Logic' }}</h5>
+                    <div>
+                        <input name="data.ability.logic" type="text" value="{{data.ability.logic}}" />
+                    </div>
+                </div>
+                <div class="resource-box">
+                    <h5 class="title">{{ localize 'ACTOR.Willpower' }}</h5>
+                    <div>
+                        <input name="data.ability.willpower" type="text" value="{{data.ability.willpower}}" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 </form>

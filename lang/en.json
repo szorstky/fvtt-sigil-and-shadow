@@ -11,5 +11,25 @@
     "ACTOR.PlayerAlignmentTheIlluminated": "The Illuminated",
     "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed",
 
+    "ACTOR.CharacterName": "Character name",
+    "ACTOR.Casting": "Casting",
+    "ACTOR.Drive": "Drive",
+    "ACTOR.Oddity": "Oddity",
+    "ACTOR.Rank": "Rank",
+    "ACTOR.Milestones": "Milestones",
+    "ACTOR.Background": "Background",
+    "ACTOR.Lifestyle": "Lifestyle",
+    "ACTOR.Strength": "Strength",
+    "ACTOR.Dexterity": "Dexterity",
+    "ACTOR.Logic": "Logic",
+    "ACTOR.Willpower": "Willpower",
+    "ACTOR.Initiative": "Initiative",
+    "ACTOR.DamageResistance": "Damage Resistance",
+    "ACTOR.Health": "Health",
+    "ACTOR.BonePile": "Bone Pile",
+    "ACTOR.Current": "Curr",
+    "ACTOR.Max": "Max",
+
+
     "SIS.Name": "Name"
 }

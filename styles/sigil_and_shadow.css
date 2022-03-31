@@ -114,10 +114,13 @@
   display: flex;
   flex-direction: row;
 }
+.sis.sheet.actor.player-character .sheet-header .leftside {
+  flex: 0 0 180px;
+}
 .sis.sheet.actor.player-character .sheet-header img.profile {
-  flex: 0 0 160px;
-  max-width: 160px;
-  height: 160px;
+  flex: 0 0 180px;
+  max-width: 180px;
+  height: 180px;
 }
 .sis.sheet.actor.player-character .sheet-header .charname {
   flex-grow: 4;

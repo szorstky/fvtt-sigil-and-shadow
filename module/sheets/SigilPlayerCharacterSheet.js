@@ -59,7 +59,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         let element = event.currentTarget;
 
         let itemData = {
-            name: Gamepad.i18n.localize("ITEM.SkillNew"),
+            name: game.i18n.localize("ITEM.SkillNew"),
             type: element.dataset.type,
         };
 

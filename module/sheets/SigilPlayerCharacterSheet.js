@@ -63,7 +63,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
             type: element.dataset.type,
         };
 
-        return this.actor.createOwnedData(itemData);
+        return this.actor.createOwnedItem(itemData);
     }
 
     activateListeners(html) {

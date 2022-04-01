@@ -72,7 +72,6 @@
             </div>
         </header>
         <div class="sheet-content">
-
             <!-- COLUMN 1 -->
             <div class="left-panel">
                 <div class="stat-box">
@@ -117,10 +116,22 @@
                         </div>
                     </div>
                 </div>
-                
-               
+                <div class="stat-box">
+                    <h5 class="title">{{ localize 'ACTOR.BonePile' }}</h5>
+                    <div class="flexrow">
+                        <div class="input-cell">
+                            <input name="data.bones.value" type="number" value="{{data.bones.value}}"
+                                data-dtype="Number" />
+                            <h5>{{ localize 'ACTOR.Current' }}</h5>
+                        </div>
+                        <div class="input-cell">
+                            <input name="data.bones.max" type="number" value="{{data.bones.max}}" data-dtype="Number" />
+                            <h5>{{ localize 'ACTOR.Max' }}</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- COLUMN 2-->
+            <!-- CENTER -->
             <div class="center-panel full-width">
 
             </div>

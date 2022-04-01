@@ -151,5 +151,7 @@
   color: orange;
 }
 .sis.sheet.actor.player-character .sheet-content .left-panel {
-  flex: 0 0 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }

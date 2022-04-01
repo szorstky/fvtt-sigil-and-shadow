@@ -12,6 +12,7 @@
     "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed",
 
     "ACTOR.CharacterName": "Character name",
+    "ACTOR.Alignment": "Alignment",
     "ACTOR.Casting": "Casting",
     "ACTOR.Drive": "Drive",
     "ACTOR.Oddity": "Oddity",
@@ -25,6 +26,9 @@
     "ACTOR.Willpower": "Willpower",
     "ACTOR.Initiative": "Initiative",
     "ACTOR.DamageResistance": "Damage Resistance",
+    "ACTOR.DamageBonus": "Damage Bonus",
+    "ACTOR.Melee": "Melee",
+    "ACTOR.Rrange": "Range",
     "ACTOR.Health": "Health",
     "ACTOR.BonePile": "Bone Pile",
     "ACTOR.Current": "Curr",

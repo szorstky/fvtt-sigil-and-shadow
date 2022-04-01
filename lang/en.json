@@ -8,7 +8,6 @@
     "ITEM.WeaponConceal": "Conceal",
     "ITEM.WeaponNotes": "Notes",
 
-    "ITEM.SkillNew": "New Skill",
     "ITEM.SkillName" : "Name",
     "ITEM.SkillFocusOf" : "Focus Of",
     "ITEM.SkillAbility" : "Ability",
@@ -48,6 +47,8 @@
 
 
     "SIS.sheet.createSkill": "Create Skill",
+    "SIS.sheet.newItem": "New Item",
+    "SIS.sheet.newSkill": "New Skill",
 
     "SIS.Name": "Name"
 }

@@ -54,22 +54,57 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         return data;
     }
 
+    activateListeners(html) {
+
+        html.find(".item-create").click(this._onItemCreate.bind(this));
+        
+        html.find(".item-edit").click(this._onItemEdit.bind(this));
+        
+        html.find(".inline-edit").change(this._onSkillEdit.bind(this));
+        
+        super.activateListeners(html);
+    }
+
+    _newItemToString(type) {
+        switch (type) {
+            case "skill":
+                return game.i18n.localize("SIS.sheet.newSkill")
+            default: 
+                return game.i18n.localize("SIS.sheet.newItem");
+        }
+    }
+
     _onItemCreate(event) {
         event.preventDefault();
         let element = event.currentTarget;
+        const item_type = element.dataset.type;
 
         let itemData = {
-            name: game.i18n.localize("ITEM.SkillNew"),
-            type: element.dataset.type,
+            name: this._newItemToString(item_type),
+            type: item_type,
         };
 
         return this.actor.createOwnedItem(itemData);
     }
 
-    activateListeners(html) {
+    _onItemEdit(event) {
+        event.preventDefault();
+        let element = event.currentTarget;
+        let item_id = element.closest(".item").dataset.itemId;
+        let item = this.actor.getOwnedItem(item_id);
+        let field = element.dataset.field;
 
-        html.find(".item-create").click(this._onItemCreate.bind(this));
-        
-        super.activateListeners(html);
+        return item.sheet.render(true);
+    }
+
+    // when to update inline in sheet
+    _onSkillEdit(event) {
+        event.preventDefault();
+        let element = event.currentTarget;
+        let item_id = element.closest(".item").dataset.itemId;
+        let item = this.actor.getOwnedItem(item_id);
+        let field = element.dataset.field;
+
+        return item.update({[field]: element.value});
     }
 }

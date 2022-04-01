@@ -141,6 +141,12 @@
 .sis.sheet.actor.player-character .sheet-content .editor {
   height: 100%;
 }
+.sis.sheet.actor.player-character .sheet-content .stat-box {
+  text-align: center;
+}
+.sis.sheet.actor.player-character .sheet-content .stat-box h5 {
+  margin: 0;
+}
 .sis.sheet.actor.player-character .sheet-content .stat-box h5.title {
   color: orange;
 }

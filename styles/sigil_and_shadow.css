@@ -114,9 +114,6 @@
   display: flex;
   flex-direction: row;
 }
-.sis.sheet.actor.player-character .sheet-header .leftside {
-  flex: 0 0 180px;
-}
 .sis.sheet.actor.player-character .sheet-header img.profile {
   flex: 0 0 180px;
   max-width: 180px;
@@ -124,10 +121,6 @@
 }
 .sis.sheet.actor.player-character .sheet-header .charname {
   flex-grow: 4;
-}
-.sis.sheet.actor.player-character .sheet-header div.rank,
-.sis.sheet.actor.player-character .sheet-header div.milestones {
-  display: inline-block;
 }
 .sis.sheet.actor.player-character .sheet-header .editor {
   height: 100%;
@@ -139,4 +132,6 @@
 }
 .sis.sheet.actor.player-character .sheet-content .editor {
   height: 100%;
+}
+.sis.sheet.actor.player-character .sheet-content .left-panel {
 }

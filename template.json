@@ -45,59 +45,7 @@
             "bones": {
                 "max": 5,
                 "value": 0
-            },
-            "skill": {
-                "arcana": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                },
-                "combat": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                },
-                "education": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                },
-                "investigation": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                },
-                "larceny": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                },
-                "medicine": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                },
-                "mysticism": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                },
-                "social": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                },
-                "survival": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                },
-                "tecnnical": {
-                    "ability": "",
-                    "level": -1,
-                    "score": 0
-                }
-            }            
+            }         
         }
     },
     "Item": {
@@ -113,8 +61,8 @@
             },
             "focus_of": "",
             "ability":"",
-            "level":-1,
-            "score":-20
+            "level":0,
+            "score":0
         },
         "oddity" : {
             "templates": [

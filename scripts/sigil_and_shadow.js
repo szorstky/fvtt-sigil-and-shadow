@@ -4,7 +4,7 @@ import SigilPlayerCharacterSheet from "../module/sheets/SigilPlayerCharacterShee
 
 async function preloadHandlebarsTemplates() {
     const templatePaths = [
-        "systems/sigil_and_shadow/templates/actors/partials/skill-card.hbs"
+        "systems/sigil_and_shadow/templates/actor/partials/skill-card.hbs"
     ];
     return loadTemplates(templatePaths);
 }

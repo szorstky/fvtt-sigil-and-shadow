@@ -34,6 +34,11 @@
     "ACTOR.Current": "Curr",
     "ACTOR.Max": "Max",
 
+    "ACTOR.Skills": "Skills",
+    "ACTOR.Equipment": "Equipment",
+    "ACTOR.SpecialPowers": "Powers",
+    "ACTOR.Bio": "Bio",
+
 
     "SIS.Name": "Name"
 }

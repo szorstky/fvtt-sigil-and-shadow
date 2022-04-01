@@ -53,4 +53,23 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         
         return data;
     }
+
+    _onItemCreate(event) {
+        event.preventDefault();
+        let element = event.currentTarget;
+
+        let itemData = {
+            name: Gamepad.i18n.localize("ITEM.SkillNew"),
+            type: element.dataset.type,
+        };
+
+        return this.actor.createOwnedData(itemData);
+    }
+
+    activateListeners(html) {
+
+        html.find(".item-create").click(this._onItemCreate.bind(this));
+        
+        super.activateListeners(html);
+    }
 }

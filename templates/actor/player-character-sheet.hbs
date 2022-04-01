@@ -133,6 +133,9 @@
             </nav> --}}
             {{!-- SKILLS  --}}
             {{!-- <div class="tab skills flexrow" data-group="primary" data-tab="skills"> --}}
+                <a class="item-create" data-type="skill">
+                    <i class="fas fa-plus" title="{{ localize SIS.sheet.createSkill }}"></i>
+                </a>
                 <section class="skill-list">
                     {{#each skills as |skill id|}}
                     {{> "systems/sigil_and_shadow/templates/actor/partials/skill-card.hbs" skill}}

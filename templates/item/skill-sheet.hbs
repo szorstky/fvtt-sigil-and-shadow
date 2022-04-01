@@ -1,0 +1,32 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+    </header>
+    <div class="sheet-content">
+        <table>
+            <tr>                
+                <th>{{localize "ITEM.SkillFocusOf"}}</th>
+                <th>{{localize "ITEM.SkillAbility"}}</th>
+                <th>{{localize "ITEM.SkillLevel"}}</th>
+                <th>{{localize "ITEM.SkillScore"}}</th>           
+            </tr>
+            <tr>               
+                <td>
+                    <input name="data.focus_of" type="text" value="{{data.focus_of}}" data-dtype="String" />
+                </td>
+                <td>
+                    <input name="data.ability" type="text" value="{{data.ability}}" data-dtype="String" />
+                </td>
+                <td>
+                    <input name="data.level" type="number" value="{{data.level}}" data-dtype="Number" />
+                </td>
+                <td>
+                    <input name="data.score" type="number" value="{{data.score}}" data-dtype="Number" />
+                </td>                           
+            </tr>
+        </table>
+        <!-- <textarea name="data.notes">{{data.description}}</textarea> -->
+        {{ editor content=data.notes target="data.description" owner=owner button=true editable=editable }}
+    </div>
+</form>

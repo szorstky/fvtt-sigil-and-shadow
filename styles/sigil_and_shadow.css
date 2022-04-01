@@ -152,6 +152,6 @@
 }
 .sis.sheet.actor.player-character .sheet-content .left-panel {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
 }

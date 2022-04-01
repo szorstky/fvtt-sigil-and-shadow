@@ -113,11 +113,12 @@
 .sis.sheet.actor.player-character .sheet-header {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 .sis.sheet.actor.player-character .sheet-header img.profile {
-  flex: 0 0 180px;
-  max-width: 180px;
-  height: 180px;
+  flex: 0 0 200px;
+  max-width: 200px;
+  height: 200px;
 }
 .sis.sheet.actor.player-character .sheet-header .charname {
   flex-grow: 4;
@@ -134,4 +135,5 @@
   height: 100%;
 }
 .sis.sheet.actor.player-character .sheet-content .left-panel {
+  flex: 0 0 180px;
 }

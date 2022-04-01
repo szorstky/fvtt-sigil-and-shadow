@@ -99,8 +99,7 @@
                 <h5 class="title">{{ localize 'ACTOR.Health' }}</h5>
                 <div class="flexrow">
                     <div class="input-cell">
-                        <input name="data.health.value" type="text" value="{{data.health.value}}"
-                            data-dtype="Number" />
+                        <input name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
                         <h5>{{ localize 'ACTOR.Current' }}</h5>
                     </div>
                     <div class="input-cell">
@@ -113,8 +112,7 @@
                 <h5 class="title">{{ localize 'ACTOR.BonePile' }}</h5>
                 <div class="flexrow">
                     <div class="input-cell">
-                        <input name="data.bones.value" type="number" value="{{data.bones.value}}"
-                            data-dtype="Number" />
+                        <input name="data.bones.value" type="number" value="{{data.bones.value}}" data-dtype="Number" />
                         <h5>{{ localize 'ACTOR.Current' }}</h5>
                     </div>
                     <div class="input-cell">
@@ -133,6 +131,17 @@
                 <a class="item" data-tab="equipment">{{ localize "ACTOR.Equipment" }}</a>
                 <a class="item" data-tab="bio">{{ localize "ACTOR.Bio" }}</a>
             </nav>
+            {{!-- SKILLS  --}}
+            <div class="tab skills flexrow" data-group="primary" data-tab="skills">
+                <section class="skill-list">
+                    {{#each skills as |skill id|}}
+                    {{> "systems/sigil_and_shadow/templates/actors/partials/skill-card.hbs" skill}}
+                    {{/each}}
+                </section>
+            </div>
+            <div class="tab powers flexrow" data-group="primary" data-tab="powers"></div>
+            <div class="tab equipment flexrow" data-group="primary" data-tab="equipment"></div>
+            <div class="tab bio flexrow" data-group="primary" data-tab="bio"></div>
         </div>
     </div>
 </form>

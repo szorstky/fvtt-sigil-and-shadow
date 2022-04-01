@@ -101,11 +101,20 @@
         }
     },
     "Item": {
-        "types": [ "oddity", "perk", "power", "descriptor", "equipment", "weapon"],
+        "types": [ "skill", "oddity", "perk", "power", "descriptor", "equipment", "weapon"],
         "templates": {
             "base_item" : {
                 "notes": ""
             }
+        },
+        "skill" : {
+            "base_item" : {
+                "notes": ""
+            },
+            "focus_of": "",
+            "ability":"",
+            "level":-1,
+            "score":-20
         },
         "oddity" : {
             "templates": [

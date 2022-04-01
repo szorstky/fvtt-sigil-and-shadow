@@ -8,6 +8,12 @@
     "ITEM.WeaponConceal": "Conceal",
     "ITEM.WeaponNotes": "Notes",
 
+    "ITEM.SkillName" : "Name",
+    "ITEM.SkillFocusOf" : "Focus Of",
+    "ITEM.SkillAbility" : "Ability",
+    "ITEM.SkillLevel" : "Level",
+    "ITEM.SkillScore" : "Score",
+
     "ACTOR.PlayerAlignmentTheIlluminated": "The Illuminated",
     "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed",
 
@@ -36,7 +42,7 @@
 
     "ACTOR.Skills": "Skills",
     "ACTOR.Equipment": "Equipment",
-    "ACTOR.SpecialPowers": "Powers",
+    "ACTOR.Powers": "Powers",
     "ACTOR.Bio": "Bio",
 
 

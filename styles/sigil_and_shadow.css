@@ -127,9 +127,10 @@
   height: 100%;
 }
 .sis.sheet.actor.player-character .sheet-content {
-  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
 }
 .sis.sheet.actor.player-character .sheet-content .editor {
   height: 100%;

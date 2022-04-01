@@ -28,7 +28,7 @@
     "ACTOR.DamageResistance": "Damage Resistance",
     "ACTOR.DamageBonus": "Damage Bonus",
     "ACTOR.Melee": "Melee",
-    "ACTOR.Rrange": "Range",
+    "ACTOR.Range": "Range",
     "ACTOR.Health": "Health",
     "ACTOR.BonePile": "Bone Pile",
     "ACTOR.Current": "Curr",

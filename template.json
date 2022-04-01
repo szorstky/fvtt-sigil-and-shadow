@@ -101,7 +101,7 @@
         }
     },
     "Item": {
-        "types": [ "skill", "oddity", "perk", "power", "descriptor", "equipment", "weapon"],
+        "types": [ "item", "weapon", "skill", "oddity", "perk", "power", "descriptor"],
         "templates": {
             "base_item" : {
                 "notes": ""
@@ -137,7 +137,7 @@
             ],
             "type": ""
         },
-        "equipment" : {
+        "item" : {
             "templates": [
                 "base_item"
             ]

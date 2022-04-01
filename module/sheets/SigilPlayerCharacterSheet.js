@@ -48,7 +48,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         data.perks = actorData.items.filter(function(item){ return item.type == "perk"});
         data.powers = actorData.items.filter(function(item){ return item.type == "power"});
 
-        data.equipment = actorData.items.filter(function(item){ return item.type == "equipment"});
+        data.items = actorData.items.filter(function(item){ return item.type == "item"});
         data.weapons = actorData.items.filter(function(item){ return item.type == "weapon"});
         
         return data;

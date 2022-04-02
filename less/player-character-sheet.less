@@ -35,10 +35,10 @@
     } 
     .sheet-body {
         display: flex;
-        flex-direction: row;
-        flex-grow: 3;
+        flex-direction: column;
         align-items: flex-start;
         height: 100%;
+        width: 100%;
 
         .editor {
             height: 100%; 
@@ -61,6 +61,12 @@
             flex-direction: column;
             align-items: flex-start;
             max-width: 200px;
+        }
+
+        .stats-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; 
         }
     } 
 }

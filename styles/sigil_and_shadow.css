@@ -147,10 +147,10 @@
 }
 .sis.sheet.actor.player-character .sheet-body {
   display: flex;
-  flex-direction: row;
-  flex-grow: 3;
+  flex-direction: column;
   align-items: flex-start;
   height: 100%;
+  width: 100%;
 }
 .sis.sheet.actor.player-character .sheet-body .editor {
   height: 100%;
@@ -169,4 +169,9 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 200px;
+}
+.sis.sheet.actor.player-character .sheet-body .stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

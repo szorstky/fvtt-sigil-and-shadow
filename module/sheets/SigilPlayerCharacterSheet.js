@@ -9,7 +9,8 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         return mergeObject(super.defaultOptions, {
             width: 530,
             innerHeight: 360,
-            classes: ["sis", "sheet", "actor", "player-character"]
+            classes: ["sis", "sheet", "actor", "player-character"],
+            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "equipment" }]
         });
     }
 

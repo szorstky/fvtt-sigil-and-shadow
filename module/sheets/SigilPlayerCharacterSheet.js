@@ -92,7 +92,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         event.preventDefault();
         let element = event.currentTarget;
         let item_id = element.closest(".item").dataset.itemId;
-        let item = this.actor.getOwnedItem(item_id);
+        let item = this.actor.getOwnededItem(item_id);
         return item.sheet.render(true);
     }
 

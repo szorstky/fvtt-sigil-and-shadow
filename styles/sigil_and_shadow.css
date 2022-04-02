@@ -165,11 +165,13 @@
   color: #045f8d;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
+  background-color: transparent;
   border-radius: 0;
+  border-color: #045f8d;
   border-right: none;
   border-left: none;
   border-top: none;
-  margin: 8px 0;
+  margin: 4px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel {
   height: 100%;

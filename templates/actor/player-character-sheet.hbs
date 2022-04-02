@@ -59,12 +59,9 @@
             <h5 class="title">{{ localize 'ACTOR.DamageResistance' }}</h5>
             <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
                 data-dtype="Number" />
-        </div>
-        
-       
-        
+        </div>   
     </div>
-    <section class="sheet-body">
+    <div class="sheet-body">
         <section class="sheet-profile">          
             <div class="input-box charname">
                 <label>{{ localize 'ACTOR.CharacterName' }}</label>
@@ -113,7 +110,7 @@
             <a class="item" data-tab="equipment">{{ localize 'ACTOR.Equipment' }}</a>
             <a class="item" data-tab="notes">{{ localize 'ACTOR.Notes' }}</a>
         </nav>
-        <section class="sheet-tabs-panel">
+        <div class="sheet-tabs-panel">
             {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
             <div class="tab bio" data-group="primary" data-tab="bio">
                  {{> "systems/sigil_and_shadow/templates/actor/partials/actor-background.hbs"}}
@@ -138,6 +135,6 @@
             <div class="tab notes" data-group="primary" data-tab="notes">
                 {{ editor content=data.notes target="data.notes" owner=owner button=true editable=editable }}
             </div>
-        </section>
-    </section>
+        </div>
+    </div>
 </form>

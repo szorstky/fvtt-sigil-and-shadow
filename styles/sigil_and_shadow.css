@@ -122,7 +122,7 @@
   display: flex;
   flex-direction: row;
 }
-.sis.sheet.actor.player-character .sheet-profile {
+.sis.sheet.actor.player-character .sheet-left {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -130,18 +130,18 @@
   max-width: 200px;
   border-right: 2px solid blue;
 }
-.sis.sheet.actor.player-character .sheet-profile img.avatar {
+.sis.sheet.actor.player-character .sheet-left img.avatar {
   flex: 0 0 200px;
   max-width: 200px;
   height: 200px;
 }
-.sis.sheet.actor.player-character .sheet-profile .stat-box {
+.sis.sheet.actor.player-character .sheet-left .stat-box {
   text-align: center;
 }
-.sis.sheet.actor.player-character .sheet-profile .stat-box h5 {
+.sis.sheet.actor.player-character .sheet-left .stat-box h5 {
   margin: 0;
 }
-.sis.sheet.actor.player-character .sheet-profile .stat-box h5.title {
+.sis.sheet.actor.player-character .sheet-left .stat-box h5.title {
   color: orange;
 }
 .sis.sheet.actor.player-character .sheet-header {

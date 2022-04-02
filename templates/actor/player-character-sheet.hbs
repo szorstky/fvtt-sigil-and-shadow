@@ -1,5 +1,5 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
-    <div class="sheet-profile">
+    <div class="sheet-left">
         <img class="avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         {{!-- STATS --}}
         <div class="stat-box">
@@ -58,7 +58,7 @@
         </div>
     </div>
     <div class="sheet-body">
-        <div class="sheet-profile">
+        <section class="sheet-profile">
             <div class="flexrow">
                 <div class="input-box charname">
                     <label>{{ localize 'ACTOR.CharacterName' }}</label>
@@ -106,7 +106,6 @@
          {{!-- Sheet Tab Navigation --}}
         <nav class="sheet-tabs tabs" data-group="primary">
             <a class="item" data-tab="background">Background</a>
-            <a class="item" data-tab="stats">Stats</a>
             <a class="item" data-tab="skills">Skills</a>
             <a class="item" data-tab="perks">Perks</a>
             <a class="item" data-tab="powers">Powers</a>
@@ -114,47 +113,43 @@
             <a class="item" data-tab="equipment">Equipment</a>
         </nav>
         <div class="sheet-tabs-panel">
-                {{!-- Tab content goes here --}}
-                {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
-                <div class="tab background" data-group="primary" data-tab="background">
-                    <div class="flexrow">
-                        <div class="input-box">
-                            <label>{{ localize 'ACTOR.Oddity' }}</label>
-                            <input name="data.oddity" type="text" value="{{data.oddity}}" />
-                        </div>
-                        <div class="input-box">
-                            <label>{{ localize 'ACTOR.Background' }}</label>
-                            <input name="data.background" type="text" value="{{data.background}}" />
-                        </div>
-                        <div class="input-box">
-                            <label>{{ localize 'ACTOR.Lifestyle' }}</label>
-                            <input name="data.lifestyle" type="text" value="{{data.lifestyle}}" />
-                        </div>
+            {{!-- Tab content goes here --}}
+            {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
+            <div class="tab background" data-group="primary" data-tab="background">
+                <div class="flexrow">
+                    <div class="input-box">
+                        <label>{{ localize 'ACTOR.Oddity' }}</label>
+                        <input name="data.oddity" type="text" value="{{data.oddity}}" />
+                    </div>
+                    <div class="input-box">
+                        <label>{{ localize 'ACTOR.Background' }}</label>
+                        <input name="data.background" type="text" value="{{data.background}}" />
+                    </div>
+                    <div class="input-box">
+                        <label>{{ localize 'ACTOR.Lifestyle' }}</label>
+                        <input name="data.lifestyle" type="text" value="{{data.lifestyle}}" />
                     </div>
                 </div>
-                {{!-- STATS --}}
-                <div class="tab stats" data-group="primary" data-tab="stats">
-                    {{> "systems/sigil_and_shadow/templates/actor/partials/actor-stats.hbs"}}
-                </div>
-                {{!-- SKILLS --}}
-                <div class="tab skills" data-group="primary" data-tab="skills">
-                    {{> "systems/sigil_and_shadow/templates/actor/partials/actor-skills.hbs"}}
-                </div>
-                {{!-- PERKS --}}
-                <div class="tab perks" data-group="primary" data-tab="perks">
-                    Perks
-                </div>
-                {{!-- POWERS --}}
-                <div class="tab powers" data-group="primary" data-tab="powers">
-                    Perks
-                </div>
-                {{!-- WEAPONS --}}
-                <div class="tab weapons" data-group="primary" data-tab="weapons">
-                    Weapons
-                </div>
-                <div class="tab equipment" data-group="primary" data-tab="equipment">
-                    Equipment
-                </div>
             </div>
+            {{!-- SKILLS --}}
+            <div class="tab skills" data-group="primary" data-tab="skills">
+                {{> "systems/sigil_and_shadow/templates/actor/partials/actor-skills.hbs"}}
+            </div>
+            {{!-- PERKS --}}
+            <div class="tab perks" data-group="primary" data-tab="perks">
+                Perks
+            </div>
+            {{!-- POWERS --}}
+            <div class="tab powers" data-group="primary" data-tab="powers">
+                Perks
+            </div>
+            {{!-- WEAPONS --}}
+            <div class="tab weapons" data-group="primary" data-tab="weapons">
+                Weapons
+            </div>
+            <div class="tab equipment" data-group="primary" data-tab="equipment">
+                Equipment
+            </div>
+        </div>
     </section>
 </form>

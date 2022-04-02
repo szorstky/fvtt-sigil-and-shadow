@@ -59,7 +59,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         html.find(".item-create").click(this._onItemCreate.bind(this));
         
         html.find(".item-edit").click(this._onItemEdit.bind(this));
-        html.find(".item-delete").click(this._onItemEdit.bind(this));
+        html.find(".item-delete").click(this._onItemDelete.bind(this));
         
         html.find(".inline-edit").change(this._onSkillEdit.bind(this));
         

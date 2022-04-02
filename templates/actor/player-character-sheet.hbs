@@ -29,20 +29,6 @@
                     <input name="data.drive" type="text" value="{{data.drive}}" />
                 </div>
             </div>
-            <div class="flexrow">
-                <div class="input-box">
-                    <label>{{ localize 'ACTOR.Oddity' }}</label>
-                    <input name="data.oddity" type="text" value="{{data.oddity}}" />
-                </div>
-                <div class="input-box">
-                    <label>{{ localize 'ACTOR.Background' }}</label>
-                    <input name="data.background" type="text" value="{{data.background}}" />
-                </div>
-                <div class="input-box">
-                    <label>{{ localize 'ACTOR.Lifestyle' }}</label>
-                    <input name="data.lifestyle" type="text" value="{{data.lifestyle}}" />
-                </div>
-            </div>
             <!-- ABILITIES -->
             <div class="flexrow">
                 <div class="ability-box">
@@ -64,6 +50,15 @@
             </div>
         </div>
     </header>
+    {{!-- Sheet Tab Navigation --}}
+            <nav class="sheet-tabs tabs" data-group="primary">
+                <a class="item" data-tab="background">Background</a>
+                <a class="item" data-tab="skills">Skills</a>
+                <a class="item" data-tab="perks">Perks</a>
+                <a class="item" data-tab="powers">Powers</a>
+                <a class="item" data-tab="weapons">Weapons</a>
+                <a class="item" data-tab="equipment">Equipment</a>
+            </nav>
     {{!-- Sheet Body --}}
     <section class="sheet-body">
         <!-- LEFT PANEL 1 -->
@@ -125,20 +120,24 @@
         </div>
         <!-- CENTER -->
         <div class="center-panel full-width">
-            {{!-- Sheet Tab Navigation --}}
-            <nav class="sheet-tabs tabs" data-group="primary">
-                <a class="item" data-tab="background">Background</a>
-                <a class="item" data-tab="skills">Skills</a>
-                <a class="item" data-tab="perks">Perks</a>
-                <a class="item" data-tab="powers">Powers</a>
-                <a class="item" data-tab="weapons">Weapons</a>
-                <a class="item" data-tab="equipment">Equipment</a>
-            </nav>
             <div class="sheet-tabs-panel">
                 {{!-- Tab content goes here --}}
                 {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
                 <div class="tab background" data-group="primary" data-tab="background">
-                    Background
+                    <div class="flexrow">
+                        <div class="input-box">
+                            <label>{{ localize 'ACTOR.Oddity' }}</label>
+                            <input name="data.oddity" type="text" value="{{data.oddity}}" />
+                        </div>
+                        <div class="input-box">
+                            <label>{{ localize 'ACTOR.Background' }}</label>
+                            <input name="data.background" type="text" value="{{data.background}}" />
+                        </div>
+                        <div class="input-box">
+                            <label>{{ localize 'ACTOR.Lifestyle' }}</label>
+                            <input name="data.lifestyle" type="text" value="{{data.lifestyle}}" />
+                        </div>
+                    </div>
                 </div>
                 {{!-- SKILLS --}}
                 <div class="tab skills" data-group="primary" data-tab="skills">

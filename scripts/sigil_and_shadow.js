@@ -4,7 +4,7 @@ import SigilPlayerCharacterSheet from "../module/sheets/SigilPlayerCharacterShee
 
 async function preloadHandlebarsTemplates() {
     const templatePaths = [
-        "systems/sigil_and_shadow/templates/actor/partials/actor-stats.hbs",
+        "systems/sigil_and_shadow/templates/actor/partials/actor-background.hbs",
         "systems/sigil_and_shadow/templates/actor/partials/actor-skills.hbs",
         "systems/sigil_and_shadow/templates/actor/partials/skill-item.hbs"
     ];

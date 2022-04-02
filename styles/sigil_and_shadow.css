@@ -123,10 +123,6 @@
   flex-direction: row;
 }
 .sis.sheet.actor.player-character .sheet-left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-shrink: 1;
   max-width: 200px;
   border-right: 2px solid blue;
 }
@@ -144,53 +140,10 @@
 .sis.sheet.actor.player-character .sheet-left .stat-box h5.title {
   color: orange;
 }
-.sis.sheet.actor.player-character .sheet-header {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.sis.sheet.actor.player-character .sheet-header img.profile {
-  flex: 0 0 200px;
-  max-width: 200px;
-  height: 200px;
-}
-.sis.sheet.actor.player-character .sheet-header .charname {
-  flex-grow: 4;
-}
-.sis.sheet.actor.player-character .sheet-header .editor {
-  height: 100%;
-}
-.sis.sheet.actor.player-character .sheet-header .ability-box {
-  text-align: center;
-}
-.sis.sheet.actor.player-character .sheet-header .ability-box label {
-  color: red;
-}
 .sis.sheet.actor.player-character .sheet-body {
   height: 100%;
   width: 100%;
 }
 .sis.sheet.actor.player-character .sheet-body .editor {
   height: 100%;
-}
-.sis.sheet.actor.player-character .sheet-body .stat-box {
-  text-align: center;
-}
-.sis.sheet.actor.player-character .sheet-body .stat-box h5 {
-  margin: 0;
-}
-.sis.sheet.actor.player-character .sheet-body .stat-box h5.title {
-  color: orange;
-}
-.sis.sheet.actor.player-character .sheet-body .left-panel {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 200px;
-}
-.sis.sheet.actor.player-character .sheet-body .stats-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }

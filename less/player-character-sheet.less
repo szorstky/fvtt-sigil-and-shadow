@@ -5,10 +5,6 @@
     }    
 
     .sheet-left {         
-        display: flex;
-        flex-direction: column;  
-        align-items: flex-start;
-        flex-shrink: 1;
         max-width: 200px;
         border-right: 2px solid blue;
         
@@ -30,69 +26,12 @@
         }
     }
 
-    .sheet-header {         
-        display: flex;
-        flex-direction: row;  
-        align-items: flex-start;
-        flex-shrink: 1;
-        // min-width: 720px;
-        // min-height: 680px;
-        
-        img.profile { 
-            flex: 0 0 200px; 
-            max-width: 200px;
-            height: 200px;
-        }
-
-        .charname {
-            flex-grow: 4;        
-        } 
-
-        .editor {
-            height: 100%;
-        }
-
-        .ability-box {
-            text-align: center;
-            label {
-                color: red;
-            }
-        }
-    } 
     .sheet-body {
-        // display: flex;
-        // flex-direction: column;
-        // align-items: flex-start;
         height: 100%;
         width: 100%;
 
         .editor {
             height: 100%; 
-        }
-
-        .stat-box {
-            text-align: center;
-            
-            h5 {
-                margin: 0;
-            }
-
-            h5.title {
-                color: orange;
-            }
-        }
-
-        .left-panel {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            max-width: 200px;
-        }
-
-        .stats-container {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start; 
         }
     } 
 }

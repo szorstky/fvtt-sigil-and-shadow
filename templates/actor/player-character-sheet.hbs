@@ -3,6 +3,10 @@
         <img class="avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         {{!-- STATS --}}
         <div class="stat-box">
+            <h5 class="title">{{ localize 'ACTOR.Rank' }}</h5>
+            <input name="data.Rank" type="number" value="{{data.rank}}" data-dtype="Number" />
+        </div>
+        <div class="stat-box">
             <h5 class="title">{{ localize 'ACTOR.Milestones' }}</h5>
             <input name="data.milestones" type="number" value="{{data.milestones}}" data-dtype="Number" />
         </div>
@@ -58,16 +62,10 @@
         </div>
     </div>
     <section class="sheet-body">
-        <section class="sheet-profile">
-            <div class="flexrow">
-                <div class="input-box charname">
-                    <label>{{ localize 'ACTOR.CharacterName' }}</label>
-                    <input name="name" type="text" value="{{actor.name}}" />
-                </div>
-                <div class="input-box">
-                    <label>{{ localize 'ACTOR.Rank' }}</label>
-                    <input name="data.rank" type="number" value="{{data.rank}}" data-dtype="Number" />
-                </div>
+        <section class="sheet-profile">          
+            <div class="input-box charname">
+                <label>{{ localize 'ACTOR.CharacterName' }}</label>
+                <input name="name" type="text" value="{{actor.name}}" />
             </div>
             <div class="flexrow">
                 <div class="input-box">
@@ -116,20 +114,7 @@
             {{!-- Tab content goes here --}}
             {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
             <div class="tab background" data-group="primary" data-tab="background">
-                <div class="flexrow">
-                    <div class="input-box">
-                        <label>{{ localize 'ACTOR.Oddity' }}</label>
-                        <input name="data.oddity" type="text" value="{{data.oddity}}" />
-                    </div>
-                    <div class="input-box">
-                        <label>{{ localize 'ACTOR.Background' }}</label>
-                        <input name="data.background" type="text" value="{{data.background}}" />
-                    </div>
-                    <div class="input-box">
-                        <label>{{ localize 'ACTOR.Lifestyle' }}</label>
-                        <input name="data.lifestyle" type="text" value="{{data.lifestyle}}" />
-                    </div>
-                </div>
+                 {{> "systems/sigil_and_shadow/templates/actor/partials/actor-background.hbs"}}
             </div>
             {{!-- SKILLS --}}
             <div class="tab skills" data-group="primary" data-tab="skills">

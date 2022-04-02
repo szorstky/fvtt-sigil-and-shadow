@@ -17,18 +17,24 @@
             <input name="data.milestones" type="text" value="{{data.milestones}}" />
         </div>
     </div>
-    {{!-- BACKGROUND AND ODDITIES --}}
-    <div class="flexcol">
-        <div class="input-box">
-            <label>{{ localize 'ACTOR.Oddity' }}</label>
-            <input name="data.oddity" type="text" value="{{data.oddity}}" />
+    <div class="flexrow">
+        {{!-- ODDIETIES --}}
+        <div class="flexcol">
+            <div class="input-box">
+                <label>{{ localize 'ACTOR.Oddity' }}</label>
+                <input name="data.oddity" type="text" value="{{data.oddity}}" />
+            </div>
+        </div>
+        {{!-- DESCRIPTORS --}}
+        <div class="flexcol">
+            <div class="input-box">
+                <label>{{ localize 'ACTOR.Oddity' }}</label>
+                <input name="data.oddity" type="text" value="{{data.oddity}}" />
+            </div>
         </div>
     </div>
-    {{!-- DESCRIPTORS --}}
-    <div class="flexcol">
-        <div class="input-box">
-            <label>{{ localize 'ACTOR.Oddity' }}</label>
-            <input name="data.oddity" type="text" value="{{data.oddity}}" />
-        </div>
+    <div>
+        <h5>{{ localize "ACTOR.Bio" }}</h5>
+        {{ editor content=data.biography target="data.biography" owner=owner button=true editable=editable }}
     </div>
 </section>

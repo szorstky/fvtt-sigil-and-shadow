@@ -45,6 +45,7 @@
     "ACTOR.Perks": "Perks",
     "ACTOR.Powers": "Powers",
     "ACTOR.Bio": "Bio",
+    "ACTOR.Notes": "Notes",
 
 
     "SIS.sheet.createSkill": "Create Skill",

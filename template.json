@@ -45,7 +45,8 @@
             "bones": {
                 "max": 5,
                 "value": 0
-            }         
+            },
+            "notes": ""   
         }
     },
     "Item": {

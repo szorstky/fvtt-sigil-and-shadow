@@ -111,6 +111,7 @@
             <a class="item" data-tab="perks">{{ localize 'ACTOR.Perks' }}</a>
             <a class="item" data-tab="powers">{{ localize 'ACTOR.Powers' }}</a>
             <a class="item" data-tab="equipment">{{ localize 'ACTOR.Equipment' }}</a>
+            <a class="item" data-tab="notes">{{ localize 'ACTOR.Notes' }}</a>
         </nav>
         <section class="sheet-tabs-panel">
             {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
@@ -132,6 +133,10 @@
             {{!-- EQUIPMENT --}}
             <div class="tab equipment" data-group="primary" data-tab="equipment">
                 Equipment
+            </div>
+            {{!-- NOTES --}}
+            <div class="tab notes" data-group="primary" data-tab="notes">
+                {{ editor content=data.notes target="data.notes" owner=owner button=true editable=editable }}
             </div>
         </section>
     </section>

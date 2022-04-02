@@ -57,7 +57,7 @@
             </div>
         </div>
     </div>
-    <section class="sheet-body">
+    <div class="sheet-body">
         <div class="sheet-profile">
             <div class="flexrow">
                 <div class="input-box charname">
@@ -103,73 +103,17 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Sheet Header -->
-    <header class="sheet-header">
-        <!-- Sheet Header -->
-        <img class="profile" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
-        <!-- Center -->
-        <div class="full-width">
-            <div class="flexrow">
-                <div class="input-box charname">
-                    <label>{{ localize 'ACTOR.CharacterName' }}</label>
-                    <input name="name" type="text" value="{{actor.name}}" />
-                </div>
-                <div class="input-box">
-                    <label>{{ localize 'ACTOR.Rank' }}</label>
-                    <input name="data.rank" type="number" value="{{data.rank}}" data-dtype="Number" />
-                </div>
-            </div>
-            <div class="flexrow">
-                <div class="input-box">
-                    <label>{{ localize 'ACTOR.Alignment' }}</label>
-                    <input name="data.alignment" type="text" value="{{data.alignment}}" />
-                </div>
-                <div class="input-box">
-                    <label>{{ localize 'ACTOR.Casting' }}</label>
-                    <input name="data.casting" type="text" value="{{data.casting}}" />
-                </div>
-                <div class="input-box">
-                    <label>{{ localize 'ACTOR.Drive' }}</label>
-                    <input name="data.drive" type="text" value="{{data.drive}}" />
-                </div>
-            </div>
-            <!-- ABILITIES -->
-            <div class="flexrow">
-                <div class="ability-box">
-                    <label>{{ localize 'ACTOR.Strength' }}</label>
-                    <input name="data.ability.strength" type="text" value="{{data.ability.strength}}" />
-                </div>
-                <div class="ability-box">
-                    <label>{{ localize 'ACTOR.Dexterity' }}</label>
-                    <input name="data.ability.dexterity" type="text" value="{{data.ability.dexterity}}" />
-                </div>
-                <div class="ability-box">
-                    <label>{{ localize 'ACTOR.Logic' }}</label>
-                    <input name="data.ability.logic" type="text" value="{{data.ability.logic}}" />
-                </div>
-                <div class="ability-box">
-                    <label>{{ localize 'ACTOR.Willpower' }}</label>
-                    <input name="data.ability.willpower" type="text" value="{{data.ability.willpower}}" />
-                </div>
-            </div>
-        </div>
-    </header>
-    {{!-- Sheet Tab Navigation --}}
-            <nav class="sheet-tabs tabs" data-group="primary">
-                <a class="item" data-tab="background">Background</a>
-                <a class="item" data-tab="stats">Stats</a>
-                <a class="item" data-tab="skills">Skills</a>
-                <a class="item" data-tab="perks">Perks</a>
-                <a class="item" data-tab="powers">Powers</a>
-                <a class="item" data-tab="weapons">Weapons</a>
-                <a class="item" data-tab="equipment">Equipment</a>
-            </nav>
-    {{!-- Sheet Body --}}
-    <section class="sheet-body">
-        <!-- CENTER -->
-        <div class="center-panel full-width">
-            <div class="sheet-tabs-panel">
+         {{!-- Sheet Tab Navigation --}}
+        <nav class="sheet-tabs tabs" data-group="primary">
+            <a class="item" data-tab="background">Background</a>
+            <a class="item" data-tab="stats">Stats</a>
+            <a class="item" data-tab="skills">Skills</a>
+            <a class="item" data-tab="perks">Perks</a>
+            <a class="item" data-tab="powers">Powers</a>
+            <a class="item" data-tab="weapons">Weapons</a>
+            <a class="item" data-tab="equipment">Equipment</a>
+        </nav>
+        <div class="sheet-tabs-panel">
                 {{!-- Tab content goes here --}}
                 {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
                 <div class="tab background" data-group="primary" data-tab="background">
@@ -212,8 +156,5 @@
                     Equipment
                 </div>
             </div>
-        </div>
-
     </section>
-    
 </form>

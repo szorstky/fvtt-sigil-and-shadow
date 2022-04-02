@@ -120,7 +120,27 @@
 }
 .sis.sheet.actor.player-character form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.sis.sheet.actor.player-character .sheet-profile-pane {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.sis.sheet.actor.player-character .sheet-profile-pane img.profile {
+  flex: 0 0 200px;
+  max-width: 200px;
+  height: 200px;
+}
+.sis.sheet.actor.player-character .sheet-profile-pane .stat-box {
+  text-align: center;
+}
+.sis.sheet.actor.player-character .sheet-profile-pane .stat-box h5 {
+  margin: 0;
+}
+.sis.sheet.actor.player-character .sheet-profile-pane .stat-box h5.title {
+  color: orange;
 }
 .sis.sheet.actor.player-character .sheet-header {
   display: flex;

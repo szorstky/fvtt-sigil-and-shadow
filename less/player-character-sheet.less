@@ -1,8 +1,32 @@
 .sis.sheet.actor.player-character {
     form {
         display: flex;
-        flex-direction: column; 
+        flex-direction: row; 
     }    
+
+    .sheet-profile-pane {         
+        display: flex;
+        flex-direction: row;  
+        align-items: flex-start;
+        flex-shrink: 1;
+        
+        img.profile { 
+            flex: 0 0 200px; 
+            max-width: 200px;
+            height: 200px;
+        }
+        .stat-box {
+            text-align: center;
+            
+            h5 {
+                margin: 0;
+            }
+
+            h5.title {
+                color: orange;
+            }
+        }
+    }
 
     .sheet-header {         
         display: flex;

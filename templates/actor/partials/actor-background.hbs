@@ -1,17 +1,27 @@
-<section class="actor-background flexrow">
-    {{!-- BACKGROUND AND ODDITIES --}}
-    <div class="flexcol">
-        <div class="input-box">
-            <label>{{ localize 'ACTOR.Oddity' }}</label>
-            <input name="data.oddity" type="text" value="{{data.oddity}}" />
-        </div>
-        <div class="input-box">
+<section class="actor-background flexcol">
+    <div class="flexrow">
+         <div class="input-box">
             <label>{{ localize 'ACTOR.Background' }}</label>
             <input name="data.background" type="text" value="{{data.background}}" />
         </div>
         <div class="input-box">
             <label>{{ localize 'ACTOR.Lifestyle' }}</label>
             <input name="data.lifestyle" type="text" value="{{data.lifestyle}}" />
+        </div>
+        <div class="input-box">
+            <label>{{ localize 'ACTOR.Rank' }}</label>
+            <input name="data.rank" type="text" value="{{data.rank}}" />
+        </div>
+        <div class="input-box">
+            <label>{{ localize 'ACTOR.Milestones' }}</label>
+            <input name="data.milestones" type="text" value="{{data.milestones}}" />
+        </div>
+    </div>
+    {{!-- BACKGROUND AND ODDITIES --}}
+    <div class="flexcol">
+        <div class="input-box">
+            <label>{{ localize 'ACTOR.Oddity' }}</label>
+            <input name="data.oddity" type="text" value="{{data.oddity}}" />
         </div>
     </div>
     {{!-- DESCRIPTORS --}}
@@ -19,14 +29,6 @@
         <div class="input-box">
             <label>{{ localize 'ACTOR.Oddity' }}</label>
             <input name="data.oddity" type="text" value="{{data.oddity}}" />
-        </div>
-        <div class="input-box">
-            <label>{{ localize 'ACTOR.Background' }}</label>
-            <input name="data.background" type="text" value="{{data.background}}" />
-        </div>
-        <div class="input-box">
-            <label>{{ localize 'ACTOR.Lifestyle' }}</label>
-            <input name="data.lifestyle" type="text" value="{{data.lifestyle}}" />
         </div>
     </div>
 </section>

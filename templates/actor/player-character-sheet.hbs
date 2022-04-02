@@ -106,17 +106,15 @@
         </section>
          {{!-- Sheet Tab Navigation --}}
         <nav class="sheet-tabs tabs" data-group="primary">
-            <a class="item" data-tab="background">Background</a>
-            <a class="item" data-tab="skills">Skills</a>
-            <a class="item" data-tab="perks">Perks</a>
-            <a class="item" data-tab="powers">Powers</a>
-            <a class="item" data-tab="weapons">Weapons</a>
-            <a class="item" data-tab="equipment">Equipment</a>
+            <a class="item" data-tab="bio">{{ localize 'ACTOR.Bio' }}</a>
+            <a class="item" data-tab="skills">{{ localize 'ACTOR.Skills' }}</a>
+            <a class="item" data-tab="perks">{{ localize 'ACTOR.Perks' }}</a>
+            <a class="item" data-tab="powers">{{ localize 'ACTOR.Powers' }}</a>
+            <a class="item" data-tab="equipment">{{ localize 'ACTOR.Equipment' }}</a>
         </nav>
         <section class="sheet-tabs-panel">
-            {{!-- Tab content goes here --}}
             {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
-            <div class="tab background" data-group="primary" data-tab="background">
+            <div class="tab bio" data-group="primary" data-tab="bio">
                  {{> "systems/sigil_and_shadow/templates/actor/partials/actor-background.hbs"}}
             </div>
             {{!-- SKILLS --}}
@@ -131,10 +129,7 @@
             <div class="tab powers" data-group="primary" data-tab="powers">
                 Perks
             </div>
-            {{!-- WEAPONS --}}
-            <div class="tab weapons" data-group="primary" data-tab="weapons">
-                Weapons
-            </div>
+            {{!-- EQUIPMENT --}}
             <div class="tab equipment" data-group="primary" data-tab="equipment">
                 Equipment
             </div>

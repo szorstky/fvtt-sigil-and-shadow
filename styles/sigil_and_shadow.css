@@ -125,6 +125,7 @@
 .sis.sheet.actor.player-character .sheet-left {
   max-width: 200px;
   border-right: 2px solid blue;
+  padding: 4px;
 }
 .sis.sheet.actor.player-character .sheet-left img.avatar {
   flex: 0 0 200px;
@@ -143,6 +144,7 @@
 .sis.sheet.actor.player-character .sheet-body {
   height: 100%;
   width: 100%;
+  padding: 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .editor {
   height: 100%;

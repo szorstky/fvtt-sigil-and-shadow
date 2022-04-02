@@ -147,6 +147,11 @@
   flex-direction: column;
   align-items: flex-start;
 }
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel {
   height: 100%;
 }

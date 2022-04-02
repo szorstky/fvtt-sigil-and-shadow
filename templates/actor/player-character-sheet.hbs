@@ -55,7 +55,7 @@
     </div>
     <div class="sheet-body">
         <section class="sheet-profile">          
-            <div class="input-box charname">
+            <div class="input-box">
                 <label>{{ localize 'ACTOR.CharacterName' }}</label>
                 <input name="name" type="text" value="{{actor.name}}" />
             </div>
@@ -94,7 +94,7 @@
             </div>
         </section>
          {{!-- Sheet Tab Navigation --}}
-        <nav class="sheet-tabs tabs" data-group="primary">
+        <nav class="sheet-tabs tabs full-width" data-group="primary">
             <a class="item" data-tab="bio">{{ localize 'ACTOR.Bio' }}</a>
             <a class="item" data-tab="skills">{{ localize 'ACTOR.Skills' }}</a>
             <a class="item" data-tab="perks">{{ localize 'ACTOR.Perks' }}</a>

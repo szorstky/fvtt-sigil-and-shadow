@@ -125,12 +125,20 @@
         <!-- CENTER -->
         <div class="center-panel full-width">
             <!-- Character Sheet Navigation -->
-            {{!-- <nav class="sheet-navigation tabs" data-group="primary">
-                <a class="item active" data-tab="skills">{{ localize "ACTOR.Skills" }}</a>
-                <a class="item" data-tab="powers">{{ localize "ACTOR.Powers" }}</a>
-                <a class="item" data-tab="equipment">{{ localize "ACTOR.Equipment" }}</a>
-                <a class="item" data-tab="bio">{{ localize "ACTOR.Bio" }}</a>
-            </nav> --}}
+            <nav class="sheet-tabs tabs" data-group="primary">
+                <a class="item" data-tab="skills">Skills</a>
+                <a class="item" data-tab="equipment">Equipment</a>
+            </nav>
+            
+            <div class="tab skills" data-group="primary" data-tab="skills">
+                Skills
+            </div>
+            <div class="tab equipment" data-group="primary" data-tab="equipment">
+                Equipment
+            </div>
+
+
+           
             {{!-- SKILLS  --}}
             {{!-- <div class="tab skills flexrow" data-group="primary" data-tab="skills"> --}}
                 <a class="item-create" data-type="skill">

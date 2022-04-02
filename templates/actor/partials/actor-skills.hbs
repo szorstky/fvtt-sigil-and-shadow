@@ -1,0 +1,31 @@
+<ol class="items-list skill-list">
+    <li class="items-header flexrow">
+        <h3 class="item-name skill-name flexrow">{{localize "ITEM.SkillName"}}</h3>
+        <div class="skill-focus">{{localize "ITEM.SkillFocusOf"}}</div>
+        <div class="skill-ability">{{localize "ITEM.SkillAbility"}}</div>
+        <div class="skill-level">{{localize "ITEM.SkillLevel"}}</div>
+        <div class="skill-score">{{localize "ITEM.SkillScore"}}</div>
+        <div class="item-controls skill-controls flexrow">
+            <a class="item-create" data-type="skill" title="{{localize 'SIS.sheet.createSkill'}}">
+                <i class="fas fa-plus"></i> {{localize "SIS.sheet.add"}}
+            </a>
+        </div>
+    </li>
+{{#each skills as |skill id|}}
+    <li class="item skill flexrow" data-effect-id="{{skill.id}}">
+        <div class="item-name skill-name flexrow">
+            {{!-- <img class="item-image" src="{{effect.data.icon}}"/> --}}
+            <h4>{{skill.name}}</h4>
+        </div>
+        <div class="skill-focus">{{skill.data.focus_of}}</div>
+        <div class="skill-ability">{{skill.data.ability}}</div>
+        <div class="skill-level">{{skill.data.level}}</div>
+        <div class="skill-score">{{skill.data.score}}</div>
+        <div class="item-controls skill-controls flexrow">
+            <a class="item-delete" data-action="delete" title="{{localize 'SIS.sheet.delete'}}">
+                <i class="fas fa-trash"></i>
+            </a>
+        </div>
+    </li>
+{{/each}}
+</ol>

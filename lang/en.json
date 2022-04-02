@@ -49,6 +49,8 @@
     "SIS.sheet.createSkill": "Create Skill",
     "SIS.sheet.newItem": "New Item",
     "SIS.sheet.newSkill": "New Skill",
+
+    "SIS.sheet.add": "Add",
     "SIS.sheet.edit": "Edit",
     "SIS.sheet.delete": "Delete",
 

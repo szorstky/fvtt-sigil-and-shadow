@@ -127,7 +127,7 @@
         <div class="center-panel full-width">
             {{!-- Sheet Tab Navigation --}}
             <nav class="sheet-tabs tabs" data-group="primary">
-                <a class="item" data-tab="background">Background</a>
+                <a class="item" data-tab="background">Background & Oddities</a>
                 <a class="item" data-tab="skills">Skills</a>
                 <a class="item" data-tab="perks">Perks</a>
                 <a class="item" data-tab="powers">Powers</a>
@@ -142,14 +142,7 @@
                 </div>
                 {{!-- SKILLS --}}
                 <div class="tab skills" data-group="primary" data-tab="skills">
-                    <a class="item-create" data-type="skill">
-                        <i class="fas fa-plus" title="{{ localize SIS.sheet.createSkill }}"></i>
-                    </a>
-                    <section class="skill-list">
-                        {{#each skills as |skill id|}}
-                        {{> "systems/sigil_and_shadow/templates/actor/partials/skill-item.hbs" skill}}
-                        {{/each}}
-                    </section>
+                    {{> "systems/sigil_and_shadow/templates/actor/partials/actor-skills.hbs"}}
                 </div>
                 {{!-- PERKS --}}
                 <div class="tab perks" data-group="primary" data-tab="perks">

@@ -12,10 +12,12 @@
         </div>
     </li>
 {{#each skills as |skill id|}}
-    <li class="item skill flexrow" data-item-id="{{skill._id}}">
+    <li class="item skill-item flexrow" data-item-id="{{skill._id}}">
         <div class="item-name skill-name flexrow">
             {{!-- <img class="item-image" src="{{effect.data.icon}}"/> --}}
-            <h4>{{skill.name}}</h4>
+            <a class="item-edit">
+                <h4>{{skill.name}}</h4>
+            </a>
         </div>
         <div class="skill-focus">{{skill.data.focus_of}}</div>
         <div class="skill-ability">{{skill.data.ability}}</div>

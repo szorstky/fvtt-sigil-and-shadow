@@ -57,7 +57,7 @@
             </div>
         </div>
     </div>
-    <div class="sheet-body">
+    <section class="sheet-body">
         <section class="sheet-profile">
             <div class="flexrow">
                 <div class="input-box charname">
@@ -102,7 +102,7 @@
                     <input name="data.ability.willpower" type="text" value="{{data.ability.willpower}}" />
                 </div>
             </div>
-        </div>
+        </section>
          {{!-- Sheet Tab Navigation --}}
         <nav class="sheet-tabs tabs" data-group="primary">
             <a class="item" data-tab="background">Background</a>
@@ -112,7 +112,7 @@
             <a class="item" data-tab="weapons">Weapons</a>
             <a class="item" data-tab="equipment">Equipment</a>
         </nav>
-        <div class="sheet-tabs-panel">
+        <section class="sheet-tabs-panel">
             {{!-- Tab content goes here --}}
             {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
             <div class="tab background" data-group="primary" data-tab="background">
@@ -150,6 +150,6 @@
             <div class="tab equipment" data-group="primary" data-tab="equipment">
                 Equipment
             </div>
-        </div>
+        </section>
     </section>
 </form>

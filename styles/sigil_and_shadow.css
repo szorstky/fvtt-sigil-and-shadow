@@ -150,10 +150,10 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name {
   height: 40px;
   padding: 0;
-  flex: 1;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {
-  height: 20px;
+  border: none;
+  height: 30px;
   margin: 10px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {

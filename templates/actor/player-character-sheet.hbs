@@ -127,13 +127,21 @@
         <div class="center-panel full-width">
             {{!-- Sheet Tab Navigation --}}
             <nav class="sheet-tabs tabs" data-group="primary">
+                <a class="item" data-tab="background">Background</a>
                 <a class="item" data-tab="skills">Skills</a>
-                <a class="item" data-tab="equipment">Items</a>
+                <a class="item" data-tab="perks">Perks</a>
+                <a class="item" data-tab="powers">Powers</a>
+                <a class="item" data-tab="weapons">Weapons</a>
+                <a class="item" data-tab="equipment">Equipment</a>
             </nav>
             <div class="sheet-tabs-panel">
                 {{!-- Tab content goes here --}}
+                {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
+                <div class="tab background" data-group="primary" data-tab="background">
+                    Background
+                </div>
+                {{!-- SKILLS --}}
                 <div class="tab skills" data-group="primary" data-tab="skills">
-                    {{!-- SKILLS  --}}
                     <a class="item-create" data-type="skill">
                         <i class="fas fa-plus" title="{{ localize SIS.sheet.createSkill }}"></i>
                     </a>
@@ -142,6 +150,18 @@
                         {{> "systems/sigil_and_shadow/templates/actor/partials/skill-item.hbs" skill}}
                         {{/each}}
                     </section>
+                </div>
+                {{!-- PERKS --}}
+                <div class="tab perks" data-group="primary" data-tab="perks">
+                    Perks
+                </div>
+                {{!-- POWERS --}}
+                <div class="tab powers" data-group="primary" data-tab="powers">
+                    Perks
+                </div>
+                {{!-- WEAPONS --}}
+                <div class="tab weapons" data-group="primary" data-tab="weapons">
+                    Weapons
                 </div>
                 <div class="tab equipment" data-group="primary" data-tab="equipment">
                     Equipment

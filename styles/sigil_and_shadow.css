@@ -150,17 +150,18 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name {
   height: 40px;
   padding: 0;
+  border-color: #00aaff;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {
   border: none;
-  height: 30px;
+  height: 36px;
   margin: 10px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {
   margin-bottom: 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box label {
-  color: #0062ff;
+  color: #00aaff;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
   border-radius: 0;

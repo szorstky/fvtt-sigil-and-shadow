@@ -19,6 +19,24 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         return "systems/sigil_and_shadow/templates/actor/player-character-sheet.hbs"
     }    
 
+    itemContextMenu = [
+        {
+            name: game.i18n.localize("SIS.sheet.edit"),
+            icon: '<i class="fa fa-edit"></i>',
+            callback: element => {
+                const item = this.actor.getOwnedItem(element.data("item-id"));
+                item.sheet.render(true);
+            }
+        },
+        {
+            name: game.i18n.localize("SIS.sheet.delete"),
+            icon: '<i class="fa fa-trash"></i>',
+            callback: element => {
+                this.actor.deleteOwnedItem(element.data("item-id"));
+            }
+        }
+    ];
+
     /** @override */
     getData(options) {
         let isOwner = this.actor.isOwner;
@@ -62,6 +80,8 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         html.find(".item-delete").click(this._onItemDelete.bind(this));
         
         html.find(".inline-edit").change(this._onSkillEdit.bind(this));
+
+        new ContextMenu(html, ".skill-card", this.itemContextMenu)
         
         super.activateListeners(html);
     }

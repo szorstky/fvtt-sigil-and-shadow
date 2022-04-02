@@ -150,24 +150,26 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name {
   height: 50px;
   padding: 0;
-  border-color: #00aaff;
+  border-color: #045f8d;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {
+  background-color: transparent;
   border: none;
   height: 30px;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {
   margin-bottom: 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box label {
-  color: #00aaff;
+  color: #045f8d;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
   border-radius: 0;
   border-right: none;
   border-left: none;
   border-top: none;
+  margin: 8px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel {
   height: 100%;

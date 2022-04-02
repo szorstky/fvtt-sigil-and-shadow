@@ -145,26 +145,26 @@
 .sis.sheet.actor.player-character .sheet-header .ability-box label {
   color: red;
 }
-.sis.sheet.actor.player-character .sheet-content {
+.sis.sheet.actor.player-character .sheet-body {
   display: flex;
   flex-direction: row;
   flex-grow: 3;
   align-items: flex-start;
   height: 100%;
 }
-.sis.sheet.actor.player-character .sheet-content .editor {
+.sis.sheet.actor.player-character .sheet-body .editor {
   height: 100%;
 }
-.sis.sheet.actor.player-character .sheet-content .stat-box {
+.sis.sheet.actor.player-character .sheet-body .stat-box {
   text-align: center;
 }
-.sis.sheet.actor.player-character .sheet-content .stat-box h5 {
+.sis.sheet.actor.player-character .sheet-body .stat-box h5 {
   margin: 0;
 }
-.sis.sheet.actor.player-character .sheet-content .stat-box h5.title {
+.sis.sheet.actor.player-character .sheet-body .stat-box h5.title {
   color: orange;
 }
-.sis.sheet.actor.player-character .sheet-content .left-panel {
+.sis.sheet.actor.player-character .sheet-body .left-panel {
   display: flex;
   flex-direction: column;
   align-items: flex-start;

@@ -64,20 +64,89 @@
             </div>
         </div>
     </header>
-    {{!-- Sheet Tab Navigation --}}
-    <nav class="sheet-tabs tabs" data-group="primary">
-        <a class="item" data-tab="skills">Skills</a>
-        <a class="item" data-tab="equipment">Items</a>
-    </nav>
-
     {{!-- Sheet Body --}}
     <section class="sheet-body">
-        {{!-- Tab content goes here --}}
-        <div class="tab skills" data-group="primary" data-tab="skills">
-            Skills
+        <!-- LEFT PANEL 1 -->
+        <div class="left-panel">
+            <div class="stat-box">
+                <h5 class="title">{{ localize 'ACTOR.Milestones' }}</h5>
+                <input name="data.milestones" type="number" value="{{data.milestones}}" data-dtype="Number" />
+            </div>
+            <div class="stat-box">
+                <h5 class="title">{{ localize 'ACTOR.Initiative' }}</h5>
+                <input name="data.initiative" type="number" value="{{data.initiative}}" data-dtype="Number" />
+            </div>
+            <div class="stat-box">
+                <h5 class="title">{{ localize 'ACTOR.DamageResistance' }}</h5>
+                <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
+                    data-dtype="Number" />
+            </div>
+            <div class="stat-box">
+                <h5 class="title">{{ localize 'ACTOR.DamageBonus' }}</h5>
+                <div class="flexrow">
+                    <div class="input-cell">
+                        <input name="data.damage_bonus.melee" type="text" value="{{data.damage_bonus.melee}}"
+                            data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Melee' }}</h5>
+                    </div>
+                    <div class="input-cell">
+                        <input name="data.damage_bonus.range" type="text" value="{{data.damage_bonus.range}}"
+                            data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Range' }}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="stat-box">
+                <h5 class="title">{{ localize 'ACTOR.Health' }}</h5>
+                <div class="flexrow">
+                    <div class="input-cell">
+                        <input name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Current' }}</h5>
+                    </div>
+                    <div class="input-cell">
+                        <input name="data.health.max" type="text" value="{{data.health.max}}" data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Max' }}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="stat-box">
+                <h5 class="title">{{ localize 'ACTOR.BonePile' }}</h5>
+                <div class="flexrow">
+                    <div class="input-cell">
+                        <input name="data.bones.value" type="number" value="{{data.bones.value}}" data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Current' }}</h5>
+                    </div>
+                    <div class="input-cell">
+                        <input name="data.bones.max" type="number" value="{{data.bones.max}}" data-dtype="Number" />
+                        <h5>{{ localize 'ACTOR.Max' }}</h5>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="tab equipment" data-group="primary" data-tab="equipment">
-            Equipment
+        <!-- CENTER -->
+        <div class="center-panel full-width">
+            {{!-- Sheet Tab Navigation --}}
+            <nav class="sheet-tabs tabs" data-group="primary">
+                <a class="item" data-tab="skills">Skills</a>
+                <a class="item" data-tab="equipment">Items</a>
+            </nav>
+            <div class="sheet-tabs-panel">
+                {{!-- Tab content goes here --}}
+                <div class="tab skills" data-group="primary" data-tab="skills">
+                    {{!-- SKILLS  --}}
+                    <a class="item-create" data-type="skill">
+                        <i class="fas fa-plus" title="{{ localize SIS.sheet.createSkill }}"></i>
+                    </a>
+                    <section class="skill-list">
+                        {{#each skills as |skill id|}}
+                        {{> "systems/sigil_and_shadow/templates/actor/partials/skill-item.hbs" skill}}
+                        {{/each}}
+                    </section>
+                </div>
+                <div class="tab equipment" data-group="primary" data-tab="equipment">
+                    Equipment
+                </div>
+            </div>
         </div>
 
     </section>

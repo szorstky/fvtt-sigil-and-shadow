@@ -10,7 +10,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
             width: 530,
             innerHeight: 360,
             classes: ["sis", "sheet", "actor", "player-character"],
-            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "equipment" }]
+            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-tabs-panel", initial: "equipment" }]
         });
     }
 

@@ -92,7 +92,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         event.preventDefault();
         let element = event.currentTarget;
         let item_id = element.closest(".item").dataset.itemId;
-        let item = this.actor.getOwnededItem(item_id);
+        let item = this.actor.getOwnedItem(item_id);
         return item.sheet.render(true);
     }
 
@@ -100,7 +100,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         event.preventDefault();
         let element = event.currentTarget;
         let item_id = element.closest(".item").dataset.itemId;
-        return this.actor.deleteOwnItem(item_id);
+        return this.actor.deleteOwnedItem(item_id);
     }
 
     // when to update inline in sheet

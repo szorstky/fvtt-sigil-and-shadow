@@ -198,7 +198,7 @@
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box {
   text-align: center;
-  margin: 4px 6px;
+  margin: 4px 6px 8px 6px;
   color: #4b4a44;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box .input-cell-spacer {
@@ -213,7 +213,7 @@
   margin: 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h2 {
-  margin: 0;
+  margin: 0 0 4px 0;
   border: none;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h2 input {
@@ -226,7 +226,7 @@
   border: none;
   border-bottom: 1px solid #4b4a44;
   margin: 0;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel {
   height: 100%;

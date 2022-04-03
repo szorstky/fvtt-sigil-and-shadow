@@ -232,9 +232,12 @@
 .sis.sheet.actor.player-character .sheet-body .editor {
   height: 100%;
 }
-.sis.sheet.actor.player-character .sheet-body .skill-list li.header {
+.sis.sheet.actor.player-character .sheet-body .items-list li.items-header h4 {
   color: #4b4a44;
 }
-.sis.sheet.actor.player-character .sheet-body .skill-list li.skill-item .skill-name {
+.sis.sheet.actor.player-character .sheet-body .items-list li.item .item-name {
   color: #045f8d;
+}
+.sis.sheet.actor.player-character .sheet-body .items-list li.item .item-name h4 {
+  border-bottom: 1px solid #b5b3a4;
 }

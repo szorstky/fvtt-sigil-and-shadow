@@ -125,14 +125,19 @@
             height: 100%; 
         }
 
-        .skill-list {
-            li.header {
-                color: @colorOlive;
+        .items-list {
+            li.items-header {
+                h4 {
+                    color: @colorOlive;
+                }
             }
 
-            li.skill-item {
-                .skill-name {
+            li.item {
+                .item-name {
                     color: @colorSigil;
+                    h4 {
+                        border-bottom: 1px solid @actorColorBorder;
+                    }
                 }
             }
         }

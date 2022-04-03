@@ -186,7 +186,7 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {
   margin: 4px;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box label {
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box h4 {
   color: #4b4a44;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
@@ -196,6 +196,7 @@
   border-bottom: 1px solid #4b4a44;
   color: #045f8d;
   margin: 0;
+  font-size: 1.2em;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container {
   justify-content: space-between;

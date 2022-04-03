@@ -10,16 +10,10 @@
 </div>
 <div class="flexrow">
     {{!-- ODDIETIES --}}
-    <div class="flexcol">
-        <div class="stat-box">
-            <h4 class="label">{{ localize 'ACTOR.Oddity' }}</label>
-            <input name="data.oddity" type="text" value="{{data.oddity}}" />
-        </div>
-    </div>
+    {{> "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs"}}
     {{!-- DESCRIPTORS --}}
-    <div class="flexcol">
+    <div class="flexrow">
         <h5>Descriptors</h5>
     </div>
-</div>
 <h5>{{ localize "ACTOR.Bio" }}</h5>
 {{ editor content=data.biography target="data.biography" owner=owner button=true editable=editable }}

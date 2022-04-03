@@ -92,7 +92,8 @@
         "oddity": {
             "templates": [
                 "base_item"
-            ]
+            ],
+            "description": ""
         },
         "perk": {
             "templates": [

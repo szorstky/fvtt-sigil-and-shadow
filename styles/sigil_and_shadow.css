@@ -124,7 +124,7 @@
 }
 .sis.sheet.actor.player-character .sheet-left {
   max-width: 160px;
-  border-right: 1px solid #4b4a44;
+  border-right: 1px solid #7a7971;
   padding: 0 8px;
 }
 .sis.sheet.actor.player-character .sheet-left img.avatar {
@@ -178,8 +178,9 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name {
   height: 40px;
   padding: 0;
-  border: none;
-  margin: 0 4px;
+  border-color: #7a7971;
+  border-bottom-width: 1px;
+  margin: 0 4px 4px 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {
   background-color: transparent;
@@ -197,7 +198,7 @@
   background-color: transparent;
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #4b4a44;
+  border-bottom: 1px solid #7a7971;
   color: #045f8d;
   margin: 0;
   font-size: 1.2em;
@@ -234,7 +235,7 @@
   background-color: transparent;
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #4b4a44;
+  border-bottom: 1px solid #7a7971;
   margin: 0;
   font-size: 1.2em;
 }

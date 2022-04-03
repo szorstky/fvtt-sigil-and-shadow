@@ -3,16 +3,16 @@
         <img class="avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         {{!-- STATS --}}
         <div class="stat-box">
-            <h4>{{ localize 'ACTOR.Initiative' }}</h4>
+            <h4 class="label">{{ localize 'ACTOR.Initiative' }}</h4 class="label">
             <input name="data.initiative" type="number" value="{{data.initiative}}" data-dtype="Number" />
         </div>
         <div class="stat-box">
-            <h4>{{ localize 'ACTOR.DamageResistance' }}</h4>
+            <h4 class="label">{{ localize 'ACTOR.DamageResistance' }}</h4 class="label">
             <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
                 data-dtype="Number" />
         </div>  
         <div class="stat-box">
-            <h4>{{ localize 'ACTOR.DamageBonus' }}</h4>
+            <h4 class="label">{{ localize 'ACTOR.DamageBonus' }}</h4 class="label">
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.damage_bonus.melee" type="text" value="{{data.damage_bonus.melee}}"
@@ -30,7 +30,7 @@
             </div>
         </div> 
         <div class="stat-box">
-            <h4>{{ localize 'ACTOR.Health' }}</h4>
+            <h4 class="label">{{ localize 'ACTOR.Health' }}</h4 class="label">
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="stat-box">
-            <h4>{{ localize 'ACTOR.BonePile' }}</h4>
+            <h4 class="label">{{ localize 'ACTOR.BonePile' }}</h4 class="label">
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.bones.value" type="number" value="{{data.bones.value}}" data-dtype="Number" />
@@ -69,15 +69,15 @@
             </h1>
             <div class="flexrow">
                 <div class="input-box">
-                    <h4>{{ localize 'ACTOR.Alignment' }}</h4>
+                    <h4 class="label">{{ localize 'ACTOR.Alignment' }}</h4 class="label">
                     <input name="data.alignment" type="text" value="{{data.alignment}}" />
                 </div>
                 <div class="input-box">
-                    <h4>{{ localize 'ACTOR.Casting' }}</h4>
+                    <h4 class="label">{{ localize 'ACTOR.Casting' }}</h4 class="label">
                     <input name="data.casting" type="text" value="{{data.casting}}" />
                 </div>
                 <div class="input-box">
-                    <h4>{{ localize 'ACTOR.Drive' }}</h4>
+                    <h4 class="label">{{ localize 'ACTOR.Drive' }}</h4 class="label">
                     <input name="data.drive" type="text" value="{{data.drive}}" />
                 </div>
             </div>
@@ -85,7 +85,7 @@
             <div class="abilities-container flexrow">
                 {{!-- STRENGHT --}}
                 <div class="ability-box">
-                    <h4>{{ localize 'ACTOR.Strength' }}</h4>
+                    <h4 class="label">{{ localize 'ACTOR.Strength' }}</h4 class="label">
                     <h2>
                         <input name="data.ability.strength.current" type="text" value="{{data.ability.strength.current}}"
                                 data-dtype="Number" />
@@ -108,7 +108,7 @@
                 </div> 
                 {{!-- DEXTERITY --}}
                 <div class="ability-box">
-                    <h4>{{ localize 'ACTOR.Dexterity' }}</h4>
+                    <h4 class="label">{{ localize 'ACTOR.Dexterity' }}</h4 class="label">
                       <h2>
                         <input name="data.ability.dexterity.current" type="text" value="{{data.ability.dexterity.current}}"
                                 data-dtype="Number" />
@@ -131,7 +131,7 @@
                 </div> 
                 {{!-- LOGIC --}}
                 <div class="ability-box">
-                    <h4>{{ localize 'ACTOR.Logic' }}</h4>
+                    <h4 class="label">{{ localize 'ACTOR.Logic' }}</h4 class="label">
                       <h2>
                         <input name="data.ability.logic.current" type="text" value="{{data.ability.logic.current}}"
                                 data-dtype="Number" />
@@ -154,7 +154,7 @@
                 </div> 
                 {{!-- WILLPOWER --}}
                 <div class="ability-box">
-                    <h4>{{ localize 'ACTOR.Willpower' }}</h4>
+                    <h4 class="label">{{ localize 'ACTOR.Willpower' }}</h4 class="label">
                     <h2>
                          <input name="data.ability.willpower.current" type="text" value="{{data.ability.willpower.current}}"
                                 data-dtype="Number" />

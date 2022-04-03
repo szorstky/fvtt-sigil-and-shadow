@@ -74,28 +74,45 @@
                 }
             }
 
-            .input-box {
-                margin: 4px;
-                label {
-                    color: @colorOlive
+            .ability-box {
+                text-align: center;
+                margin: 12px 0;
+                color: @colorOlive;
+    
+                .input-cell-spacer {
+                    max-width: 20px;
                 }
+    
+                h5 {
+                    margin: 0;
+                    font-weight: 100;
+                    font-style: italic;
+                }
+    
+                h3 {
+                    margin: 0;
+                    
+                }
+                
                 input {
+                    color: @colorSigil;
                     background-color: transparent;
                     border-radius: 0;
                     border: none;
                     border-bottom: 1px solid @colorOlive;
-                    color: @colorSigil;
                     margin: 0;
+                    font-size: 1.4em;
                 }
             }
         }
-        
+
         .sheet-tabs-panel {
             height: 100%;
             .tab {
                 height: 100%;
             }
         }
+        
         .editor {
             height: 100%; 
         }

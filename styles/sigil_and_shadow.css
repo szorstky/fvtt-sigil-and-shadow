@@ -182,19 +182,30 @@
   height: 30px;
   margin: 8px 0;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {
-  margin: 4px;
-}
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box label {
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box {
+  text-align: center;
+  margin: 12px 0;
   color: #4b4a44;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box .input-cell-spacer {
+  max-width: 20px;
+}
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h5 {
+  margin: 0;
+  font-weight: 100;
+  font-style: italic;
+}
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h3 {
+  margin: 0;
+}
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box input {
+  color: #045f8d;
   background-color: transparent;
   border-radius: 0;
   border: none;
   border-bottom: 1px solid #4b4a44;
-  color: #045f8d;
   margin: 0;
+  font-size: 1.4em;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel {
   height: 100%;

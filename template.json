@@ -9,10 +9,26 @@
         "templates": {
             "character_stats": {
                 "ability": {
-                    "strength": 40,
-                    "dexterity": 40,
-                    "logic": 40,
-                    "willpower": 40
+                    "strength": {
+                        "base": 40,
+                        "modifier": 0,
+                        "current": 0
+                    },
+                    "dexterity": {
+                        "base": 40,
+                        "modifier": 0,
+                        "current": 0
+                    },
+                    "logic": {
+                        "base": 40,
+                        "modifier": 0,
+                        "current": 0
+                    },
+                    "willpower": {
+                        "base": 40,
+                        "modifier": 0,
+                        "current": 0
+                    }
                 }
             },
             "combat_stats": {
@@ -27,7 +43,7 @@
                     "max": 0
                 }
             }
-        }, 
+        },
         "player": {
             "templates": [
                 "character_stats",
@@ -46,52 +62,60 @@
                 "max": 5,
                 "value": 0
             },
-            "notes": ""   
+            "notes": ""
         }
     },
     "Item": {
-        "types": [ "item", "weapon", "skill", "oddity", "perk", "power", "descriptor"],
+        "types": [
+            "item",
+            "weapon",
+            "skill",
+            "oddity",
+            "perk",
+            "power",
+            "descriptor"
+        ],
         "templates": {
-            "base_item" : {
+            "base_item": {
                 "notes": ""
             }
         },
-        "skill" : {
-            "base_item" : {
+        "skill": {
+            "base_item": {
                 "notes": ""
             },
             "focus_of": "",
-            "ability":"",
-            "level":0,
-            "score":0
+            "ability": "",
+            "level": 0,
+            "score": 0
         },
-        "oddity" : {
+        "oddity": {
             "templates": [
                 "base_item"
             ]
         },
-        "perk" : {
+        "perk": {
             "templates": [
                 "base_item"
             ]
         },
-        "special_power" : {
+        "special_power": {
             "templates": [
                 "base_item"
             ]
         },
-        "descriptor" : {
+        "descriptor": {
             "templates": [
                 "base_item"
             ],
             "type": ""
         },
-        "item" : {
+        "item": {
             "templates": [
                 "base_item"
             ]
         },
-        "weapon" : {
+        "weapon": {
             "templates": [
                 "base_item"
             ],

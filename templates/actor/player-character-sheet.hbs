@@ -10,23 +10,7 @@
             <label>{{ localize 'ACTOR.DamageResistance' }}</label>
             <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
                 data-dtype="Number" />
-        </div>   
-        <div class="stat-box">
-            <label>{{ localize 'ACTOR.Health' }}</label>
-            <div class="flexrow">
-                <div class="input-cell">
-                    <input name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
-                    <label>{{ localize 'ACTOR.Current' }}</label>
-                </div>
-                <div class="input-cell-spacer">
-                    <p>/</p>
-                </div>
-                <div class="input-cell">
-                    <input name="data.health.max" type="text" value="{{data.health.max}}" data-dtype="Number" />
-                    <label>{{ localize 'ACTOR.Max' }}</label>
-                </div>
-            </div>
-        </div>
+        </div>  
         <div class="stat-box">
             <label>{{ localize 'ACTOR.DamageBonus' }}</label>
             <div class="flexrow">
@@ -42,6 +26,22 @@
                     <input name="data.damage_bonus.range" type="text" value="{{data.damage_bonus.range}}"
                         data-dtype="Number" />
                     <label>{{ localize 'ACTOR.Range' }}</label>
+                </div>
+            </div>
+        </div> 
+        <div class="stat-box">
+            <label>{{ localize 'ACTOR.Health' }}</label>
+            <div class="flexrow">
+                <div class="input-cell">
+                    <input name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
+                    <label>{{ localize 'ACTOR.Current' }}</label>
+                </div>
+                <div class="input-cell-spacer">
+                    <p>/</p>
+                </div>
+                <div class="input-cell">
+                    <input name="data.health.max" type="text" value="{{data.health.max}}" data-dtype="Number" />
+                    <label>{{ localize 'ACTOR.Max' }}</label>
                 </div>
             </div>
         </div>

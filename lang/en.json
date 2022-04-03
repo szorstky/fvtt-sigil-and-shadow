@@ -37,8 +37,8 @@
     "ACTOR.Range": "Range",
     "ACTOR.Health": "Health",
     "ACTOR.BonePile": "Bone Pile",
-    "ACTOR.Current": "Curr",
-    "ACTOR.Max": "Max",
+    "ACTOR.Current": "Current",
+    "ACTOR.Max": "Maximum",
 
     "ACTOR.Skills": "Skills",
     "ACTOR.Equipment": "Equipment",

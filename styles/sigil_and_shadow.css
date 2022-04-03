@@ -180,14 +180,13 @@
   padding: 0;
   border-color: #4b4a44;
   border-bottom-width: 1px;
-  margin: 0 4px;
+  margin: 0 4px 4px 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {
   background-color: transparent;
   border: none;
   color: #045f8d;
   height: 36px;
-  margin: 8px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {
   margin: 4px;

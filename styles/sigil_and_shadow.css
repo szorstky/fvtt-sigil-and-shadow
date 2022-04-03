@@ -240,17 +240,16 @@
   color: #4b4a44;
   justify-content: space-between;
 }
+.sis.sheet.actor.player-character .sheet-body .items-list li h4 {
+  border-bottom: 1px solid #b5b3a4;
+  white-space: nowrap;
+  margin: 4px;
+}
 .sis.sheet.actor.player-character .sheet-body .items-list li.items-header {
   padding: 0 2px;
 }
-.sis.sheet.actor.player-character .sheet-body .items-list li.items-header h4.items-header-name {
-  flex-shrink: 1;
-}
 .sis.sheet.actor.player-character .sheet-body .items-list li.item h4 {
-  margin: 4px;
   padding: 0 0 4px 0px;
-  border-bottom: 1px solid #b5b3a4;
-  white-space: nowrap;
 }
 .sis.sheet.actor.player-character .sheet-body .items-list li.item h4.item-name {
   color: #045f8d;

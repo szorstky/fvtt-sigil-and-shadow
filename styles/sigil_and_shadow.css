@@ -236,10 +236,11 @@
   color: #4b4a44;
 }
 .sis.sheet.actor.player-character .sheet-body .items-list li.items-header h4 {
-  margin: 0 8px;
+  margin: 0 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .items-list li.item h4 {
-  margin: 8px;
+  margin: 4px;
+  padding: 4px 0px;
   border-bottom: 1px solid #b5b3a4;
 }
 .sis.sheet.actor.player-character .sheet-body .items-list li.item h4.item-name {

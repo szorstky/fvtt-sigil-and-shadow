@@ -135,10 +135,8 @@
   text-align: center;
   margin-bottom: 4px;
 }
-.sis.sheet.actor.player-character .sheet-left .stat-box label {
-  color: #045f8d;
-}
 .sis.sheet.actor.player-character .sheet-left .stat-box input {
+  color: #045f8d;
   background-color: transparent;
   border-radius: 0;
   border: none;
@@ -160,14 +158,12 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {
   background-color: transparent;
   border: none;
+  color: #045f8d;
   height: 30px;
   margin: 8px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {
   margin-bottom: 4px;
-}
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box label {
-  color: #045f8d;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
   background-color: transparent;

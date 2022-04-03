@@ -143,7 +143,7 @@
 }
 .sis.sheet.actor.player-character div.stat-box {
   color: #4b4a44;
-  margin: 0 4px;
+  margin: 6px 4px;
 }
 .sis.sheet.actor.player-character div.stat-box input {
   background-color: transparent;
@@ -223,10 +223,18 @@
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel {
   height: 100%;
+  width: 100%;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel .tab {
+  width: 100%;
   height: 100%;
 }
 .sis.sheet.actor.player-character .sheet-body .editor {
   height: 100%;
+}
+.sis.sheet.actor.player-character .sheet-body .skill-list li.header {
+  color: #4b4a44;
+}
+.sis.sheet.actor.player-character .sheet-body .skill-list li.skill-item .skill-name {
+  color: #045f8d;
 }

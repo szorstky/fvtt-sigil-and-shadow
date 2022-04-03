@@ -26,8 +26,8 @@
 
     div.stat-box {
         color: @colorOlive;
-        margin: 0 4px;
-        
+        margin: 6px 4px;
+
         input {
             background-color: transparent;
             border-radius: 0;
@@ -115,12 +115,26 @@
         
         .sheet-tabs-panel {
             height: 100%;
+            width: 100%;
             .tab {
+                width: 100%;
                 height: 100%;
             }
         }
         .editor {
             height: 100%; 
+        }
+
+        .skill-list {
+            li.header {
+                color: @colorOlive;
+            }
+
+            li.skill-item {
+                .skill-name {
+                    color: @colorSigil;
+                }
+            }
         }
     } 
 }

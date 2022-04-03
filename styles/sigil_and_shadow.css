@@ -237,9 +237,9 @@
   justify-content: space-between;
 }
 .sis.sheet.actor.player-character .sheet-body .items-list li.item h4 {
-  margin: 4px;
   padding: 0 0 4px 0px;
   border-bottom: 1px solid #b5b3a4;
+  white-space: nowrap;
 }
 .sis.sheet.actor.player-character .sheet-body .items-list li.item h4.item-name {
   color: #045f8d;

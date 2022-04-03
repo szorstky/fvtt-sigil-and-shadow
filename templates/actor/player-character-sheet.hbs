@@ -4,18 +4,18 @@
         {{!-- STATS --}}
         <div class="stat-box">
             <h4 class="label">{{ localize 'ACTOR.Initiative' }}</h4 class="label">
-            <input name="data.initiative" type="number" value="{{data.initiative}}" data-dtype="Number" />
+            <input class="center" name="data.initiative" type="number" value="{{data.initiative}}" data-dtype="Number" />
         </div>
         <div class="stat-box">
             <h4 class="label">{{ localize 'ACTOR.DamageResistance' }}</h4 class="label">
-            <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
+            <input class="center" name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
                 data-dtype="Number" />
         </div>  
         <div class="stat-box">
             <h4 class="label">{{ localize 'ACTOR.DamageBonus' }}</h4 class="label">
             <div class="flexrow">
                 <div class="input-cell">
-                    <input name="data.damage_bonus.melee" type="text" value="{{data.damage_bonus.melee}}"
+                    <input class="center" name="data.damage_bonus.melee" type="text" value="{{data.damage_bonus.melee}}"
                         data-dtype="Number" />
                     <h6 class="label">{{ localize 'ACTOR.Melee' }}</h6 class="label">
                 </div>
@@ -23,7 +23,7 @@
                     <p>/</p>
                 </div>
                 <div class="input-cell">
-                    <input name="data.damage_bonus.range" type="text" value="{{data.damage_bonus.range}}"
+                    <input class="center" name="data.damage_bonus.range" type="text" value="{{data.damage_bonus.range}}"
                         data-dtype="Number" />
                     <h6 class="label">{{ localize 'ACTOR.Range' }}</h6 class="label">
                 </div>
@@ -33,14 +33,14 @@
             <h4 class="label">{{ localize 'ACTOR.Health' }}</h4 class="label">
             <div class="flexrow">
                 <div class="input-cell">
-                    <input name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
+                    <input class="center" name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
                     <h6 class="label">{{ localize 'ACTOR.Current' }}</h6 class="label">
                 </div>
                 <div class="input-cell-spacer">
                     <p>/</p>
                 </div>
                 <div class="input-cell">
-                    <input name="data.health.max" type="text" value="{{data.health.max}}" data-dtype="Number" />
+                    <input class="center" name="data.health.max" type="text" value="{{data.health.max}}" data-dtype="Number" />
                     <h6 class="label">{{ localize 'ACTOR.Max' }}</h6 class="label">
                 </div>
             </div>
@@ -49,14 +49,14 @@
             <h4 class="label">{{ localize 'ACTOR.BonePile' }}</h4 class="label">
             <div class="flexrow">
                 <div class="input-cell">
-                    <input name="data.bones.value" type="number" value="{{data.bones.value}}" data-dtype="Number" />
+                    <input class="center" name="data.bones.value" type="number" value="{{data.bones.value}}" data-dtype="Number" />
                     <h6 class="label">{{ localize 'ACTOR.Current' }}</h6 class="label">
                 </div>
                  <div class="input-cell-spacer">
                     <p>/</p>
                 </div>
                 <div class="input-cell">
-                    <input name="data.bones.max" type="number" value="{{data.bones.max}}" data-dtype="Number" />
+                    <input class="center" name="data.bones.max" type="number" value="{{data.bones.max}}" data-dtype="Number" />
                     <h6 class="label">{{ localize 'ACTOR.Max' }}</h6 class="label">
                 </div>
             </div>

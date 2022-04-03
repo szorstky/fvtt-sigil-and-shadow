@@ -137,6 +137,19 @@
   font-style: italic;
   text-align: center;
 }
+.sis.sheet.actor.player-character div.input-cell-spacer {
+  max-width: 20px;
+  text-align: center;
+}
+.sis.sheet.actor.player-character div.stat-box input {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #b5b3a4;
+  color: #045f8d;
+  margin: 0;
+  font-size: 1.2em;
+}
 .sis.sheet.actor.player-character .sheet-left {
   max-width: 160px;
   border-right: 1px solid #b5b3a4;
@@ -155,20 +168,6 @@
 .sis.sheet.actor.player-character .sheet-left .stat-box {
   margin: 12px 0;
   color: #4b4a44;
-}
-.sis.sheet.actor.player-character .sheet-left .stat-box .input-cell-spacer {
-  max-width: 20px;
-  text-align: center;
-}
-.sis.sheet.actor.player-character .sheet-left .stat-box input {
-  text-align: center;
-  color: #045f8d;
-  background-color: transparent;
-  border-radius: 0;
-  border: none;
-  border-bottom: 1px solid #b5b3a4;
-  margin: 0;
-  font-size: 1.4em;
 }
 .sis.sheet.actor.player-character .sheet-body {
   height: 100%;
@@ -194,18 +193,6 @@
   color: #045f8d;
   height: 36px;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {
-  margin: 4px;
-}
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
-  background-color: transparent;
-  border-radius: 0;
-  border: none;
-  border-bottom: 1px solid #b5b3a4;
-  color: #045f8d;
-  margin: 0;
-  font-size: 1.2em;
-}
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container {
   justify-content: space-between;
   padding: 8px 0;
@@ -214,14 +201,8 @@
   text-align: center;
   margin: 0 6px;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box .input-cell-spacer {
-  max-width: 20px;
-}
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h4 {
-  margin: 2px 0 0 0;
-  text-align: left;
-}
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2 {
+  text-align: center;
   margin: 6px 0 0 0;
   border: none;
 }

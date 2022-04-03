@@ -19,6 +19,23 @@
         text-align: center;
     }
 
+    div.input-cell-spacer {
+        max-width: 20px;
+        text-align: center;
+    }
+
+    div.stat-box {
+        input {
+            background-color: transparent;
+            border-radius: 0;
+            border: none;
+            border-bottom: 1px solid @actorColorBorder;
+            color: @colorSigil;
+            margin: 0;
+            font-size: 1.2em;
+        }
+    }
+
     .sheet-left {         
         max-width: 160px;
         border-right: 1px solid @actorColorBorder;
@@ -36,22 +53,6 @@
         .stat-box {
             margin: 12px 0;
             color: @colorOlive;
-
-            .input-cell-spacer {
-                max-width: 20px;
-                text-align: center;
-            }
-            
-            input {
-                text-align: center;
-                color: @colorSigil;
-                background-color: transparent;
-                border-radius: 0;
-                border: none;
-                border-bottom: 1px solid @actorColorBorder;
-                margin: 0;
-                font-size: 1.4em;
-            }
         }
     }
 
@@ -79,19 +80,6 @@
                     height: @actorNameHeight - 4px;
                 }
             }
-
-            .input-box {
-                margin: 4px;
-                input {
-                    background-color: transparent;
-                    border-radius: 0;
-                    border: none;
-                    border-bottom: 1px solid @actorColorBorder;
-                    color: @colorSigil;
-                    margin: 0;
-                    font-size: 1.2em;
-                }
-            }
             
             .abilities-container {
                 justify-content: space-between;
@@ -99,17 +87,9 @@
                 .ability-box {
                     text-align: center;
                     margin: 0 6px;
-        
-                    .input-cell-spacer {
-                        max-width: 20px;
-                    }
-        
-                    h4 {
-                        margin: 2px 0 0 0;
-                        text-align: left;
-                    }
 
                     h2 {
+                        text-align: center;
                         margin: 6px 0 0 0;
                         border: none;
                         input {

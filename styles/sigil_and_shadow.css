@@ -143,9 +143,10 @@
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box .input-cell-spacer {
   max-width: 20px;
+  text-align: center;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box h4 {
-  margin: 0;
+  margin: 2px 0 0 0;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box h5 {
   margin: 0;
@@ -192,7 +193,7 @@
   margin: 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box h4 {
-  margin: 0;
+  margin: 2px 0 0 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
   background-color: transparent;
@@ -220,7 +221,7 @@
   font-style: italic;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h4 {
-  margin: 0;
+  margin: 2px 0 0 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2 {
   margin: 6px 0 0 0;

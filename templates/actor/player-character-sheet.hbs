@@ -3,7 +3,7 @@
         <img class="avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         {{!-- STATS --}}
         <div class="stat-box">
-            <h5 class="title">{{ localize 'ACTOR.BonePile' }}</h5>
+            <h3 class="title">{{ localize 'ACTOR.BonePile' }}</h3>
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.bones.value" type="number" value="{{data.bones.value}}" data-dtype="Number" />
@@ -15,8 +15,9 @@
                 </div>
             </div>
         </div>
-         <div class="stat-box">
-            <h5 class="title">{{ localize 'ACTOR.Health' }}</h5>
+        
+        <div class="stat-box">
+            <h3 class="title">{{ localize 'ACTOR.Health' }}</h3>
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
@@ -25,11 +26,11 @@
                 <div class="input-cell">
                     <input name="data.health.max" type="text" value="{{data.health.max}}" data-dtype="Number" />
                     <label>{{ localize 'ACTOR.Max' }}</label>
-                </label>
+                </div>
             </div>
         </div>
         <div class="stat-box">
-            <h5 class="title">{{ localize 'ACTOR.DamageBonus' }}</h5>
+            <h3 class="title">{{ localize 'ACTOR.DamageBonus' }}</h3>
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.damage_bonus.melee" type="text" value="{{data.damage_bonus.melee}}"
@@ -44,11 +45,11 @@
             </div>
         </div>
         <div class="stat-box">
-            <h5 class="title">{{ localize 'ACTOR.Initiative' }}</h5>
+            <h3 class="title">{{ localize 'ACTOR.Initiative' }}</h3>
             <input name="data.initiative" type="number" value="{{data.initiative}}" data-dtype="Number" />
         </div>
         <div class="stat-box">
-            <h5 class="title">{{ localize 'ACTOR.DamageResistance' }}</h5>
+            <h3 class="title">{{ localize 'ACTOR.DamageResistance' }}</h3>
             <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
                 data-dtype="Number" />
         </div>   

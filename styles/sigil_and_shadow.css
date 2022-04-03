@@ -214,6 +214,10 @@
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h1 {
   margin: 0;
+  border: none;
+}
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h1 input {
+  border: none;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box input {
   color: #045f8d;

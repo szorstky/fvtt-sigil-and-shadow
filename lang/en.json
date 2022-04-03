@@ -37,6 +37,7 @@
     "ACTOR.Range": "Range",
     "ACTOR.Health": "Health",
     "ACTOR.BonePile": "Bone Pile",
+    "ACTOR.Advancement": "Advancement",
 
     "ACTOR.Current": "Current",
     "ACTOR.Max": "Maximum",

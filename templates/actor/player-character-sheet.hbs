@@ -3,21 +3,21 @@
         <img class="avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         {{!-- STATS --}}
         <div class="stat-box">
-            <h4 class="label">{{ localize 'ACTOR.Initiative' }}</h4 class="label">
+            <h4 class="label">{{ localize 'ACTOR.Initiative' }}</h4>
             <input class="center" name="data.initiative" type="number" value="{{data.initiative}}" data-dtype="Number" />
         </div>
         <div class="stat-box">
-            <h4 class="label">{{ localize 'ACTOR.DamageResistance' }}</h4 class="label">
+            <h4 class="label">{{ localize 'ACTOR.DamageResistance' }}</h4>
             <input class="center" name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
                 data-dtype="Number" />
         </div>  
         <div class="stat-box">
-            <h4 class="label">{{ localize 'ACTOR.DamageBonus' }}</h4 class="label">
+            <h4 class="label">{{ localize 'ACTOR.DamageBonus' }}</h4>
             <div class="flexrow">
                 <div class="input-cell">
                     <input class="center" name="data.damage_bonus.melee" type="text" value="{{data.damage_bonus.melee}}"
                         data-dtype="Number" />
-                    <h6 class="label">{{ localize 'ACTOR.Melee' }}</h6 class="label">
+                    <h6 class="label">{{ localize 'ACTOR.Melee' }}</h6>
                 </div>
                  <div class="input-cell-spacer">
                     <p>/</p>
@@ -25,39 +25,55 @@
                 <div class="input-cell">
                     <input class="center" name="data.damage_bonus.range" type="text" value="{{data.damage_bonus.range}}"
                         data-dtype="Number" />
-                    <h6 class="label">{{ localize 'ACTOR.Range' }}</h6 class="label">
+                    <h6 class="label">{{ localize 'ACTOR.Range' }}</h6>
                 </div>
             </div>
         </div> 
         <div class="stat-box">
-            <h4 class="label">{{ localize 'ACTOR.Health' }}</h4 class="label">
+            <h4 class="label">{{ localize 'ACTOR.Health' }}</h4>
             <div class="flexrow">
                 <div class="input-cell">
                     <input class="center" name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
-                    <h6 class="label">{{ localize 'ACTOR.Current' }}</h6 class="label">
+                    <h6 class="label">{{ localize 'ACTOR.Current' }}</h6>
                 </div>
                 <div class="input-cell-spacer">
                     <p>/</p>
                 </div>
                 <div class="input-cell">
                     <input class="center" name="data.health.max" type="text" value="{{data.health.max}}" data-dtype="Number" />
-                    <h6 class="label">{{ localize 'ACTOR.Max' }}</h6 class="label">
+                    <h6 class="label">{{ localize 'ACTOR.Max' }}</h6>
                 </div>
             </div>
         </div>
         <div class="stat-box">
-            <h4 class="label">{{ localize 'ACTOR.BonePile' }}</h4 class="label">
+            <h4 class="label">{{ localize 'ACTOR.BonePile' }}</h4>
             <div class="flexrow">
                 <div class="input-cell">
                     <input class="center" name="data.bones.value" type="number" value="{{data.bones.value}}" data-dtype="Number" />
-                    <h6 class="label">{{ localize 'ACTOR.Current' }}</h6 class="label">
+                    <h6 class="label">{{ localize 'ACTOR.Current' }}</h6>
                 </div>
                  <div class="input-cell-spacer">
                     <p>/</p>
                 </div>
                 <div class="input-cell">
                     <input class="center" name="data.bones.max" type="number" value="{{data.bones.max}}" data-dtype="Number" />
-                    <h6 class="label">{{ localize 'ACTOR.Max' }}</h6 class="label">
+                    <h6 class="label">{{ localize 'ACTOR.Max' }}</h6>
+                </div>
+            </div>
+        </div>
+        <div class="stat-box">
+            <h4 class="label">{{ localize 'ACTOR.Advancement' }}</h4>
+            <div class="flexrow">
+                <div class="input-cell">
+                    <input class="center" name="data.milestones" type="number" value="{{data.milestones}}" data-dtype="Number" />
+                    <h6 class="label">{{ localize 'ACTOR.Milestones' }}</h6>
+                </div>
+                 <div class="input-cell-spacer">
+                    <p>/</p>
+                </div>
+                <div class="input-cell">
+                    <input class="center" name="data.rank" type="number" value="{{data.rank}}" data-dtype="Number" />
+                    <h6 class="label">{{ localize 'ACTOR.Rank' }}</h6>
                 </div>
             </div>
         </div>
@@ -69,15 +85,15 @@
             </h1>
             <div class="flexrow">
                 <div class="stat-box">
-                    <h4 class="label">{{ localize 'ACTOR.Alignment' }}</h4 class="label">
+                    <h4 class="label">{{ localize 'ACTOR.Alignment' }}</h4>
                     <input name="data.alignment" type="text" value="{{data.alignment}}" />
                 </div>
                 <div class="stat-box">
-                    <h4 class="label">{{ localize 'ACTOR.Casting' }}</h4 class="label">
+                    <h4 class="label">{{ localize 'ACTOR.Casting' }}</h4>
                     <input name="data.casting" type="text" value="{{data.casting}}" />
                 </div>
                 <div class="stat-box">
-                    <h4 class="label">{{ localize 'ACTOR.Drive' }}</h4 class="label">
+                    <h4 class="label">{{ localize 'ACTOR.Drive' }}</h4>
                     <input name="data.drive" type="text" value="{{data.drive}}" />
                 </div>
             </div>
@@ -85,7 +101,7 @@
             <div class="abilities-container flexrow">
                 {{!-- STRENGHT --}}
                 <div class="ability-box">
-                    <h4 class="label">{{ localize 'ACTOR.Strength' }}</h4 class="label">
+                    <h4 class="label">{{ localize 'ACTOR.Strength' }}</h4>
                     <h2>
                         <input name="data.ability.strength.current" type="text" value="{{data.ability.strength.current}}"
                                 data-dtype="Number" />
@@ -94,7 +110,7 @@
                         <div class="input-cell">
                             <input name="data.ability.strength.base" type="text" value="{{data.ability.strength.base}}"
                                 data-dtype="Number" />
-                            <h6 class="label">{{ localize 'ACTOR.Base' }}</h6 class="label">
+                            <h6 class="label">{{ localize 'ACTOR.Base' }}</h6>
                         </div>
                         <div class="input-cell-spacer">
                             <p>/</p>
@@ -102,13 +118,13 @@
                         <div class="input-cell">
                             <input name="data.ability.strength.modifier" type="text" value="{{data.ability.strength.modifier}}"
                                 data-dtype="Number" />
-                            <h6 class="label">{{ localize 'ACTOR.Mod' }}</h6 class="label">
+                            <h6 class="label">{{ localize 'ACTOR.Mod' }}</h6>
                         </div>
                     </div>
                 </div> 
                 {{!-- DEXTERITY --}}
                 <div class="ability-box">
-                    <h4 class="label">{{ localize 'ACTOR.Dexterity' }}</h4 class="label">
+                    <h4 class="label">{{ localize 'ACTOR.Dexterity' }}</h4>
                       <h2>
                         <input name="data.ability.dexterity.current" type="text" value="{{data.ability.dexterity.current}}"
                                 data-dtype="Number" />
@@ -117,7 +133,7 @@
                         <div class="input-cell">
                             <input name="data.ability.dexterity.base" type="text" value="{{data.ability.dexterity.base}}"
                                 data-dtype="Number" />
-                            <h6 class="label">{{ localize 'ACTOR.Base' }}</h6 class="label">
+                            <h6 class="label">{{ localize 'ACTOR.Base' }}</h6>
                         </div>
                         <div class="input-cell-spacer">
                             <p>/</p>
@@ -125,13 +141,13 @@
                         <div class="input-cell">
                             <input name="data.ability.dexterity.modifier" type="text" value="{{data.ability.dexterity.modifier}}"
                                 data-dtype="Number" />
-                            <h6 class="label">{{ localize 'ACTOR.Mod' }}</h6 class="label">
+                            <h6 class="label">{{ localize 'ACTOR.Mod' }}</h6>
                         </div>
                     </div>
                 </div> 
                 {{!-- LOGIC --}}
                 <div class="ability-box">
-                    <h4 class="label">{{ localize 'ACTOR.Logic' }}</h4 class="label">
+                    <h4 class="label">{{ localize 'ACTOR.Logic' }}</h4>
                       <h2>
                         <input name="data.ability.logic.current" type="text" value="{{data.ability.logic.current}}"
                                 data-dtype="Number" />
@@ -140,7 +156,7 @@
                         <div class="input-cell">
                             <input name="data.ability.logic.base" type="text" value="{{data.ability.logic.base}}"
                                 data-dtype="Number" />
-                            <h6 class="label">{{ localize 'ACTOR.Base' }}</h6 class="label">
+                            <h6 class="label">{{ localize 'ACTOR.Base' }}</h6>
                         </div>
                         <div class="input-cell-spacer">
                             <p>/</p>
@@ -148,13 +164,13 @@
                         <div class="input-cell">
                             <input name="data.ability.logic.modifier" type="text" value="{{data.ability.logic.modifier}}"
                                 data-dtype="Number" />
-                            <h6 class="label">{{ localize 'ACTOR.Mod' }}</h6 class="label">
+                            <h6 class="label">{{ localize 'ACTOR.Mod' }}</h6>
                         </div>
                     </div>
                 </div> 
                 {{!-- WILLPOWER --}}
                 <div class="ability-box">
-                    <h4 class="label">{{ localize 'ACTOR.Willpower' }}</h4 class="label">
+                    <h4 class="label">{{ localize 'ACTOR.Willpower' }}</h4>
                     <h2>
                          <input name="data.ability.willpower.current" type="text" value="{{data.ability.willpower.current}}"
                                 data-dtype="Number" />
@@ -163,7 +179,7 @@
                         <div class="input-cell">
                             <input name="data.ability.willpower.base" type="text" value="{{data.ability.willpower.base}}"
                                 data-dtype="Number" />
-                            <h6 class="label">{{ localize 'ACTOR.Base' }}</h6 class="label">
+                            <h6 class="label">{{ localize 'ACTOR.Base' }}</h6>
                         </div>
                         <div class="input-cell-spacer">
                             <p>/</p>
@@ -171,7 +187,7 @@
                         <div class="input-cell">
                             <input name="data.ability.willpower.modifier" type="text" value="{{data.ability.willpower.modifier}}"
                                 data-dtype="Number" />
-                            <h6 class="label">{{ localize 'ACTOR.Mod' }}</h6 class="label">
+                            <h6 class="label">{{ localize 'ACTOR.Mod' }}</h6>
                         </div>
                     </div>
                 </div> 

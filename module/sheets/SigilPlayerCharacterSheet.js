@@ -87,6 +87,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         html.find(".inline-edit").change(this._onSkillEdit.bind(this));
 
         new ContextMenu(html, ".skill-item", this.itemContextMenu);
+        new ContextMenu(html, ".oddity-item", this.itemContextMenu);
         
         super.activateListeners(html);
     }

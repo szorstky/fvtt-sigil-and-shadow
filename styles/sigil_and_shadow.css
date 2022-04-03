@@ -232,6 +232,9 @@
 .sis.sheet.actor.player-character .sheet-body .editor {
   height: 100%;
 }
+.sis.sheet.actor.player-character .sheet-body .items-list {
+  list-style-type: none;
+}
 .sis.sheet.actor.player-character .sheet-body .items-list li {
   color: #4b4a44;
   justify-content: space-between;

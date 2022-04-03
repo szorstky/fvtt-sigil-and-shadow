@@ -140,15 +140,16 @@
 .sis.sheet.actor.player-character .sheet-left .stat-box {
   text-align: center;
   margin: 4px 0;
+  color: #4b4a44;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box .input-cell-spacer {
   max-width: 20px;
 }
-.sis.sheet.actor.player-character .sheet-left .stat-box .input-cell-spacer p {
-  color: #4b4a44;
+.sis.sheet.actor.player-character .sheet-left .stat-box h3 {
+  margin: 0;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box label {
-  color: #4b4a44;
+  font-style: italic;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box input {
   color: #045f8d;

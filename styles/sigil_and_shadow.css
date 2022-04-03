@@ -126,11 +126,13 @@
   max-width: 160px;
   margin: 4px;
   border-right: 1px solid #4b4a44;
+  padding-right: 8px;
 }
 .sis.sheet.actor.player-character .sheet-left img.avatar {
   flex: 0 0 160px;
   max-width: 160px;
   height: 160px;
+  border: 4px solid #fdffde;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box {
   text-align: center;

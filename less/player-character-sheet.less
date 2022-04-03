@@ -1,5 +1,7 @@
 @actorNameHeight: 40px;
 
+@actorColorBorder: #b5b3a4;
+
 .sis.sheet.actor.player-character {
     form {
         display: flex;
@@ -8,7 +10,7 @@
 
     .sheet-left {         
         max-width: 160px;
-        border-right: 1px solid @colorTan;
+        border-right: 1px solid @actorColorBorder;
         padding: 0 8px;
         img.avatar { 
             border-radius: 0;
@@ -33,7 +35,7 @@
                 margin: 2px 0 0 0;
             }
 
-            h5 {
+            h6 {
                 margin: 0;
                 font-weight: lighter;
                 font-style: italic;
@@ -46,7 +48,7 @@
                 background-color: transparent;
                 border-radius: 0;
                 border: none;
-                border-bottom: 1px solid @colorOlive;
+                border-bottom: 1px solid @actorColorBorder;
                 margin: 0;
                 font-size: 1.4em;
             }
@@ -67,7 +69,7 @@
             .character-name {
                 height: @actorNameHeight;
                 padding: 0;
-                border-color: @colorTan;
+                border-color: @actorColorBorder;
                 border-bottom-width: 1px;
                 margin: 0 4px 4px 4px;
                 input {
@@ -87,7 +89,7 @@
                     background-color: transparent;
                     border-radius: 0;
                     border: none;
-                    border-bottom: 1px solid @colorTan;
+                    border-bottom: 1px solid @actorColorBorder;
                     color: @colorSigil;
                     margin: 0;
                     font-size: 1.2em;
@@ -128,7 +130,7 @@
                         background-color: transparent;
                         border-radius: 0;
                         border: none;
-                        border-bottom: 1px solid @colorTan;
+                        border-bottom: 1px solid @actorColorBorder;
                         margin: 0;
                         font-size: 1.2em;
                     }

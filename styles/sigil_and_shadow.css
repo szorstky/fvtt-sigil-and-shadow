@@ -130,7 +130,7 @@
 }
 .sis.sheet.actor.player-character .sheet-left {
   max-width: 160px;
-  border-right: 1px solid #7a7971;
+  border-right: 1px solid #b5b3a4;
   padding: 0 8px;
 }
 .sis.sheet.actor.player-character .sheet-left img.avatar {
@@ -154,7 +154,7 @@
 .sis.sheet.actor.player-character .sheet-left .stat-box h4 {
   margin: 2px 0 0 0;
 }
-.sis.sheet.actor.player-character .sheet-left .stat-box h5 {
+.sis.sheet.actor.player-character .sheet-left .stat-box h6 {
   margin: 0;
   font-weight: lighter;
   font-style: italic;
@@ -166,7 +166,7 @@
   background-color: transparent;
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #4b4a44;
+  border-bottom: 1px solid #b5b3a4;
   margin: 0;
   font-size: 1.4em;
 }
@@ -184,7 +184,7 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name {
   height: 40px;
   padding: 0;
-  border-color: #7a7971;
+  border-color: #b5b3a4;
   border-bottom-width: 1px;
   margin: 0 4px 4px 4px;
 }
@@ -204,7 +204,7 @@
   background-color: transparent;
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #7a7971;
+  border-bottom: 1px solid #b5b3a4;
   color: #045f8d;
   margin: 0;
   font-size: 1.2em;
@@ -241,7 +241,7 @@
   background-color: transparent;
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #7a7971;
+  border-bottom: 1px solid #b5b3a4;
   margin: 0;
   font-size: 1.2em;
 }

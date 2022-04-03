@@ -126,13 +126,14 @@
   max-width: 160px;
   margin: 4px;
   border-right: 1px solid #4b4a44;
-  padding-right: 8px;
 }
 .sis.sheet.actor.player-character .sheet-left img.avatar {
-  flex: 0 0 160px;
-  max-width: 160px;
-  height: 160px;
-  border: 4px solid #fdffde;
+  border: 8px solid white;
+  border-radius: 0;
+  flex: 0 0 140px;
+  height: 140px;
+  max-width: 140px;
+  margin-right: 4px;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box {
   text-align: center;
@@ -165,7 +166,7 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name {
   height: 50px;
   padding: 0;
-  border-color: colorOlive;
+  border-color: #4b4a44;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {
   background-color: transparent;

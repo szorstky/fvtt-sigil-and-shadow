@@ -128,6 +128,9 @@
   display: flex;
   flex-direction: row;
 }
+.sis.sheet.actor.player-character h6.label {
+  color: red;
+}
 .sis.sheet.actor.player-character .sheet-left {
   max-width: 160px;
   border-right: 1px solid #b5b3a4;

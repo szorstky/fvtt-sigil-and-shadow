@@ -198,25 +198,25 @@
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box {
   text-align: center;
-  margin: 12px 6px;
+  margin: 4px 6px;
   color: #4b4a44;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box .input-cell-spacer {
   max-width: 20px;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h5 {
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h6 {
   margin: 0;
   font-weight: 100;
   font-style: italic;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h3 {
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h4 {
   margin: 0;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h1 {
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h2 {
   margin: 0;
   border: none;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h1 input {
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box h2 input {
   border: none;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .ability-box input {

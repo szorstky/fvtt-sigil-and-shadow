@@ -74,9 +74,24 @@
                 }
             }
 
+            .input-box {
+                margin: 4px;
+                label {
+                    color: @colorOlive
+                }
+                input {
+                    background-color: transparent;
+                    border-radius: 0;
+                    border: none;
+                    border-bottom: 1px solid @colorOlive;
+                    color: @colorSigil;
+                    margin: 0;
+                }
+            }
+
             .ability-box {
                 text-align: center;
-                margin: 12px 0;
+                margin: 12px 6px;
                 color: @colorOlive;
     
                 .input-cell-spacer {
@@ -105,14 +120,13 @@
                 }
             }
         }
-
+        
         .sheet-tabs-panel {
             height: 100%;
             .tab {
                 height: 100%;
             }
         }
-        
         .editor {
             height: 100%; 
         }

@@ -124,8 +124,8 @@
 }
 .sis.sheet.actor.player-character .sheet-left {
   max-width: 160px;
-  margin: 4px;
   border-right: 1px solid #4b4a44;
+  padding: 0 8px;
 }
 .sis.sheet.actor.player-character .sheet-left img.avatar {
   border: 8px solid white;

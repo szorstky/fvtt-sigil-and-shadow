@@ -139,7 +139,7 @@
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box {
   text-align: center;
-  margin: 8px 0;
+  margin: 12px 0;
   color: #4b4a44;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box .input-cell-spacer {
@@ -183,7 +183,7 @@
   margin: 8px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {
-  margin-bottom: 4px;
+  margin: 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box label {
   color: #4b4a44;

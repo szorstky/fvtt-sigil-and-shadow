@@ -147,10 +147,11 @@
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box h5 {
   margin: 0;
-}
-.sis.sheet.actor.player-character .sheet-left .stat-box label {
+  font-weight: 100;
   font-style: italic;
-  font-weight: lighter;
+}
+.sis.sheet.actor.player-character .sheet-left .stat-box h3 {
+  margin: 0;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box input {
   color: #045f8d;

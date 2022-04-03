@@ -3,21 +3,21 @@
         <img class="avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         {{!-- STATS --}}
         <div class="stat-box">
-            <h5>{{ localize 'ACTOR.Initiative' }}</h5>
+            <h3>{{ localize 'ACTOR.Initiative' }}</h3>
             <input name="data.initiative" type="number" value="{{data.initiative}}" data-dtype="Number" />
         </div>
         <div class="stat-box">
-            <h5>{{ localize 'ACTOR.DamageResistance' }}</h5>
+            <h3>{{ localize 'ACTOR.DamageResistance' }}</h3>
             <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
                 data-dtype="Number" />
         </div>  
         <div class="stat-box">
-            <h5>{{ localize 'ACTOR.DamageBonus' }}</h5>
+            <h3>{{ localize 'ACTOR.DamageBonus' }}</h3>
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.damage_bonus.melee" type="text" value="{{data.damage_bonus.melee}}"
                         data-dtype="Number" />
-                    <label>{{ localize 'ACTOR.Melee' }}</label>
+                    <h5>{{ localize 'ACTOR.Melee' }}</h5>
                 </div>
                  <div class="input-cell-spacer">
                     <p>/</p>
@@ -25,39 +25,39 @@
                 <div class="input-cell">
                     <input name="data.damage_bonus.range" type="text" value="{{data.damage_bonus.range}}"
                         data-dtype="Number" />
-                    <label>{{ localize 'ACTOR.Range' }}</label>
+                    <h5>{{ localize 'ACTOR.Range' }}</h5>
                 </div>
             </div>
         </div> 
         <div class="stat-box">
-            <h5>{{ localize 'ACTOR.Health' }}</h5>
+            <h3>{{ localize 'ACTOR.Health' }}</h3>
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
-                    <label>{{ localize 'ACTOR.Current' }}</label>
+                    <h5>{{ localize 'ACTOR.Current' }}</h5>
                 </div>
                 <div class="input-cell-spacer">
                     <p>/</p>
                 </div>
                 <div class="input-cell">
                     <input name="data.health.max" type="text" value="{{data.health.max}}" data-dtype="Number" />
-                    <label>{{ localize 'ACTOR.Max' }}</label>
+                    <h5>{{ localize 'ACTOR.Max' }}</h5>
                 </div>
             </div>
         </div>
         <div class="stat-box">
-            <h5>{{ localize 'ACTOR.BonePile' }}</h5>
+            <h3>{{ localize 'ACTOR.BonePile' }}</h3>
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.bones.value" type="number" value="{{data.bones.value}}" data-dtype="Number" />
-                    <label>{{ localize 'ACTOR.Current' }}</label>
+                    <h5>{{ localize 'ACTOR.Current' }}</h5>
                 </div>
                  <div class="input-cell-spacer">
                     <p>/</p>
                 </div>
                 <div class="input-cell">
                     <input name="data.bones.max" type="number" value="{{data.bones.max}}" data-dtype="Number" />
-                    <label>{{ localize 'ACTOR.Max' }}</label>
+                    <h5>{{ localize 'ACTOR.Max' }}</h5>
                 </div>
             </div>
         </div>

@@ -187,6 +187,7 @@
   margin: 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box h4 {
+  margin: 0;
   color: #4b4a44;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box input {
@@ -217,6 +218,7 @@
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h4 {
   margin: 0;
+  color: #4b4a44;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2 {
   margin: 6px 0 0 0;

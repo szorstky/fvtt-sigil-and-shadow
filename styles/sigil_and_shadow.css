@@ -143,6 +143,7 @@
 }
 .sis.sheet.actor.player-character div.stat-box {
   color: #4b4a44;
+  margin: 0 4px;
 }
 .sis.sheet.actor.player-character div.stat-box input {
   background-color: transparent;

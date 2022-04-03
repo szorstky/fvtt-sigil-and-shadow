@@ -1,4 +1,4 @@
-@actorNameHeight: 50px;
+@actorNameHeight: 40px;
 
 .sis.sheet.actor.player-character {
     form {
@@ -65,6 +65,7 @@
                 height: @actorNameHeight;
                 padding: 0;
                 border-color: @colorOlive;
+                border-bottom-width: 1px;
                 input {
                     background-color: transparent;
                     border: none;
@@ -90,9 +91,10 @@
             }
             .abilities-container {
                 justify-content: space-between;
+                padding: 8px 0;
                 .ability-box {
                     text-align: center;
-                    margin: 4px 6px 8px 6px;
+                    margin: 0 6px;
                     color: @colorOlive;
         
                     .input-cell-spacer {

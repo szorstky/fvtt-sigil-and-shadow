@@ -3,7 +3,7 @@
         <img class="avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         {{!-- STATS --}}
         <div class="stat-box">
-            <h3 class="title">{{ localize 'ACTOR.BonePile' }}</h3>
+            <label>{{ localize 'ACTOR.BonePile' }}</label>
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.bones.value" type="number" value="{{data.bones.value}}" data-dtype="Number" />
@@ -17,7 +17,7 @@
         </div>
         
         <div class="stat-box">
-            <h3 class="title">{{ localize 'ACTOR.Health' }}</h3>
+            <label>{{ localize 'ACTOR.Health' }}</label>
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.health.value" type="text" value="{{data.health.value}}" data-dtype="Number" />
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="stat-box">
-            <h3 class="title">{{ localize 'ACTOR.DamageBonus' }}</h3>
+            <label>{{ localize 'ACTOR.DamageBonus' }}</label>
             <div class="flexrow">
                 <div class="input-cell">
                     <input name="data.damage_bonus.melee" type="text" value="{{data.damage_bonus.melee}}"
@@ -45,11 +45,11 @@
             </div>
         </div>
         <div class="stat-box">
-            <h3 class="title">{{ localize 'ACTOR.Initiative' }}</h3>
+            <label>{{ localize 'ACTOR.Initiative' }}</label>
             <input name="data.initiative" type="number" value="{{data.initiative}}" data-dtype="Number" />
         </div>
         <div class="stat-box">
-            <h3 class="title">{{ localize 'ACTOR.DamageResistance' }}</h3>
+            <label>{{ localize 'ACTOR.DamageResistance' }}</label>
             <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}"
                 data-dtype="Number" />
         </div>   

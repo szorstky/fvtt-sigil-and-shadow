@@ -134,12 +134,6 @@
 .sis.sheet.actor.player-character .sheet-left .stat-box {
   text-align: center;
 }
-.sis.sheet.actor.player-character .sheet-left .stat-box h5 {
-  margin: 0;
-}
-.sis.sheet.actor.player-character .sheet-left .stat-box h5.title {
-  color: #045f8d;
-}
 .sis.sheet.actor.player-character .sheet-left .stat-box input {
   background-color: transparent;
   border-radius: 0;

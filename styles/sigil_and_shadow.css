@@ -186,7 +186,7 @@
   background-color: transparent;
   border: none;
   color: #045f8d;
-  height: 20px;
+  height: 36px;
   margin: 8px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .input-box {
@@ -222,6 +222,7 @@
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h4 {
   margin: 2px 0 0 0;
+  text-align: left;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2 {
   margin: 6px 0 0 0;

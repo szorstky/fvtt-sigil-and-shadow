@@ -12,7 +12,7 @@
     "ITEM.SkillFocusOf" : "Focus",
     "ITEM.SkillAbility" : "Ability",
     "ITEM.SkillLevel" : "Level",
-    "ITEM.SkillScore" : "Score",
+    "ITEM.SkillScore" : "Score %",
 
     "ACTOR.PlayerAlignmentTheIlluminated": "The Illuminated",
     "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed",

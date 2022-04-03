@@ -238,9 +238,10 @@
 .sis.sheet.actor.player-character .sheet-body .items-list li.items-header h4 {
   color: #4b4a44;
 }
-.sis.sheet.actor.player-character .sheet-body .items-list li.item .item-name {
-  color: #045f8d;
-}
-.sis.sheet.actor.player-character .sheet-body .items-list li.item .item-name h4 {
+.sis.sheet.actor.player-character .sheet-body .items-list li.item h4 {
   border-bottom: 1px solid #b5b3a4;
+  padding-bottom: 4px;
+}
+.sis.sheet.actor.player-character .sheet-body .items-list li.item h4.item-name {
+  color: #045f8d;
 }

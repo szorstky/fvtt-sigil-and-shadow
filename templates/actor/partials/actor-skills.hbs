@@ -6,7 +6,7 @@
         <h4>{{localize "ITEM.SkillLevel"}}</h4>
         <h4>{{localize "ITEM.SkillScore"}}</h4>
     </li>
-{{#each skills as |skill id|}}
+    {{#each skills as |skill id|}}
     <li class="item skill-item flexrow" data-item-id="{{skill._id}}">
         <h4 class="item-name flexrow">
             <a class="item-edit">
@@ -17,7 +17,7 @@
         <h4>{{skill.data.ability}}</h4>
         <h4>{{skill.data.level}}</h4>
         <h4>{{skill.data.score}}</h4>
-        
+
         <!-- <div class="item-controls skill-controls flexrow">
             <a class="item-delete" data-action="delete" title="{{localize 'SIS.sheet.delete'}}">
                 <i class="fas fa-trash"></i>
@@ -25,10 +25,11 @@
         </div>
         -->
     </li>
-{{/each}}
-    <li>
+    {{/each}}
+    <li class="item ">
         <a class="item-create" data-type="skill" title="{{localize 'SIS.sheet.createSkill'}}">
             <i class="fas fa-plus"></i>
+            {{ localize localize 'SIS.sheet.createSkill' }}
         </a>
     </li>
 </ol>

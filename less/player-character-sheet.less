@@ -127,10 +127,18 @@
 
         .items-list {
             list-style-type: none;
-            
+            padding: 0;
             li {
                 color: @colorOlive;
                 justify-content: space-between;
+            }
+
+            li.items-header {
+                padding: 0 2px;
+
+                h4.items-header-name {
+                    flex-shrink: 1
+                }
             }
 
             li.item {

@@ -63,9 +63,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
 
         data.skills = actorData.items.filter(function(item){ return item.type == "skill"});
         
-        data.skills.sort(function(a, b) {
-            return a.focus_of.localeCompare(b.focus_of)
-        });
+        data.skills.sort((a, b) => a.focus_of > b.focus_of ? 1 : -1);
 
         data.oddities = actorData.items.filter(function(item){ return item.type == "oddity"});
         

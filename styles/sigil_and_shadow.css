@@ -138,7 +138,6 @@
   box-shadow: 2px 2px 16px -10px #42445a;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box {
-  text-align: center;
   margin: 12px 0;
   color: #4b4a44;
 }
@@ -152,8 +151,10 @@
   margin: 0;
   font-weight: 100;
   font-style: italic;
+  text-align: center;
 }
 .sis.sheet.actor.player-character .sheet-left .stat-box input {
+  text-align: center;
   color: #045f8d;
   background-color: transparent;
   border-radius: 0;

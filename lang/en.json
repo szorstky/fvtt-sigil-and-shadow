@@ -8,11 +8,15 @@
     "ITEM.WeaponConceal": "Conceal",
     "ITEM.WeaponNotes": "Notes",
 
-    "ITEM.SkillName" : "Skill Name",
+    "ITEM.SkillName" : "Skill",
     "ITEM.SkillFocusOf" : "Focus",
     "ITEM.SkillAbility" : "Ability",
     "ITEM.SkillLevel" : "Level",
     "ITEM.SkillScore" : "Score %",
+
+    "ITEM.OddityName" : "Oddity",
+    "ITEM.OddityDescription" : "Description",
+
 
     "ACTOR.PlayerAlignmentTheIlluminated": "The Illuminated",
     "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed",
@@ -56,6 +60,7 @@
     "SIS.sheet.createSkill": "Create Skill",
     "SIS.sheet.newItem": "New Item",
     "SIS.sheet.newSkill": "New Skill",
+    "SIS.sheet.newOddity": "New Oddity",
 
     "SIS.sheet.add": "Add",
     "SIS.sheet.edit": "Edit",

@@ -1,0 +1,22 @@
+<ul class="items-list oddity-list">
+    <li class="items-header flexrow">
+        <h4>{{localize "ITEM.OddityName"}}</h4>
+        <h4 class="full-width">{{localize "ITEM.OddityDescription"}}</h4>
+    </li>
+    {{#each oddities as |oddity id|}}
+    <li class="item oddity-item flexrow" data-item-id="{{oddity._id}}">
+        <h4 class="item-name flexrow">
+            <a class="item-edit">
+                {{oddity.oddity.name}}
+            </a>
+        </h4>
+        <h4 class="full-width">{{oddity.data.description}}</h4>
+    </li>
+    {{/each}}
+    <li class="item">
+        <a class="item-create" data-type="oddity" title="{{localize 'SIS.sheet.newOddity'}}">
+            <i class="fas fa-plus"></i>
+            {{ localize 'SIS.sheet.newOddity' }}
+        </a>
+    </li>
+</ol>

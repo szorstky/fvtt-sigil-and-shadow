@@ -10,11 +10,15 @@
 </div>
 <div class="flexrow">
     {{!-- ODDIETIES --}}
-    {{> "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs"}}
+    <div class="flexcol">
+        {{> "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs"}}
+    </div>
+    {{!-- DESCRIPTORS --}}
+    <div class="flexcol">
+        <h5>Descriptors</h5>
+    </div>
 </div>  
-{{!-- DESCRIPTORS --}}
-<div class="flexrow">
-    <h5>Descriptors</h5>
-</div>
+
+
 <h5>{{ localize "ACTOR.Bio" }}</h5>
 {{ editor content=data.biography target="data.biography" owner=owner button=true editable=editable }}

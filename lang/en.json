@@ -8,8 +8,8 @@
     "ITEM.WeaponConceal": "Conceal",
     "ITEM.WeaponNotes": "Notes",
 
-    "ITEM.SkillName" : "Name",
-    "ITEM.SkillFocusOf" : "Focus Of",
+    "ITEM.SkillName" : "Skill Name",
+    "ITEM.SkillFocusOf" : "Focus",
     "ITEM.SkillAbility" : "Ability",
     "ITEM.SkillLevel" : "Level",
     "ITEM.SkillScore" : "Score",

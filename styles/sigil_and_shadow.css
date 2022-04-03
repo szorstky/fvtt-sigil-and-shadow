@@ -178,9 +178,8 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name {
   height: 40px;
   padding: 0;
-  border-color: #4b4a44;
-  border-bottom-width: 1px;
-  margin: 0 4px 4px 4px;
+  border: none;
+  margin: 0 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {
   background-color: transparent;

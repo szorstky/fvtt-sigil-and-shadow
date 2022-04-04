@@ -249,9 +249,6 @@
 .sis.sheet.actor.player-character .sheet-body .items-list li.items-header {
   padding: 0 2px;
 }
-.sis.sheet.actor.player-character .sheet-body .items-list li.item {
-  font-size: 1.2em;
-}
 .sis.sheet.actor.player-character .sheet-body .items-list li.item h4.item-name {
   color: #045f8d;
 }

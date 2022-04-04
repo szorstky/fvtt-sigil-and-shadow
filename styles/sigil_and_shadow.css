@@ -267,4 +267,8 @@
   color: #045f8d;
   border: none;
   font-size: 1.4em;
+  margin-bottom: 0;
+}
+.sis.sheet.actor.player-character .sheet-body .oddity-list p {
+  margin: 0 0 0.5em 0;
 }

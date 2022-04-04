@@ -1,13 +1,13 @@
-<section class="oddity-pane">
-    <div class="oddity-header flexrow">
-        <h4 class="label">{{localize "ITEM.OddityName"}}</h4>
-        <a class="oddity-button item-create" data-type="oddity" title="{{localize 'SIS.sheet.newOddity'}}">
+<section class="stat-pane">
+    <div class="stat-header flexrow">
+        <h4 class="label">{{localize "ITEM.Oddities"}}</h4>
+        <a class="stat-button item-create" data-type="oddity" title="{{localize 'SIS.sheet.newOddity'}}">
             <i class="fas fa-plus"></i>
         </a>
     </div>
-    <ul class="oddity-list">
+    <ul class="stat-list">
         {{#each oddities as |oddity id|}}
-        <li class="item oddity-item" data-item-id="{{oddity._id}}">
+        <li class="item stat-item" data-item-id="{{oddity._id}}">
             <h4 class="item-name">
                 <a class="item-edit">
                     {{ oddity.name }}

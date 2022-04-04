@@ -253,35 +253,35 @@
 .sis.sheet.actor.player-character .sheet-body .items-list li.item h4.item-name {
   color: #045f8d;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane {
+.sis.sheet.actor.player-character .sheet-body .stat-pane {
   padding: 0 4px;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-header {
+.sis.sheet.actor.player-character .sheet-body .stat-pane .stat-header {
   justify-content: space-between;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-button {
+.sis.sheet.actor.player-character .sheet-body .stat-pane .stat-button {
   max-width: 30px;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list {
+.sis.sheet.actor.player-character .sheet-body .stat-pane .stat-list {
   list-style-type: none;
   padding: 0;
   margin: 2px 0;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list li {
+.sis.sheet.actor.player-character .sheet-body .stat-pane .stat-list li {
   color: #4b4a44;
   border-bottom: 1px solid #b5b3a4;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list li.oddity-item {
+.sis.sheet.actor.player-character .sheet-body .stat-pane .stat-list li.stat-item {
   padding: 0 2px;
   margin-bottom: 4px;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list li.oddity-item h4.item-name {
+.sis.sheet.actor.player-character .sheet-body .stat-pane .stat-list li.stat-item h4.item-name {
   color: #045f8d;
   border: none;
   font-size: 1.2em;
   margin-bottom: 0;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list li.oddity-item h5 {
+.sis.sheet.actor.player-character .sheet-body .stat-pane .stat-list li.stat-item h5 {
   margin: 0 0 0.5em 0;
   font-weight: lighter;
 }

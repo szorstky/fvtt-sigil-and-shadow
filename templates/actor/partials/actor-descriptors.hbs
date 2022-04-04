@@ -1,0 +1,45 @@
+{{!-- DESCRIPTORS --}}
+<div class="flexrow">
+    {{!-- POSITIVE --}}
+    <section class="stat-pane">
+        <div class="stat-header flexrow">
+            <h4 class="label">{{localize "ACTOR.PositiveDescriptors"}}</h4>
+            <a class="stat-button item-create" data-type="descriptor" data-kind="positive" title="{{localize 'SIS.sheet.newPositiveDescriptor'}}">
+                <i class="fas fa-plus"></i>
+            </a>
+        </div>
+        <ul class="stat-list">
+            {{#each positive_descriptors as |descriptor_pos id|}}
+            <li class="item stat-item" data-item-id="{{descriptor_pos._id}}">
+                <h4 class="item-name">
+                    <a class="item-edit">
+                        {{ descriptor_pos.name }}
+                    </a>
+                </h4>
+            </li>
+            {{/each}}
+        </ul>
+    </section>
+    {{!-- NEGATIVE --}}
+    <div class="flexcol">
+        <section class="stat-pane">
+            <div class="stat-header flexrow">
+                <h4 class="label">{{localize "ACTOR.NegativeDescriptors"}}</h4>
+                <a class="stat-button item-create" data-type="descriptor" data-kind="negative" title="{{localize 'SIS.sheet.newPositiveDescriptor'}}">
+                    <i class="fas fa-plus"></i>
+                </a>
+            </div>
+            <ul class="stat-list">
+                {{#each positive_descriptors as |descriptor_neg id|}}
+                <li class="item stat-item" data-item-id="{{descriptor_neg._id}}">
+                    <h4 class="item-name">
+                        <a class="item-edit">
+                            {{ descriptor_neg.name }}
+                        </a>
+                    </h4>
+                </li>
+                {{/each}}
+            </ul>
+        </section>
+    </div>
+</div>

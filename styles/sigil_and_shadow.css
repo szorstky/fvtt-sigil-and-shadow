@@ -233,24 +233,27 @@
 .sis.sheet.actor.player-character .sheet-body .editor {
   height: 100%;
 }
-.sis.sheet.actor.player-character .sheet-body .items-list {
+.sis.sheet.actor.player-character .sheet-body .items-pane .items-button {
+  max-width: 30px;
+}
+.sis.sheet.actor.player-character .sheet-body .items-pane .items-list {
   list-style-type: none;
   padding: 0;
 }
-.sis.sheet.actor.player-character .sheet-body .items-list li {
+.sis.sheet.actor.player-character .sheet-body .items-pane .items-list li {
   color: #4b4a44;
   justify-content: space-between;
 }
-.sis.sheet.actor.player-character .sheet-body .items-list li h4 {
+.sis.sheet.actor.player-character .sheet-body .items-pane .items-list li h4 {
   border-bottom: 1px solid #b5b3a4;
   white-space: nowrap;
   margin: 4px;
   padding: 0 0 4px 0px;
 }
-.sis.sheet.actor.player-character .sheet-body .items-list li.items-header {
+.sis.sheet.actor.player-character .sheet-body .items-pane .items-list li.items-header {
   padding: 0 2px;
 }
-.sis.sheet.actor.player-character .sheet-body .items-list li.item h4.item-name {
+.sis.sheet.actor.player-character .sheet-body .items-pane .items-list li.item h4.item-name {
   color: #045f8d;
 }
 .sis.sheet.actor.player-character .sheet-body .stat-pane {

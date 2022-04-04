@@ -4,10 +4,10 @@ import SigilPlayerCharacterSheet from "../module/sheets/SigilPlayerCharacterShee
 
 async function preloadHandlebarsTemplates() {
     const templatePaths = [
+        "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs",
         "systems/sigil_and_shadow/templates/actor/partials/actor-descriptors.hbs",
         "systems/sigil_and_shadow/templates/actor/partials/actor-skills.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/skill-item.hbs"
+        "systems/sigil_and_shadow/templates/actor/partials/actor-perks.hbs"
     ];
     return loadTemplates(templatePaths);
 }

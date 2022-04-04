@@ -1,4 +1,3 @@
-<h4 class="label">{{localize "ITEM.OddityName"}}</h4>
 <ul class="oddity-list">
     {{#each oddities as |oddity id|}}
     <li class="item oddity-item" data-item-id="{{oddity._id}}">
@@ -7,7 +6,7 @@
                 {{ oddity.name }}
             </a>
         </h4>
-        <p>{{oddity.data.description}}</p>
+        <h6>{{oddity.data.description}}</6>
     </li>
     {{/each}}
     <li class="item">

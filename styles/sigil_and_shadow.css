@@ -266,9 +266,10 @@
 .sis.sheet.actor.player-character .sheet-body .oddity-list h4.item-name {
   color: #045f8d;
   border: none;
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-bottom: 0;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-list p {
+.sis.sheet.actor.player-character .sheet-body .oddity-list h6 {
   margin: 0 0 0.5em 0;
+  font-weight: lighter;
 }

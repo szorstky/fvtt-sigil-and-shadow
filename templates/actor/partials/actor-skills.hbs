@@ -5,6 +5,10 @@
         <h4>{{localize "ITEM.SkillAbility"}}</h4>
         <h4>{{localize "ITEM.SkillLevel"}}</h4>
         <h4>{{localize "ITEM.SkillScore"}}</h4>
+        <a class="item-create" data-type="skill" title="{{localize 'SIS.sheet.newSkill'}}">
+            <i class="fas fa-plus"></i>
+            {{ localize 'SIS.sheet.newSkill' }}
+        </a>
     </li>
     {{#each skills as |skill id|}}
     <li class="item skill-item flexrow" data-item-id="{{skill._id}}">
@@ -19,10 +23,4 @@
         <h4>{{skill.data.score}}</h4>
     </li>
     {{/each}}
-    <li class="item">
-        <a class="item-create" data-type="skill" title="{{localize 'SIS.sheet.newSkill'}}">
-            <i class="fas fa-plus"></i>
-            {{ localize 'SIS.sheet.newSkill' }}
-        </a>
-    </li>
 </ul>

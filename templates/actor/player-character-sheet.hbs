@@ -3,14 +3,6 @@
         <img class="avatar" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" />
         {{!-- STATS --}}
         <div class="stat-box">
-            <h4 class="label">{{ localize 'ACTOR.Background' }}</h4>
-            <input class="center" name="data.background" type="text" value="{{data.background}}" />
-        </div>
-        <div class="stat-box">
-            <h4 class="label">{{ localize 'ACTOR.Lifestyle' }}</h4>
-            <input class="center" name="data.lifestyle" type="text" value="{{data.lifestyle}}" />
-        </div>
-        <div class="stat-box">
             <h4 class="label">{{ localize 'ACTOR.Initiative' }}</h4>
             <input class="center" name="data.initiative" type="number" value="{{data.initiative}}" data-dtype="Number" />
         </div>
@@ -213,6 +205,17 @@
                         <input name="data.drive" type="text" value="{{data.drive}}" />
                     </div>
                 </div>
+                <div class="flexrow">
+                    <div class="stat-box">
+                        <h4 class="label">{{ localize 'ACTOR.Background' }}</h4>
+                        <input class="center" name="data.background" type="text" value="{{data.background}}" />
+                    </div>
+                    <div class="stat-box">
+                        <h4 class="label">{{ localize 'ACTOR.Lifestyle' }}</h4>
+                        <input class="center" name="data.lifestyle" type="text" value="{{data.lifestyle}}" />
+                    </div>
+                </div>
+                {{!-- ODDITIES --}}
                 {{> "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs"}}
             </div>
             {{!-- SKILLS --}}

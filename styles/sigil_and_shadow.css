@@ -259,6 +259,9 @@
 .sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-header {
   justify-content: space-between;
 }
+.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-button {
+  max-width: 30px;
+}
 .sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list {
   list-style-type: none;
   padding: 0;

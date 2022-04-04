@@ -7,6 +7,10 @@
   src: url('../fonts/impact-label.ttf');
 }
 @font-face {
+  font-family: 'Dymo';
+  src: url('../fonts/dymo.ttf');
+}
+@font-face {
   font-family: 'Silk-Remington';
   src: url('../fonts/silk-remington.ttf');
 }
@@ -132,6 +136,7 @@
 }
 .sis.sheet.actor.player-character {
   font-family: "Mechanical-Machine";
+  font-size: 1.2em;
 }
 .sis.sheet.actor.player-character form {
   display: flex;
@@ -230,6 +235,9 @@
   border-bottom: 1px solid #b5b3a4;
   margin: 0;
   font-size: 1.2em;
+}
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box input.dymo {
+  font-family: "Dymo";
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel {
   height: 100%;

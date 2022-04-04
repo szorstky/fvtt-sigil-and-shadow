@@ -1,0 +1,37 @@
+{{!-- WEAPONS --}}
+<section class="items-pane">
+    <ul class="items-list skill-list">
+        <li class="items-header flexrow">
+            <h4>{{localize "ITEM.WeaponName"}}</h4>
+            <h4>{{localize "ITEM.WeaponDamage"}}</h4>
+            <h4>{{localize "ITEM.WeaponRange"}}</h4>
+            <h4>{{localize "ITEM.WeaponAmmo"}}</h4>
+            <h4>{{localize "ITEM.WeaponReloads"}}</h4>
+            <h4>{{localize "ITEM.WeaponConceal"}}</h4>
+            <h4 class="items-icon">{{localize "ITEM.WeaponNotes"}}</h4>
+            <a class="items-button item-create" data-type="weapon" title="{{localize 'SIS.sheet.newWeapon'}}">
+                <i class="fas fa-plus"></i>
+            </a>
+        </li>
+        {{#each weapons as |weapon id|}}
+        <li class="item weapon-item flexrow" data-item-id="{{weapon._id}}">
+            <h4 class="item-name flexrow">
+                <a class="item-edit">
+                    {{weapon.name}}
+                </a>
+            </h4>
+            <h4>{{weapon.data.damage}}</h4>
+            <h4>{{weapon.data.range}}</h4>
+            <h4>{{weapon.data.ammo}}</h4>
+            <h4>{{weapon.data.reloads}}</h4>
+            <h4>{{weapon.data.conceal}}</h4>
+            <div class="items-icon">
+                {{#if weapon.data.notes}}
+                <i class="fas fa-message"></i> 
+                {{/if}}
+            </div>
+            <div class="items-actions"></div>
+        </li>
+        {{/each}}
+    </ul>
+</section>

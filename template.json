@@ -69,6 +69,8 @@
         "types": [
             "item",
             "weapon",
+            "armour",
+            "vehicle",
             "skill",
             "oddity",
             "perk",
@@ -77,13 +79,13 @@
         ],
         "templates": {
             "base_item": {
-                "notes": ""
+                "description": ""
             }
         },
         "skill": {
-            "base_item": {
-                "notes": ""
-            },
+            "templates": [
+                "base_item"
+            ],
             "focus_of": "",
             "ability": "",
             "level": 0,
@@ -92,8 +94,7 @@
         "oddity": {
             "templates": [
                 "base_item"
-            ],
-            "description": ""
+            ]
         },
         "perk": {
             "templates": [
@@ -124,7 +125,21 @@
             "range": "",
             "ammo": "",
             "conceal": "",
-            "notes": ""
+            "is_equipped": false
+        }, 
+        "armour": {
+            "templates": [
+                "base_item"
+            ],
+            "damage_resistance": 0,
+            "dexterity_modifier": 0,
+            "is_equipped": false
+        },
+        "vehicle" : {
+            "templates": [
+                "base_item"
+            ],
+            "performance": 0
         }
     }
 }

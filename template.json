@@ -67,7 +67,7 @@
     },
     "Item": {
         "types": [
-            "item",
+            "equipment",
             "weapon",
             "armour",
             "vehicle",
@@ -101,7 +101,7 @@
                 "base_item"
             ]
         },
-        "special_power": {
+        "power": {
             "templates": [
                 "base_item"
             ]
@@ -112,7 +112,7 @@
             ],
             "kind": ""
         },
-        "item": {
+        "equipment": {
             "templates": [
                 "base_item"
             ]

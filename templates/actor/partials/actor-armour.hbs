@@ -13,13 +13,13 @@
         </li>
         {{#each armours as |armour id|}}
         <li class="item armour-item flexrow" data-item-id="{{armour._id}}">
-            <h4 class="item-name flexrow">
+            <h4 class="item-name flexrow flex3">
                 <a class="item-edit">
                     {{armour.name}}
                 </a>
             </h4>
-            <h4>{{armour.data.damage_resistance}}</h4>
-            <h4>{{armour.data.dexterity_modifier}}</h4>
+            <h4 class="flex1">{{armour.data.damage_resistance}}</h4>
+            <h4 class="flex1">{{armour.data.dexterity_modifier}}</h4>
             <div class="items-actions"></div>
         </li>
         {{/each}}

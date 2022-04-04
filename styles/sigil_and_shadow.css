@@ -259,6 +259,10 @@
 .sis.sheet.actor.player-character .sheet-body .items-pane .items-list li.item h4.item-name {
   color: #045f8d;
 }
+.sis.sheet.actor.player-character .sheet-body .items-pane .items-list li.item .items-icon {
+  max-width: 30px;
+  text-align: center;
+}
 .sis.sheet.actor.player-character .sheet-body .stat-pane {
   padding: 4px 4px 0 4px;
 }

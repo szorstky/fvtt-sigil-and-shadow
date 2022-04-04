@@ -110,6 +110,10 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
                 return game.i18n.localize("SIS.sheet.newPower");
             case "skill":
                 return game.i18n.localize("SIS.sheet.newSkill");
+            case "weapon":
+                return game.i18n.localize("SIS.sheet.newWeapon");
+            case "armour":
+                return game.i18n.localize("SIS.sheet.newArmour");
             default: 
                 return game.i18n.localize("SIS.sheet.newItem");
         }

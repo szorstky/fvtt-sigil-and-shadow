@@ -1,4 +1,6 @@
 {
+    "positive": "Positive",
+    "negative": "Negative",
     "ITEM.DescriptorPositive": "Positive",
     "ITEM.DescriptorNegative": "Negative",
 

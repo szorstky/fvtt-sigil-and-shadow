@@ -260,7 +260,7 @@
   color: #045f8d;
 }
 .sis.sheet.actor.player-character .sheet-body .items-pane .items-list li.item h4.item-name i {
-  margin-left: 8px;
+  margin: 0 8px;
 }
 .sis.sheet.actor.player-character .sheet-body .items-pane .items-list li.item .items-icon {
   max-width: 30px;

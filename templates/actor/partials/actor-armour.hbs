@@ -2,9 +2,12 @@
 <section class="items-pane">
     <ul class="items-list armour-list">
         <li class="items-header flexrow">
-            <h4>{{localize "ITEM.ArmourName"}}</h4>
-            <h4>{{localize "ITEM.ArmourDamageResistance"}}</h4>
-            <h4>{{localize "ITEM.ArmorDexterityModifier"}}</h4>
+            <h4>
+                <i class="fas fa-shield"></i>
+                {{localize "ITEM.ArmourName"}}
+            </h4>
+            <h4 title="{{ localize "ITEM.ArmourDamageResistance" }}">{{localize "ITEM.ArmourDR"}}</h4>
+            <h4 title="{{ localize "ITEM.ArmorDexterityModifier" }}">{{localize "ITEM.ArmorDexMod"}}</h4>
             <a class="items-button item-create" data-type="armour" title="{{localize 'SIS.sheet.newArmour'}}">
                 <i class="fas fa-plus"></i>
             </a>

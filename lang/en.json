@@ -12,6 +12,12 @@
     "ITEM.WeaponConceal": "Conceal",
     "ITEM.WeaponNotes": "Notes",
 
+    "ITEM.ArmourName" : "",
+    "ITEM.ArmourDR" : "DR",
+    "ITEM.ArmourDamageResistance" : "Damage Resistance",
+    "ITEM.ArmorDexterityModifier" : "Dexterity Modifier",
+    "ITEM.ArmorDexMod" : "DEX Mod",
+
     "ITEM.SkillName" : "Skill",
     "ITEM.SkillFocusOf" : "Focus",
     "ITEM.SkillAbility" : "Ability",

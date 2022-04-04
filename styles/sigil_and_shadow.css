@@ -238,6 +238,12 @@
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box input.dymo {
   font-family: "Dymo";
+  height: 50px;
+  color: black;
+  font-size: 1.5em;
+}
+.sis.sheet.actor.player-character .sheet-body .sheet-tabs a {
+  font-weight: bold;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel {
   height: 100%;

@@ -9,7 +9,9 @@
                 <th>{{localize "ITEM.WeaponDamage"}}</th>
                 <th>{{localize "ITEM.WeaponRange"}}</th>
                 <th>{{localize "ITEM.WeaponAmmo"}}</th>
-                <th>{{localize "ITEM.WeaponConceal"}}</th>           
+                <th>{{localize "ITEM.WeaponReloads"}}</th>
+                <th>{{localize "ITEM.WeaponConceal"}}</th>    
+                <th>{{localize "ITEM.WeaponNotes"}}</th>       
             </tr>
             <tr>               
                 <td>
@@ -22,8 +24,16 @@
                     <input name="data.ammo" type="text" value="{{data.ammo}}" data-dtype="String" />
                 </td>
                 <td>
+                    <input name="data.reloads" type="number" value="{{data.reloads}}" data-dtype="Number" />
+                </td>   
+                <td>
                     <input name="data.conceal" type="text" value="{{data.conceal}}" data-dtype="String" />
-                </td>                           
+                </td>  
+                <td>
+                    {{#if power.data.notes}}
+                    <i class="fas fa-message"></i>
+                    {{/if}}
+                </td>                         
             </tr>
         </table>
         <!-- <textarea name="data.notes">{{data.description}}</textarea> -->

@@ -3,7 +3,7 @@
     "title": "Sigil And Shadow",
     "description": "Many details here.",
     "version": "1.0.0",
-    "compatibleCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "0.8.9",
     "templateVersion": 1,
     "author": "Szorstky",
     "scripts": [],

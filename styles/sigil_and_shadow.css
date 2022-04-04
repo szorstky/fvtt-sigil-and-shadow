@@ -4,13 +4,15 @@
 /* ----------------------------------------- */
 @font-face {
   font-family: 'FBI Old Report-Regular';
-  font-style: normal;
-  font-weight: 400;
   src: url('../fonts/fbi-old-report.ttf');
 }
 @font-face {
   font-family: 'Impact-Label';
   src: url('../fonts/impact-label.ttf');
+}
+@font-face {
+  font-family: 'Silk-Remington';
+  src: url('../fonts/silk-remington.ttf');
 }
 /* ----------------------------------------- */
 /*  Sheet Styles                             */
@@ -128,6 +130,9 @@
 .sis.sheet.actor .sheet-header div.resource-box input {
   width: 100%;
 }
+.sis.sheet.actor.player-character {
+  font-family: "Silk-Remington";
+}
 .sis.sheet.actor.player-character form {
   display: flex;
   flex-direction: row;
@@ -210,7 +215,6 @@
   margin: 0 6px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2 {
-  font-family: 'Impact-Label';
   text-align: center;
   margin: 6px 0 0 0;
   border: none;

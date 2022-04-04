@@ -6,7 +6,7 @@
   font-family: 'FBI Old Report-Regular';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/fbi-old-report.ttf');
+  src: url('../fonts/fbi-old-report.ttf');
 }
 /* ----------------------------------------- */
 /*  Sheet Styles                             */

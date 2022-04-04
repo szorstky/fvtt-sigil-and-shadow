@@ -1,0 +1,21 @@
+{{!-- PERKS --}}
+<section class="stat-pane">
+    <div class="stat-header flexrow">
+        <h4 class="label">{{localize "ACTOR.Perks"}}</h4>
+        <a class="stat-button item-create" data-type="perk" title="{{localize 'SIS.sheet.newPerk'}}">
+            <i class="fas fa-plus"></i>
+        </a>
+    </div>
+    <ul class="stat-list">
+        {{#each perks as |perk id|}}
+        <li class="item stat-item" data-item-id="{{perk._id}}">
+            <h4 class="item-name">
+                <a class="item-edit">
+                    {{ perk.name }}
+                </a>
+            </h4>
+            <h5>{{oddity.data.perk}}</h5>
+        </li>
+        {{/each}}
+    </ul>
+</section>

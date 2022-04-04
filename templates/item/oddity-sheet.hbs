@@ -4,6 +4,6 @@
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
     <div class="sheet-content">        
-        {{ editor content=data.notes target="data.notes" owner=owner button=true editable=editable }}
+        <textarea rows="3" name="data.description">{{data.description}}</textarea> 
     </div>
 </form>

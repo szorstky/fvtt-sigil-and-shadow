@@ -65,8 +65,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
 
         data.oddities = actorData.items.filter(function(item){ return item.type == "oddity"});
         
-        data.positive_descriptors = actorData.items.filter(function(item){ return item.type == "descriptor" && item.kind == "positive"});
-        data.negative_descriptors = actorData.items.filter(function(item){ return item.type == "descriptor" && item.kind == "negative"});
+        data.descriptors = actorData.items.filter(function(item){ return item.type == "descriptor"});
         
         data.perks = actorData.items.filter(function(item){ return item.type == "perk"});
         

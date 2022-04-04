@@ -254,7 +254,7 @@
   color: #045f8d;
 }
 .sis.sheet.actor.player-character .sheet-body .stat-pane {
-  padding: 2px 0 4px 0;
+  padding: 4px 4px 0 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .stat-pane .stat-header {
   justify-content: space-between;

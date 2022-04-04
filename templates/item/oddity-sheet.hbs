@@ -4,7 +4,6 @@
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
     <div>        
-        <!-- <textarea name="data.notes">{{data.description}}</textarea> -->
-        {{editor content=data.notes target="data.notes" button=true editable=editable}}
+        {{editor content=data.notes target="data.description" button=true editable=editable}}
     </div>
 </form>

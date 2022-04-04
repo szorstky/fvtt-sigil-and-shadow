@@ -91,20 +91,6 @@
             <h1 class="character-name">
                 <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize "ACTOR.CharacterName" }}" />
             </h1>
-            <div class="flexrow">
-                <div class="stat-box">
-                    <h4 class="label">{{ localize 'ACTOR.Alignment' }}</h4>
-                    <input name="data.alignment" type="text" value="{{data.alignment}}" />
-                </div>
-                <div class="stat-box">
-                    <h4 class="label">{{ localize 'ACTOR.Casting' }}</h4>
-                    <input name="data.casting" type="text" value="{{data.casting}}" />
-                </div>
-                <div class="stat-box">
-                    <h4 class="label">{{ localize 'ACTOR.Drive' }}</h4>
-                    <input name="data.drive" type="text" value="{{data.drive}}" />
-                </div>
-            </div>
             <!-- ABILITIES -->
             <div class="abilities-container flexrow">
                 {{!-- STRENGHT --}}
@@ -213,7 +199,20 @@
         <div class="sheet-tabs-panel">
             {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
             <div class="tab bio" data-group="primary" data-tab="bio">
-                 {{> "systems/sigil_and_shadow/templates/actor/partials/actor-background.hbs"}}
+                 <div class="flexrow">
+                    <div class="stat-box">
+                        <h4 class="label">{{ localize 'ACTOR.Alignment' }}</h4>
+                        <input name="data.alignment" type="text" value="{{data.alignment}}" />
+                    </div>
+                    <div class="stat-box">
+                        <h4 class="label">{{ localize 'ACTOR.Casting' }}</h4>
+                        <input name="data.casting" type="text" value="{{data.casting}}" />
+                    </div>
+                    <div class="stat-box">
+                        <h4 class="label">{{ localize 'ACTOR.Drive' }}</h4>
+                        <input name="data.drive" type="text" value="{{data.drive}}" />
+                    </div>
+                </div>
             </div>
             {{!-- SKILLS --}}
             <div class="tab skills" data-group="primary" data-tab="skills">

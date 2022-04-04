@@ -9,6 +9,7 @@
     }   
     
     h4.label {
+        color: @colorOlive;
         margin: 2px 0 0 0;
     }
 
@@ -147,28 +148,30 @@
                 }
             }
         }
-
-        .oddity-list {
-            list-style-type: none;
+        .oddity-pane {
             padding: 0 4px;
-            li {
-                color: @colorOlive;
-                border-bottom: 1px solid @actorColorBorder;
-            }
-            li.items-header {
-                border: none;
-            }
+            .oddity-list {
+                list-style-type: none;
+                padding: 0;
+                li {
+                    color: @colorOlive;
+                    border-bottom: 1px solid @actorColorBorder;
+                }
+                li.items-header {
+                    border: none;
+                }
 
-            h4.item-name {
-                color: @colorSigil;
-                border: none;
-                font-size: 1.2em;
-                margin-bottom: 0;
-            }
+                h4.item-name {
+                    color: @colorSigil;
+                    border: none;
+                    font-size: 1.2em;
+                    margin-bottom: 0;
+                }
 
-            h6 {
-                margin: 0 0 0.5em 0;
-                font-weight: lighter;
+                h6 {
+                    margin: 0 0 0.5em 0;
+                    font-weight: lighter;
+                }
             }
         }
     } 

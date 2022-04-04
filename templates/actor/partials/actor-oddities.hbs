@@ -1,18 +1,21 @@
-<ul class="oddity-list">
-    {{#each oddities as |oddity id|}}
-    <li class="item oddity-item" data-item-id="{{oddity._id}}">
-        <h4 class="item-name">
-            <a class="item-edit">
-                {{ oddity.name }}
+<section class="oddity-pane">
+    <h4 class="label">{{localize "ITEM.OddityName"}}</h4>
+    <ul class="oddity-list">
+        {{#each oddities as |oddity id|}}
+        <li class="item oddity-item" data-item-id="{{oddity._id}}">
+            <h4 class="item-name">
+                <a class="item-edit">
+                    {{ oddity.name }}
+                </a>
+            </h4>
+            <h5>{{oddity.data.description}}</h5>
+        </li>
+        {{/each}}
+        <li class="item">
+            <a class="item-create" data-type="oddity" title="{{localize 'SIS.sheet.newOddity'}}">
+                <i class="fas fa-plus"></i>
+                {{ localize 'SIS.sheet.newOddity' }}
             </a>
-        </h4>
-        <h6>{{oddity.data.description}}</6>
-    </li>
-    {{/each}}
-    <li class="item">
-        <a class="item-create" data-type="oddity" title="{{localize 'SIS.sheet.newOddity'}}">
-            <i class="fas fa-plus"></i>
-            {{ localize 'SIS.sheet.newOddity' }}
-        </a>
-    </li>
-</ul>
+        </li>
+    </ul>
+</section>

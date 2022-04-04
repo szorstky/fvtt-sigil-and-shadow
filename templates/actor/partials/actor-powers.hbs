@@ -14,7 +14,12 @@
                     {{ power.name }} <span>{{power.data.kind}}</span>
                 </a>
             </h4>
-            <h5>{{power.data.description}}</h5>
+            <h5>
+                {{#if power.data.kind}}
+                <b>[ {{power.data.kind}}] </b>
+                {{/if}}
+                {{power.data.description}}
+            </h5>
         </li>
         {{/each}}
     </ul>

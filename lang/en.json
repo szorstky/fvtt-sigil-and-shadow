@@ -17,6 +17,8 @@
     "ITEM.OddityName" : "Oddity",
     "ITEM.OddityDescription" : "Description",
 
+    "ITEM.DescriptorName" : "Descriptor",
+    "ITEM.DescriptorType" : "Type",
 
     "ACTOR.PlayerAlignmentTheIlluminated": "The Illuminated",
     "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed",
@@ -48,7 +50,8 @@
     "ACTOR.Base": "Base",
     "ACTOR.Mod": "Mod",
 
-
+    "ACTOR.PositiveDescriptors": "Positive Descriptors",
+    "ACTOR.NegativeDescriptors": "Negative Descriptors",
     "ACTOR.Oddities": "Oddities",
     "ACTOR.Skills": "Skills",
     "ACTOR.Equipment": "Equipment",
@@ -62,6 +65,8 @@
     "SIS.sheet.newItem": "New Item",
     "SIS.sheet.newSkill": "New Skill",
     "SIS.sheet.newOddity": "New Oddity",
+    "SIS.sheet.newPositiveDescriptor": "New Positive Descriptor",
+    "SIS.sheet.newNegativeDescriptor": "New Negative Descriptor",
 
     "SIS.sheet.add": "Add",
     "SIS.sheet.edit": "Edit",

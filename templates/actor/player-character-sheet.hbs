@@ -181,16 +181,16 @@
         </section>
          {{!-- Sheet Tab Navigation --}}
         <nav class="sheet-tabs tabs full-width" data-group="primary">
-            <a class="item" data-tab="bio">{{ localize 'ACTOR.Bio' }}</a>
+            <a class="item" data-tab="background">{{ localize 'ACTOR.Background' }}</a>
             <a class="item" data-tab="skills">{{ localize 'ACTOR.Skills' }}</a>
             <a class="item" data-tab="perks">{{ localize 'ACTOR.Perks' }}</a>
             <a class="item" data-tab="powers">{{ localize 'ACTOR.Powers' }}</a>
             <a class="item" data-tab="equipment">{{ localize 'ACTOR.Equipment' }}</a>
-            <a class="item" data-tab="notes">{{ localize 'ACTOR.Notes' }}</a>
+            <a class="item" data-tab="bio">{{ localize 'ACTOR.Bio' }}</a>
         </nav>
         <div class="sheet-tabs-panel">
             {{!-- BACKGROUND, ODDITIES, DESCRIPTORS --}}
-            <div class="tab bio" data-group="primary" data-tab="bio">
+            <div class="tab background" data-group="primary" data-tab="background">
                  <div class="flexrow">
                     <div class="stat-box">
                         <h4 class="label">{{ localize 'ACTOR.Alignment' }}</h4>
@@ -217,6 +217,8 @@
                 </div>
                 {{!-- ODDITIES --}}
                 {{> "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs"}}
+                {{!-- DESCRIPTORS --}}
+                {{> "systems/sigil_and_shadow/templates/actor/partials/actor-descriptors.hbs"}}
             </div>
             {{!-- SKILLS --}}
             <div class="tab skills" data-group="primary" data-tab="skills">
@@ -233,8 +235,8 @@
             <div class="tab equipment" data-group="primary" data-tab="equipment">
                 Equipment
             </div>
-            {{!-- NOTES --}}
-            <div class="tab notes" data-group="primary" data-tab="notes">
+            {{!-- BIO --}}
+            <div class="tab bio" data-group="primary" data-tab="bio">
                 {{ editor content=data.notes target="data.notes" owner=owner button=true editable=editable }}
             </div>
         </div>

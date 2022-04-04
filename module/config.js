@@ -1,6 +1,6 @@
 export const sigil_and_shadow = {};
 
-sigil_and_shadow.descriptorTypes = {
+sigil_and_shadow.actorDescriptorKinds = {
     positive: "ITEM.DescriptorPositive",
     negative: "ITEM.DescriptorNegative",
 }

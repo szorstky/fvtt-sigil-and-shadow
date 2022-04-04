@@ -10,7 +10,7 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
             width: 860,
             innerHeight: 640,
             classes: ["sis", "sheet", "actor", "player-character"],
-            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-tabs-panel", initial: "skills" }]
+            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-tabs-panel", initial: "background" }]
         });
     }
 
@@ -65,7 +65,8 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
 
         data.oddities = actorData.items.filter(function(item){ return item.type == "oddity"});
         
-        data.descriptors = actorData.items.filter(function(item){ return item.type == "descriptor"});
+        data.positive_descriptors = actorData.items.filter(function(item){ return item.type == "descriptor" && kind == "positive"});
+        data.negative_descriptors = actorData.items.filter(function(item){ return item.type == "descriptor" && kind == "negative"});
         
         data.perks = actorData.items.filter(function(item){ return item.type == "perk"});
         

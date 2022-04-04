@@ -109,7 +109,7 @@
             "templates": [
                 "base_item"
             ],
-            "type": ""
+            "kind": ""
         },
         "item": {
             "templates": [

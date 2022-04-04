@@ -8,6 +8,10 @@
   font-weight: 400;
   src: url('../fonts/fbi-old-report.ttf');
 }
+@font-face {
+  font-family: 'Impact-Label';
+  src: url('../fonts/impact-label.ttf');
+}
 /* ----------------------------------------- */
 /*  Sheet Styles                             */
 /* ----------------------------------------- */
@@ -206,7 +210,7 @@
   margin: 0 6px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2 {
-  font-family: 'FBI Old Report-Regular';
+  font-family: 'Impact-Label';
   text-align: center;
   margin: 6px 0 0 0;
   border: none;

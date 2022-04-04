@@ -254,9 +254,11 @@
 }
 .sis.sheet.actor.player-character .sheet-body .oddity-list {
   list-style-type: none;
+  padding: 0 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .oddity-list li {
   color: #4b4a44;
+  border-bottom: 1px solid #b5b3a4;
 }
 .sis.sheet.actor.player-character .sheet-body .oddity-list li.items-header {
   border: none;
@@ -264,4 +266,5 @@
 .sis.sheet.actor.player-character .sheet-body .oddity-list h4.item-name {
   color: #045f8d;
   border: none;
+  font-size: 1.4em;
 }

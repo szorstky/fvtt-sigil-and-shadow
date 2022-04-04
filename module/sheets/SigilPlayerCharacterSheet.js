@@ -100,8 +100,16 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
 
     _newItemToString(type) {
         switch (type) {
+            case "oddity":
+                return game.i18n.localize("SIS.sheet.newOddity");
+            case "descriptor":
+                return game.i18n.localize("SIS.sheet.newDescriptor");
+            case "perk":
+                return game.i18n.localize("SIS.sheet.newPerk");
+            case "power":
+                return game.i18n.localize("SIS.sheet.newPower");
             case "skill":
-                return game.i18n.localize("SIS.sheet.newSkill")
+                return game.i18n.localize("SIS.sheet.newSkill");
             default: 
                 return game.i18n.localize("SIS.sheet.newItem");
         }

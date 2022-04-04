@@ -236,6 +236,9 @@
 .sis.sheet.actor.player-character .sheet-body .items-pane .items-button {
   max-width: 30px;
 }
+.sis.sheet.actor.player-character .sheet-body .items-pane .items-actions {
+  max-width: 30px;
+}
 .sis.sheet.actor.player-character .sheet-body .items-pane .items-list {
   list-style-type: none;
   padding: 0;

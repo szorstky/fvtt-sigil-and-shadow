@@ -1,10 +1,10 @@
-<ul class="items-list oddity-list">
+<ul class="oddity-list">
     <li class="items-header">
         <h4>{{localize "ITEM.OddityName"}}</h4>
     </li>
     {{#each oddities as |oddity id|}}
     <li class="item oddity-item" data-item-id="{{oddity._id}}">
-        <h4 class="item-name flexrow">
+        <h4 class="item-name">
             <a class="item-edit">
                 {{oddity.name}}
             </a>

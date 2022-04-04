@@ -1,0 +1,25 @@
+{{!-- ARMOUR --}}
+<section class="items-pane">
+    <ul class="items-list armour-list">
+        <li class="items-header flexrow">
+            <h4>{{localize "ITEM.ArmourName"}}</h4>
+            <h4>{{localize "ITEM.ArmourDamageResistance"}}</h4>
+            <h4>{{localize "ITEM.ArmorDexterityModifier"}}</h4>
+            <a class="items-button item-create" data-type="armour" title="{{localize 'SIS.sheet.newArmour'}}">
+                <i class="fas fa-plus"></i>
+            </a>
+        </li>
+        {{#each armours as |armour id|}}
+        <li class="item weapon-item flexrow" data-item-id="{{weapon._id}}">
+            <h4 class="item-name flexrow">
+                <a class="item-edit">
+                    {{armour.name}}
+                </a>
+            </h4>
+            <h4>{{armour.data.damage_resistance}}</h4>
+            <h4>{{armour.data.dexterity_modifier}}</h4>
+            <div class="items-actions"></div>
+        </li>
+        {{/each}}
+    </ul>
+</section>

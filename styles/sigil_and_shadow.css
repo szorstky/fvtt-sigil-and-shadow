@@ -258,7 +258,8 @@
 }
 .sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list {
   list-style-type: none;
-  padding: 0;
+  padding: 0 4px;
+  margin: 2px 0;
 }
 .sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list li {
   color: #4b4a44;
@@ -267,13 +268,16 @@
 .sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list li.items-header {
   border: none;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list h4.item-name {
+.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list li.oddity-item {
+  padding: 0 2px;
+}
+.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list li.oddity-item h4.item-name {
   color: #045f8d;
   border: none;
   font-size: 1.2em;
   margin-bottom: 0;
 }
-.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list h6 {
+.sis.sheet.actor.player-character .sheet-body .oddity-pane .oddity-list li.oddity-item h5 {
   margin: 0 0 0.5em 0;
   font-weight: lighter;
 }

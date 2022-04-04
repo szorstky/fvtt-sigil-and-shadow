@@ -152,7 +152,8 @@
             padding: 0 4px;
             .oddity-list {
                 list-style-type: none;
-                padding: 0;
+                padding: 0 4px;
+                margin: 2px 0;
                 li {
                     color: @colorOlive;
                     border-bottom: 1px solid @actorColorBorder;
@@ -161,16 +162,20 @@
                     border: none;
                 }
 
-                h4.item-name {
-                    color: @colorSigil;
-                    border: none;
-                    font-size: 1.2em;
-                    margin-bottom: 0;
-                }
+                li.oddity-item { 
+                    padding: 0 2px;
 
-                h6 {
-                    margin: 0 0 0.5em 0;
-                    font-weight: lighter;
+                    h4.item-name {
+                        color: @colorSigil;
+                        border: none;
+                        font-size: 1.2em;
+                        margin-bottom: 0;
+                    }
+
+                    h5 {
+                        margin: 0 0 0.5em 0;
+                        font-weight: lighter;
+                    }
                 }
             }
         }

@@ -1,6 +1,7 @@
 {
     "ITEM.DescriptorPositive": "Positive",
     "ITEM.DescriptorNegative": "Negative",
+
     "ITEM.WeaponName": "Damage",
     "ITEM.WeaponDamage": "Damage",
     "ITEM.WeaponRange": "Range",
@@ -19,6 +20,8 @@
 
     "ITEM.DescriptorName" : "Descriptor",
     "ITEM.DescriptorType" : "Type",
+
+    "ITEM.PowerKindPlaceholder": "Burdens, Gifts, Manifestations, Perks, Spells, etc",
 
     "ACTOR.PlayerAlignmentTheIlluminated": "The Illuminated",
     "ACTOR.PlayerAlignmentTheShadowed": "The Shadowed",

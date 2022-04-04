@@ -183,7 +183,6 @@
         <nav class="sheet-tabs tabs full-width" data-group="primary">
             <a class="item" data-tab="background">{{ localize 'ACTOR.Background' }}</a>
             <a class="item" data-tab="skills">{{ localize 'ACTOR.Skills' }}</a>
-            <a class="item" data-tab="perks">{{ localize 'ACTOR.Perks' }}</a>
             <a class="item" data-tab="powers">{{ localize 'ACTOR.Powers' }}</a>
             <a class="item" data-tab="equipment">{{ localize 'ACTOR.Equipment' }}</a>
             <a class="item" data-tab="bio">{{ localize 'ACTOR.Bio' }}</a>
@@ -217,16 +216,14 @@
                 </div>
                 {{!-- ODDITIES --}}
                 {{> "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs"}}
+                {{!-- PERKS --}}
+                {{> "systems/sigil_and_shadow/templates/actor/partials/actor-perks.hbs"}}
                 {{!-- DESCRIPTORS --}}
                 {{> "systems/sigil_and_shadow/templates/actor/partials/actor-descriptors.hbs"}}
             </div>
             {{!-- SKILLS --}}
             <div class="tab skills" data-group="primary" data-tab="skills">
                 {{> "systems/sigil_and_shadow/templates/actor/partials/actor-skills.hbs"}}
-            </div>
-            {{!-- PERKS --}}
-            <div class="tab perks" data-group="primary" data-tab="perks">
-                {{> "systems/sigil_and_shadow/templates/actor/partials/actor-perks.hbs"}}
             </div>
             {{!-- POWERS --}}
             <div class="tab powers" data-group="primary" data-tab="powers">

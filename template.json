@@ -86,7 +86,6 @@
             "templates": [
                 "base_item"
             ],
-            "focus_of": "",
             "ability": "",
             "level": 0,
             "score": 0
@@ -104,7 +103,8 @@
         "power": {
             "templates": [
                 "base_item"
-            ]
+            ], 
+            "kind": ""
         },
         "descriptor": {
             "templates": [

@@ -7,7 +7,8 @@ async function preloadHandlebarsTemplates() {
         "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs",
         "systems/sigil_and_shadow/templates/actor/partials/actor-descriptors.hbs",
         "systems/sigil_and_shadow/templates/actor/partials/actor-skills.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-perks.hbs"
+        "systems/sigil_and_shadow/templates/actor/partials/actor-perks.hbs",
+        "systems/sigil_and_shadow/templates/actor/partials/actor-powers.hbs"
     ];
     return loadTemplates(templatePaths);
 }

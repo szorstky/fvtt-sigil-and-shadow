@@ -1,0 +1,21 @@
+{{!-- PERKS --}}
+<section class="stat-pane">
+    <div class="stat-header flexrow">
+        <h4 class="label">{{localize "ACTOR.Powers"}}</h4>
+        <a class="stat-button item-create" data-type="power" title="{{localize 'SIS.sheet.newPower'}}">
+            <i class="fas fa-plus"></i>
+        </a>
+    </div>
+    <ul class="stat-list">
+        {{#each powers as |power id|}}
+        <li class="item stat-item" data-item-id="{{power._id}}">
+            <h4 class="item-name">
+                <a class="item-edit">
+                    {{ power.name }}
+                </a>
+            </h4>
+            <h5>{{power.data.description}}</h5>
+        </li>
+        {{/each}}
+    </ul>
+</section>

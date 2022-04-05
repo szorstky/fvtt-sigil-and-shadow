@@ -109,6 +109,9 @@
 .sis.sheet.item .sheet-header div.header-spacer {
   min-height: 16px;
 }
+.sis.sheet.item .sheet-header div.header-spacer-row {
+  min-width: 6px;
+}
 .sis.sheet.item .sheet-content {
   height: 100%;
   display: flex;

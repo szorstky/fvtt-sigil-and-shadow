@@ -1,46 +1,20 @@
 <form class="{{cssClass}}" autocomplete="off">
     <header class="sheet-header">
-        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
-        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
-    </header>
-    <div class="sheet-content">
-        <table>
-            <tr>                
-                <th>{{localize "ITEM.SkillAbility"}}</th>
-                <th>{{localize "ITEM.SkillLevel"}}</th>
-                <th>{{localize "ITEM.SkillScore"}}</th>           
-            </tr>
-            <tr>   
-                <td>
-                    <input name="data.ability" type="text" value="{{data.ability}}" data-dtype="String" />
-                </td>
-                <td>
-                    <input name="data.level" type="number" value="{{data.level}}" data-dtype="Number" />
-                </td>
-                <td>
-                    <input name="data.score" type="number" value="{{data.score}}" data-dtype="Number" />
-                </td>                           
-            </tr>
-        </table>
-        {{ editor content=data.description target="data.description" owner=owner button=true editable=editable }}
-    </div>
-</form>
-
-<form class="{{cssClass}}" autocomplete="off">
-    <header class="sheet-header">
         <div class="header-spacer"></div>
         <h4>{{ localize "ITEM.SkillName" }}</h4>   
         <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
-        
+        <div class="header-spacer"></div>
         <div class="flexrow">
             <div>
                 <h4>{{ localize "ITEM.SkillAbility" }}</h4>   
                 <input name="data.ability" type="number" value="{{data.ability}}" data-dtype="Number"/>
             </div>
+            <div class="header-spacer-row"></div>
              <div>
                 <h4>{{ localize "ITEM.SkillLevel" }}</h4>   
                 <input name="data.level" type="number" value="{{data.level}}" data-dtype="Number"/>
             </div>
+            <div class="header-spacer-row"></div>
              <div>
                 <h4>{{ localize "ITEM.SkillScore" }}</h4>   
                 <input name="data.score" type="number" value="{{data.score}}" data-dtype="Number"/>

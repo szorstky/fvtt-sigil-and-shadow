@@ -1,11 +1,9 @@
 <form class="{{cssClass}}" autocomplete="off">
-    <section class="equipment-sheet">
-        <header class="sheet-header">
-            <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="120" width="120"/>
-            <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
-        </header>
-        <div class="sheet-content">
-            <textarea rows="3" name="data.description">{{data.description}}</textarea> 
-        </div>
-    </section>
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="120" width="120"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+    </header>
+    <div class="sheet-content">
+        <textarea rows="3" name="data.description">{{data.description}}</textarea> 
+    </div>
 </form>

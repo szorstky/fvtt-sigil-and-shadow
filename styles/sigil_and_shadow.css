@@ -108,6 +108,7 @@
 .sis.sheet.item .sheet-content textarea {
   height: 100%;
   width: 100%;
+  background-color: transparent;
   border: 1px dotted #b5b3a4;
 }
 .sis.sheet.actor {

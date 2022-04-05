@@ -74,6 +74,10 @@
 .full-width {
   width: 100%;
 }
+.mx-1 {
+  margin-left: 6px;
+  margin-right: 6px;
+}
 .sis.sheet.item {
   font-family: "Mechanical-Machine";
   font-size: 1.2em;
@@ -105,9 +109,6 @@
 }
 .sis.sheet.item .sheet-header h1 {
   width: 100%;
-}
-.sis.sheet.item .sheet-header div.header-spacer {
-  min-height: 16px;
 }
 .sis.sheet.item .sheet-header div.header-spacer-row {
   min-width: 6px;

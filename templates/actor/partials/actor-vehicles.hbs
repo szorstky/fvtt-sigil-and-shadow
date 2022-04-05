@@ -1,0 +1,25 @@
+{{!-- VEHICLE --}}
+<section class="items-pane">
+    <ul class="items-list vehicle-list">
+        <li class="items-header flexrow">
+            <h4 class="flex3">
+                {{localize "ITEM.VehicleName"}}
+            </h4>
+            <h4 class="flex1" title="{{ localize "ITEM.VehiclePerformance" }}">{{localize "ITEM.VehiclePerformance"}}</h4>
+            <a class="items-button item-create" data-type="vehicle" title="{{localize 'SIS.sheet.newVehicle'}}">
+                <i class="fas fa-plus"></i>
+            </a>
+        </li>
+        {{#each vehicles as |vehicle id|}}
+        <li class="item vehicle-item flexrow" data-item-id="{{vehicle._id}}">
+            <h4 class="item-name flexrow flex3">
+                <a class="item-edit">
+                    {{vehicle.name}}
+                </a>
+            </h4>
+            <h4 class="flex1">{{vehicle.data.performance}}</h4>
+            <div class="items-actions"></div>
+        </li>
+        {{/each}}
+    </ul>
+</section>

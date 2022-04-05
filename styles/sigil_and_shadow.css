@@ -84,6 +84,9 @@
   color: #4b4a44;
   padding: 8px;
 }
+.sis.sheet.item h4 {
+  margin-bottom: 8px;
+}
 .sis.sheet.item input {
   background-color: transparent;
   border-radius: 0;
@@ -105,9 +108,6 @@
   flex-direction: column;
   padding-top: 12px;
   padding-bottom: 12px;
-}
-.sis.sheet.item .sheet-content h4 {
-  margin-bottom: 8px;
 }
 .sis.sheet.item .sheet-content textarea {
   height: 100%;

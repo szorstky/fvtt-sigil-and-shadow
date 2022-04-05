@@ -168,6 +168,9 @@
   margin: 0;
   font-size: 1.2em;
 }
+.sis.sheet.actor.player-character div.stat-box input.health {
+  color: red;
+}
 .sis.sheet.actor.player-character div.stat-box input.center {
   text-align: center;
 }

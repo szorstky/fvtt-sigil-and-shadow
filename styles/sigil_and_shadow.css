@@ -147,6 +147,8 @@
 }
 .sis.sheet.item .equipment-sheet img {
   border: 2px dashed #b5b3a4;
+  height: 180px;
+  width: 180px;
 }
 .sis.sheet.actor {
   /* ----------------------------------------- */

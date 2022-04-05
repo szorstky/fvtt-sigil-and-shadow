@@ -283,7 +283,7 @@
 .sis.sheet.actor.player-character .sheet-body .items-pane .items-list li h4 {
   border-bottom: 2px dashed #b5b3a4;
   white-space: nowrap;
-  margin: 4px;
+  margin: 4px 6px;
   padding: 0 0 4px 0px;
 }
 .sis.sheet.actor.player-character .sheet-body .items-pane .items-list li.items-header {

@@ -1,0 +1,23 @@
+{{!-- EQUIPMENT --}}
+<section class="stat-pane">
+    <div class="stat-header flexrow">
+        <h4 class="label">{{localize "ACTOR.Equipment"}}</h4>
+        <a class="stat-button item-create" data-type="equipment" title="{{localize 'SIS.sheet.newItem'}}">
+            <i class="fas fa-plus"></i>
+        </a>
+    </div>
+    <ul class="stat-list">
+        {{#each items as |item id|}}
+        <li class="item equipment-item" data-item-id="{{item._id}}">
+            <h4 class="item-name">
+                <a class="item-edit">
+                    {{ item.name }}
+                </a>
+            </h4>
+            <h5>
+                {{item.data.description}}
+            </h5>
+        </li>
+        {{/each}}
+    </ul>
+</section>

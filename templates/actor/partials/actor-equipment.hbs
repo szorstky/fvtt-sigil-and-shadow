@@ -8,15 +8,17 @@
     </div>
     <ul class="stat-list">
         {{#each items as |item id|}}
-        <li class="item equipment-item" data-item-id="{{item._id}}">
+        <li class="item stat-item" data-item-id="{{item._id}}">
             <h4 class="item-name">
                 <a class="item-edit">
                     {{ item.name }}
                 </a>
             </h4>
+            {{#if power.data.kind}}
             <h5>
                 {{item.data.description}}
             </h5>
+            {{/if}}
         </li>
         {{/each}}
     </ul>

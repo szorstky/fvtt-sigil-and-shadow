@@ -291,6 +291,7 @@
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h3.ability-label {
   color: #4b4a44;
+  margin-bottom: 0;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2.ability-value {
   text-align: center;

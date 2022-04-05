@@ -8,7 +8,7 @@ export default class SigilItemSheet extends ItemSheet {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             width: 640,
-            innerHeight: 320,
+            innerHeight: 420,
             classes: ["sis", "sheet", "item"]
         });
     }

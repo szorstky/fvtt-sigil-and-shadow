@@ -217,10 +217,14 @@
                 {{!-- ODDITIES --}}
                 {{> "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs"}}
                 <div class="frexrow">
-                    {{!-- PERKS --}}
-                    {{> "systems/sigil_and_shadow/templates/actor/partials/actor-perks.hbs"}}
-                    {{!-- DESCRIPTORS --}}
-                    {{> "systems/sigil_and_shadow/templates/actor/partials/actor-descriptors.hbs"}}    
+                    <div class="flexcol">
+                        {{!-- PERKS --}}
+                        {{> "systems/sigil_and_shadow/templates/actor/partials/actor-perks.hbs"}}
+                    </div>
+                    <div class="flexcol">
+                        {{!-- DESCRIPTORS --}}
+                        {{> "systems/sigil_and_shadow/templates/actor/partials/actor-descriptors.hbs"}}         
+                    </div>
                 </div>
             </div>
             {{!-- SKILLS --}}

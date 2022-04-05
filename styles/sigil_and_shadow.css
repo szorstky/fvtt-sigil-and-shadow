@@ -246,7 +246,7 @@
   padding: 0 8px;
 }
 .sis.sheet.actor.player-character .sheet-left img.avatar {
-  transform: rotate(5deg);
+  transform: rotate(3deg);
   border-radius: 4px;
   flex: 0 0 140px;
   height: 140px;

@@ -172,6 +172,9 @@
 .sis.sheet.actor.player-character div.stat-box input.center {
   text-align: center;
 }
+.sis.sheet.actor.player-character div.stat-box input.no-border {
+  border: none;
+}
 .sis.sheet.actor.player-character .sheet-left {
   max-width: 160px;
   border-right: 1px solid #b5b3a4;
@@ -232,6 +235,7 @@
   background-color: transparent;
   border-radius: 0;
   border: none;
+  border-bottom: 1px solid #b5b3a4;
   margin: 0;
   font-size: 1.2em;
 }

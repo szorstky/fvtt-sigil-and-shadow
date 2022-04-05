@@ -1,23 +1,20 @@
 <form class="{{cssClass}}" autocomplete="off">
     <header class="sheet-header">
-        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
-        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="180" width="180"/>
+        <div class="header-spacer"></div>
+        <h4>{{ localize "ITEM.ArmourName" }}</h4>   
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
+        
+        <div class="header-spacer"></div>
+        <h4>{{ localize "ITEM.ArmourDamageResistance" }}</h4>   
+        <input name="data.damage_resistance" type="number" value="{{item.damage_resistance}}" data-dtype="Number"/>
+        
+        <div class="header-spacer"></div>
+        <h4>{{ localize "ITEM.ArmorDexterityModifier" }}</h4>   
+        <input name="data.dexterity_modifier" type="number" value="{{item.dexterity_modifier}}" data-dtype="Number"/>
     </header>
     <div class="sheet-content">
-        <table>
-            <tr>                
-                <th>{{localize "ITEM.ArmourDamageResistance"}}</th>
-                <th>{{localize "ITEM.ArmorDexterityModifier"}}</th>    
-            </tr>
-            <tr>               
-                <td>
-                    <input name="data.damage_resistance" type="number" value="{{data.damage_resistance}}" data-dtype="Number" />
-                </td>
-                <td>
-                    <input name="data.dexterity_modifier" type="number" value="{{data.dexterity_modifier}}" data-dtype="Number" />
-                </td>                
-            </tr>
-        </table>
-        {{ editor content=data.description target="data.description" owner=owner button=true editable=editable }}
+        <h4>{{ localize "ITEM.Description" }}</h4>   
+        <textarea rows="4" name="data.description">{{data.description}}</textarea> 
     </div>
 </form>

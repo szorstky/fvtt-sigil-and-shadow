@@ -14,6 +14,8 @@
     "ITEM.WeaponConceal": "Conceal",
     "ITEM.WeaponNotes": "Notes",
 
+    "ITEM.EquipmentName": "Equipment",
+
     "ITEM.ArmourName" : "Armor",
     "ITEM.ArmourDR" : "DR",
     "ITEM.ArmourDamageResistance" : "Damage Resistance",

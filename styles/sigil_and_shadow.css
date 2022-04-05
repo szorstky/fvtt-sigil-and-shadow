@@ -142,8 +142,10 @@
   min-height: 420px;
 }
 .sis.sheet.item .equipment-sheet {
-  min-width: 320px;
-  min-height: 420px;
+  width: 320px;
+  height: 420px;
+  max-width: 320px;
+  max-height: 420px;
 }
 .sis.sheet.item .equipment-sheet img {
   border: 2px dashed #b5b3a4;

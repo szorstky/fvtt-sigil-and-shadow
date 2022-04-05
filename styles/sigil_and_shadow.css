@@ -145,6 +145,10 @@
   min-width: 320px;
   min-height: 420px;
 }
+.sis.sheet.item .equipment-sheet img {
+  border: 2px solid #b5b3a4;
+  background-color: antiquewhite;
+}
 .sis.sheet.actor {
   /* ----------------------------------------- */
   /*  Shared Styles                            */

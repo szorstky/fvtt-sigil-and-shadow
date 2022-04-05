@@ -1,13 +1,10 @@
 <form class="{{cssClass}} power-sheet" autocomplete="off">
     <header class="sheet-header">
-        <div class="header-row">
-            <h4>{{ localize "ITEM.PowerName" }}</h4>
-            <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
-        </div>
-        <div class="header-row">
-            <h4>{{ localize 'ITEM.PowerKind' }}</h4>
-            <input name="data.kind" type="text" value="{{data.kind}}" placeholder="{{ localize 'ITEM.PowerKindPlaceholder' }}"/>
-        </div>    
+        <h4>{{ localize "ITEM.PowerName" }}</h4>
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
+        <div class="header-spacer"></div>
+        <h4>{{ localize 'ITEM.PowerKind' }}</h4>
+        <input name="data.kind" type="text" value="{{data.kind}}" placeholder="{{ localize 'ITEM.PowerKindPlaceholder' }}"/>
     </header>
     <div class="sheet-content">     
         <h4>{{ localize "ITEM.Description" }}</h4>   

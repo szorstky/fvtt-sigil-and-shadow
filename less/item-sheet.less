@@ -9,20 +9,21 @@
         padding: 8px;
     }
 
+    input {
+        background-color: transparent;
+        border-radius: 0;
+        border: none;
+        border-bottom: 2px dashed @borderSigilInput;
+        color: @colorSigil;
+        margin: 0;
+        font-size: 1.2em;
+    }
+
     .sheet-header {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: start;
-        input {
-            background-color: transparent;
-            border-radius: 0;
-            border: none;
-            border-bottom: 2px dashed @borderSigilInput;
-            color: @colorSigil;
-            margin: 0;
-            font-size: 1.2em;
-        }
     }
     
     .sheet-content {
@@ -30,6 +31,7 @@
         display: flex;
         flex-direction: column;
         padding-top: 12px;
+        padding-bottom: 12px;
         h4 {
             margin-bottom: 8px;
         }

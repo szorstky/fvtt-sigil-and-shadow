@@ -221,12 +221,12 @@
   text-align: center;
   margin: 0 6px;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2 {
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2.ability-value {
   text-align: center;
-  margin: 0;
+  margin-top: -18px;
   border: none;
 }
-.sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2 input {
+.sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box h2.ability-value input {
   border: none;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box input {

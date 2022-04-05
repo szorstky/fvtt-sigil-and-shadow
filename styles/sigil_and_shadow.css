@@ -129,6 +129,9 @@
   min-width: 640;
   min-height: 420;
 }
+.sis.sheet.item .equipment-sheet {
+  width: 320;
+}
 .sis.sheet.actor {
   /* ----------------------------------------- */
   /*  Shared Styles                            */

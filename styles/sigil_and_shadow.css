@@ -142,7 +142,7 @@
   display: flex;
   flex-direction: row;
 }
-.sis.sheet.actor.player-character h4.label {
+.sis.sheet.actor.player-character h4 {
   color: #4b4a44;
 }
 .sis.sheet.actor.player-character h6.label {
@@ -158,6 +158,10 @@
 .sis.sheet.actor.player-character div.stat-box {
   color: #4b4a44;
   margin: 6px 4px;
+}
+.sis.sheet.actor.player-character div.stat-box h4.stat-label {
+  color: #4b4a44;
+  border: 2px dashed #4b4a44;
 }
 .sis.sheet.actor.player-character div.stat-box input {
   background-color: transparent;

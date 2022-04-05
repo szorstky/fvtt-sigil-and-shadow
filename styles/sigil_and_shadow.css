@@ -88,7 +88,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  text-align: left;
+  align-items: start;
 }
 .sis.sheet.item .sheet-header input {
   background-color: transparent;

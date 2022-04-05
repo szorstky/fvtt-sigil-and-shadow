@@ -158,7 +158,7 @@
 }
 .sis.sheet.actor.player-character div.stat-box {
   color: #4b4a44;
-  margin: 6px 4px;
+  margin: 2px 4px;
 }
 .sis.sheet.actor.player-character div.stat-box input {
   background-color: transparent;
@@ -242,8 +242,13 @@
   color: black;
   font-size: 1.5em;
 }
+.sis.sheet.actor.player-character .sheet-body .sheet-tabs {
+  padding-bottom: 4px;
+  height: 50px;
+}
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs a {
   font-weight: bold;
+  font-size: 1.2em;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs-panel {
   height: 100%;
@@ -290,7 +295,7 @@
   text-align: center;
 }
 .sis.sheet.actor.player-character .sheet-body .stat-pane {
-  padding: 4px 4px 0 4px;
+  padding: 0;
 }
 .sis.sheet.actor.player-character .sheet-body .stat-pane .stat-header {
   justify-content: space-between;

@@ -145,6 +145,10 @@
   width: 100%;
   height: 180px;
 }
+.sis.sheet.item.weapon img {
+  width: 100%;
+  height: 180px;
+}
 .sis.sheet.actor {
   /* ----------------------------------------- */
   /*  Shared Styles                            */

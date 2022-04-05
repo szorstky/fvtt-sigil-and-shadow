@@ -310,7 +310,8 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .abilities-container .ability-box input.dymo {
   height: 30px;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-weight: bold;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-tabs {
   height: 36px;

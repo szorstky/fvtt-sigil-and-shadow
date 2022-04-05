@@ -2,8 +2,8 @@
 <section class="items-pane">
     <ul class="items-list skill-list">
         <li class="items-header flexrow">
-            <h4>{{localize "ITEM.SkillName"}}</h4>
-            <h4>{{localize "ITEM.SkillAbility"}}</h4>
+            <h4 class="flex2">{{localize "ITEM.SkillName"}}</h4>
+            <h4 class="flex2">{{localize "ITEM.SkillAbility"}}</h4>
             <h4>{{localize "ITEM.SkillLevel"}}</h4>
             <h4>{{localize "ITEM.SkillScore"}}</h4>
             <a class="items-button item-create" data-type="skill" title="{{localize 'SIS.sheet.newSkill'}}">
@@ -12,12 +12,12 @@
         </li>
         {{#each skills as |skill id|}}
         <li class="item skill-item flexrow" data-item-id="{{skill._id}}">
-            <h4 class="item-name flexrow">
+            <h4 class="item-name flexrow flex2">
                 <a class="item-edit">
                     {{skill.name}}
                 </a>
             </h4>
-            <h4>{{skill.data.ability}}</h4>
+            <h4 class="flex2">{{skill.data.ability}}</h4>
             <h4>{{skill.data.level}}</h4>
             <h4>{{skill.data.score}}</h4>
             <div class="items-actions"></div>

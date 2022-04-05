@@ -1,10 +1,12 @@
-<form class="{{cssClass}} oddity-sheet" autocomplete="off">
-    <header class="sheet-header">
-        <h4>{{ localize "ITEM.OddityName" }}</h4>
-        <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
-    </header>
-    <div class="sheet-content">     
-        <h4>{{ localize "ITEM.Description" }}</h4>   
-        <textarea rows="10" name="data.description">{{data.description}}</textarea> 
-    </div>
+<form class="{{cssClass}}" autocomplete="off">
+    <section class="oddity-sheet">
+        <header class="sheet-header">
+            <h4>{{ localize "ITEM.OddityName" }}</h4>
+            <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
+        </header>
+        <div class="sheet-content">     
+            <h4>{{ localize "ITEM.Description" }}</h4>   
+            <textarea rows="10" name="data.description">{{data.description}}</textarea> 
+        </div>
+    </section>
 </form>

@@ -1,7 +1,5 @@
 @actorNameHeight: 40px;
 
-@actorColorBorder: #b5b3a4;
-
 .sis.sheet.actor.player-character {
     font-family: "Mechanical-Machine";
     font-size: 1.2em;
@@ -34,7 +32,7 @@
             background-color: transparent;
             border-radius: 0;
             border: none;
-            border-bottom: 2px dashed @actorColorBorder;
+            border-bottom: 2px dashed @borderSigilInput;
             color: @colorSigil;
             margin: 0;
             font-size: 1.2em;
@@ -55,7 +53,7 @@
 
     .sheet-left {         
         max-width: 160px;
-        border-right: 1px solid @actorColorBorder;
+        border-right: 1px solid @borderSigilInput;
         padding: 0 8px;
         img.avatar { 
             border-radius: 4px;
@@ -84,7 +82,7 @@
             .character-name {
                 height: @actorNameHeight;
                 padding: 0;
-                border-bottom: 2px dashed @actorColorBorder;
+                border-bottom: 2px dashed @borderSigilInput;
                 margin: 0 4px;
                 input {
                     background-color: transparent;
@@ -120,7 +118,7 @@
                         background-color: transparent;
                         border-radius: 0;
                         border: none;
-                        border-bottom: 2px dashed @actorColorBorder;
+                        border-bottom: 2px dashed @borderSigilInput;
                         margin: 0;
                         font-size: 1.2em;
                     }
@@ -169,7 +167,7 @@
                     color: @colorOlive;
                     justify-content: space-between;
                     h4 {
-                        border-bottom: 2px dashed @actorColorBorder;
+                        border-bottom: 2px dashed @borderSigilInput;
                         white-space: nowrap;
                         margin: 4px 6px; 
                         padding: 0 0 4px 0px;
@@ -207,7 +205,7 @@
                 margin: 2px 0;
                 li {
                     color: @colorOlive;
-                    // border-bottom: 1px solid @actorColorBorder;
+                    // border-bottom: 1px solid @borderSigilInput;
                 }
                 li.stat-item { 
                     padding: 0 2px;

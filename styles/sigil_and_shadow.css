@@ -74,9 +74,23 @@
 .full-width {
   width: 100%;
 }
+.sis.sheet.item {
+  font-family: "Mechanical-Machine";
+  font-size: 1.2em;
+}
 .sis.sheet.item form {
   display: flex;
   flex-direction: column;
+  color: #4b4a44;
+}
+.sis.sheet.item .sheet-header input {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px dashed #b5b3a4;
+  color: #045f8d;
+  margin: 0;
+  font-size: 1.2em;
 }
 .sis.sheet.item .sheet-content {
   height: 100%;

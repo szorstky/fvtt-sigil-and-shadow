@@ -1,8 +1,28 @@
 .sis.sheet.item {
+    font-family: "Mechanical-Machine";
+    font-size: 1.2em;
+
     form {
         display: flex;
         flex-direction: column;
+        color: @colorOlive;
     }
+
+    .sheet-header {
+        h4 {
+        
+        }
+        input {
+            background-color: transparent;
+            border-radius: 0;
+            border: none;
+            border-bottom: 2px dashed @borderSigilInput;
+            color: @colorSigil;
+            margin: 0;
+            font-size: 1.2em;
+        }
+    }
+    
     .sheet-content {
         height: 100%;
         display: flex;

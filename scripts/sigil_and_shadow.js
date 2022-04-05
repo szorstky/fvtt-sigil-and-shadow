@@ -1,4 +1,5 @@
 import { sigil_and_shadow } from "../module/config.js";
+import SigilItemEquipmentSheet from "../module/sheets/SigilItemEquipmentSheet.js";
 import SigilItemSheet from "../module/sheets/SigilItemSheet.js";
 import SigilPlayerCharacterSheet from "../module/sheets/SigilPlayerCharacterSheet.js"
 
@@ -23,6 +24,7 @@ Hooks.once("init", function(){
     CONFIG.sigil_and_shadow = sigil_and_shadow;
 
     Items.unregisterSheet("core", ItemSheet);
+    Items.registerSheet("sigil_and_shadow", SigilItemEquipmentSheet, { types: ["equipment"], makeDefault: true });
     Items.registerSheet("sigil_and_shadow", SigilItemSheet, { makeDefault: true });
 
     Actors.unregisterSheet("core", ActorSheet);

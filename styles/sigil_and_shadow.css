@@ -125,30 +125,8 @@
 .sis.sheet.item .sheet-content select {
   border: 2px dashed #b5b3a4;
 }
-.sis.sheet.item .equipment-sheet {
-  max-width: 320px;
-  max-height: 420px;
-}
-.sis.sheet.item .equipment-sheet img {
-  border: 2px dashed #b5b3a4;
-  height: 180px;
-  width: 180px;
-}
-.sis.sheet.item .descriptor-sheet {
-  min-width: 480px;
-  min-height: 420px;
-}
-.sis.sheet.item .oddity-sheet {
-  min-width: 480px;
-  min-height: 420px;
-}
-.sis.sheet.item .perk-sheet {
-  min-width: 480px;
-  min-height: 240px;
-}
-.sis.sheet.item .power-sheet {
-  min-width: 480px;
-  min-height: 420px;
+.sis.sheet.item.equipment img {
+  width: 100%;
 }
 .sis.sheet.actor {
   /* ----------------------------------------- */

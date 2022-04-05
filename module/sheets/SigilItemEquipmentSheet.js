@@ -1,4 +1,4 @@
-export default class SigilItemSheet extends ItemSheet {
+export default class SigilItemEquipmentSheet extends ItemSheet {
 
     constructor(...args) {
         super(...args);
@@ -7,9 +7,9 @@ export default class SigilItemSheet extends ItemSheet {
     /** @override */
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            width: 620,
-            innerHeight: 360,
-            classes: ["sis", "sheet", "item"]
+            width: 320,
+            innerHeight: 460,
+            classes: ["sis", "sheet", "item", "equipment"]
         });
     }
 

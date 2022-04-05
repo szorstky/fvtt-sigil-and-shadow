@@ -11,7 +11,8 @@ async function preloadHandlebarsTemplates() {
         "systems/sigil_and_shadow/templates/actor/partials/actor-powers.hbs",
         "systems/sigil_and_shadow/templates/actor/partials/actor-weapons.hbs",
         "systems/sigil_and_shadow/templates/actor/partials/actor-armour.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-equipment.hbs"
+        "systems/sigil_and_shadow/templates/actor/partials/actor-equipment.hbs",
+        "systems/sigil_and_shadow/templates/actor/partials/actor-vehicles.hbs"
     ];
     return loadTemplates(templatePaths);
 }

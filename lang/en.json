@@ -18,6 +18,9 @@
     "ITEM.ArmorDexterityModifier" : "Dexterity Modifier",
     "ITEM.ArmorDexMod" : "DEX Mod",
 
+    "ITEM.VehicleName" : "Vehicles",
+    "ITEM.VehiclePerformance" : "Performance",
+
     "ITEM.SkillName" : "Skill",
     "ITEM.SkillFocusOf" : "Focus",
     "ITEM.SkillAbility" : "Ability",

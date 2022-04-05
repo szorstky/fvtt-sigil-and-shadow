@@ -203,9 +203,7 @@
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name {
   height: 40px;
   padding: 0;
-  border-color: #b5b3a4;
-  border-style: dashed;
-  border-bottom-width: 2px;
+  border-bottom: 2px dashed #4b4a44;
   margin: 0 4px 4px 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {

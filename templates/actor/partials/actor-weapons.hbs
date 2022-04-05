@@ -2,7 +2,7 @@
 <section class="items-pane">
     <ul class="items-list weapon-list">
         <li class="items-header flexrow">
-            <h4>{{localize "ITEM.WeaponName"}}</h4>
+            <h4 class="flex2">{{localize "ITEM.WeaponName"}}</h4>
             <h4>{{localize "ITEM.WeaponDamage"}}</h4>
             <h4>{{localize "ITEM.WeaponRange"}}</h4>
             <h4>{{localize "ITEM.WeaponAmmo"}}</h4>
@@ -14,7 +14,7 @@
         </li>
         {{#each weapons as |weapon id|}}
         <li class="item weapon-item flexrow" data-item-id="{{weapon._id}}">
-            <h4 class="item-name flexrow">
+            <h4 class="item-name flexrow flex2">
                 <a class="item-edit">
                     {{weapon.name}}
                     {{#if weapon.data.description}}

@@ -1,9 +1,10 @@
-<form class="{{cssClass}}" autocomplete="off">
+<form class="{{cssClass}} descriptor-sheet" autocomplete="off">
     <header class="sheet-header">
-        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
-        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+        <h4>{{ localize "ITEM.DescriptorName" }}</h4>
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
     </header>
-    <div class="sheet-content">        
+    <div class="sheet-content">     
+        <h4>{{ localize "ITEM.DescriptorKind" }}</h4>   
         <select name="data.kind">
             {{#select data.kind}}
             {{#each config.actorDescriptorKinds as |name type|}}

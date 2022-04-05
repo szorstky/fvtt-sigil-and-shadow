@@ -35,7 +35,7 @@
     "ITEM.OddityDescription" : "Description",
 
     "ITEM.DescriptorName" : "Descriptor",
-    "ITEM.DescriptorType" : "Type",
+    "ITEM.DescriptorKind" : "Type",
 
     "ITEM.PowerName": "Power",
     "ITEM.PowerKind": "Kind",

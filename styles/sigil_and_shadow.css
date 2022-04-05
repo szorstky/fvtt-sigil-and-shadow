@@ -159,15 +159,11 @@
   color: #4b4a44;
   margin: 6px 4px;
 }
-.sis.sheet.actor.player-character div.stat-box h4.stat-label {
-  color: #4b4a44;
-  border: 2px dashed #4b4a44;
-}
 .sis.sheet.actor.player-character div.stat-box input {
   background-color: transparent;
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #b5b3a4;
+  border-bottom: 2px dashed #b5b3a4;
   color: #045f8d;
   margin: 0;
   font-size: 1.2em;

@@ -4,6 +4,8 @@
     "ITEM.DescriptorPositive": "Positive",
     "ITEM.DescriptorNegative": "Negative",
 
+    "ITEM.Description": "Description",
+
     "ITEM.WeaponName": "Weapon",
     "ITEM.WeaponDamage": "Damage",
     "ITEM.WeaponRange": "Range",

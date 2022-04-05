@@ -103,13 +103,17 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 12px;
+  padding-top: 8px;
 }
 .sis.sheet.item .sheet-content textarea {
   height: 100%;
   width: 100%;
   background-color: transparent;
-  border: 1px dashed #b5b3a4;
+  border: 2px dashed #b5b3a4;
+}
+.sis.sheet.item .oddity-sheet {
+  min-width: 640;
+  min-height: 340;
 }
 .sis.sheet.actor {
   /* ----------------------------------------- */

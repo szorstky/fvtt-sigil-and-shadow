@@ -102,6 +102,9 @@
   justify-content: flex-start;
   align-items: start;
 }
+.sis.sheet.item .sheet-header div.header-row {
+  margin-bottom: 8px;
+}
 .sis.sheet.item .sheet-content {
   height: 100%;
   display: flex;

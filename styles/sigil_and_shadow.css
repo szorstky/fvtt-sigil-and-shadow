@@ -146,8 +146,7 @@
   min-height: 420px;
 }
 .sis.sheet.item .equipment-sheet img {
-  border: 2px solid #b5b3a4;
-  background-color: antiquewhite;
+  border: 2px dashed #b5b3a4;
 }
 .sis.sheet.actor {
   /* ----------------------------------------- */

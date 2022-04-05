@@ -29,6 +29,8 @@
     "ITEM.SkillLevel" : "Level",
     "ITEM.SkillScore" : "Score %",
 
+    "ITEM.PerkName" : "Perk",
+
     "ITEM.OddityName" : "Oddity",
     "ITEM.OddityDescription" : "Description",
 

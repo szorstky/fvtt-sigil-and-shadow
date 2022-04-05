@@ -1,36 +1,35 @@
 <form class="{{cssClass}}" autocomplete="off">
     <header class="sheet-header">
-        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
-        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="180"/>
+        <div class="header-spacer"></div>
+        <h4>{{ localize "ITEM.WeaponName" }}</h4>   
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
+        <div class="header-spacer"></div>
+        <div class="flexrow">
+            <div>
+                <h4>{{ localize "ITEM.WeaponDamage" }}</h4>   
+                <input name="data.damage" type="text" value="{{data.damage}}"/>
+            </div>
+            <div class="px-3">
+                <h4>{{ localize "ITEM.WeaponRamge" }}</h4>   
+                <input name="data.range" type="text" value="{{data.range}}"/>
+            </div>
+             <div class="px-3">
+                <h4>{{ localize "ITEM.WeaponAmmo" }}</h4>   
+                <input name="data.ammo" type="text" value="{{data.ammo}}"/>
+            </div>
+            <div class="px-3">
+                <h4>{{ localize "ITEM.WeaponReloads" }}</h4>   
+                <input name="data.reloads" type="number" value="{{data.reloads}}" data-dtype="Number"/>
+            </div>
+            <div>
+                <h4>{{ localize "ITEM.WeaponConceal" }}</h4>   
+                <input name="data.conceal" type="text" value="{{data.conceal}}"/>
+            </div>
+        </div>
     </header>
     <div class="sheet-content">
-        <table>
-            <tr>                
-                <th>{{localize "ITEM.WeaponDamage"}}</th>
-                <th>{{localize "ITEM.WeaponRange"}}</th>
-                <th>{{localize "ITEM.WeaponAmmo"}}</th>
-                <th>{{localize "ITEM.WeaponReloads"}}</th>
-                <th>{{localize "ITEM.WeaponConceal"}}</th>       
-            </tr>
-            <tr>               
-                <td>
-                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="String" />
-                </td>
-                <td>
-                    <input name="data.range" type="text" value="{{data.range}}" data-dtype="String" />
-                </td>
-                <td>
-                    <input name="data.ammo" type="text" value="{{data.ammo}}" data-dtype="String" />
-                </td>
-                <td>
-                    <input name="data.reloads" type="number" value="{{data.reloads}}" data-dtype="Number" />
-                </td>   
-                <td>
-                    <input name="data.conceal" type="text" value="{{data.conceal}}" data-dtype="String" />
-                </td>                        
-            </tr>
-        </table>
-        <!-- <textarea name="data.notes">{{data.description}}</textarea> -->
-        {{ editor content=data.description target="data.description" owner=owner button=true editable=editable }}
+        <h4>{{ localize "ITEM.Description" }}</h4>   
+        <textarea rows="12" name="data.description">{{data.description}}</textarea> 
     </div>
 </form>

@@ -1,6 +1,7 @@
 import { sigil_and_shadow } from "../module/config.js";
 import SigilItemEquipmentSheet from "../module/sheets/SigilItemEquipmentSheet.js";
 import SigilItemSheet from "../module/sheets/SigilItemSheet.js";
+import SigilItemWeaponSheet from "../module/sheets/SigilItemWeaponSheet.js";
 import SigilPlayerCharacterSheet from "../module/sheets/SigilPlayerCharacterSheet.js"
 
 async function preloadHandlebarsTemplates() {
@@ -25,6 +26,7 @@ Hooks.once("init", function(){
 
     Items.unregisterSheet("core", ItemSheet);
     Items.registerSheet("sigil_and_shadow", SigilItemEquipmentSheet, { types: ["equipment", "vehicle", "armour"], makeDefault: true });
+    Items.registerSheet("sigil_and_shadow", SigilItemWeaponSheet, { types: ["weapon"], makeDefault: true });
     Items.registerSheet("sigil_and_shadow", SigilItemSheet, { makeDefault: true });
 
     Actors.unregisterSheet("core", ActorSheet);

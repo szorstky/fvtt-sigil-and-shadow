@@ -1,13 +1,12 @@
 <form class="{{cssClass}}" autocomplete="off">
     <header class="sheet-header">
-        <div class="header-spacer"></div>
         <h4>{{ localize "ITEM.SkillName" }}</h4>   
         <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
         <div class="header-spacer"></div>
         <div class="flexrow">
             <div>
                 <h4>{{ localize "ITEM.SkillAbility" }}</h4>   
-                <input name="data.ability" type="number" value="{{data.ability}}" data-dtype="Number"/>
+                <input name="data.ability" type="text" value="{{data.ability}}"/>
             </div>
             <div class="px-3">
                 <h4>{{ localize "ITEM.SkillLevel" }}</h4>   

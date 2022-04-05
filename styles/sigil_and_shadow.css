@@ -103,7 +103,10 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 8px;
+  padding-top: 12px;
+}
+.sis.sheet.item .sheet-content h4 {
+  margin-bottom: 8px;
 }
 .sis.sheet.item .sheet-content textarea {
   height: 100%;
@@ -113,7 +116,7 @@
 }
 .sis.sheet.item .oddity-sheet {
   min-width: 640;
-  min-height: 340;
+  min-height: 420;
 }
 .sis.sheet.actor {
   /* ----------------------------------------- */

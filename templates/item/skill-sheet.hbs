@@ -25,3 +25,30 @@
         {{ editor content=data.description target="data.description" owner=owner button=true editable=editable }}
     </div>
 </form>
+
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <div class="header-spacer"></div>
+        <h4>{{ localize "ITEM.SkillName" }}</h4>   
+        <input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/>
+        
+        <div class="flexrow">
+            <div>
+                <h4>{{ localize "ITEM.SkillAbility" }}</h4>   
+                <input name="data.ability" type="number" value="{{data.ability}}" data-dtype="Number"/>
+            </div>
+             <div>
+                <h4>{{ localize "ITEM.SkillLevel" }}</h4>   
+                <input name="data.level" type="number" value="{{data.level}}" data-dtype="Number"/>
+            </div>
+             <div>
+                <h4>{{ localize "ITEM.SkillScore" }}</h4>   
+                <input name="data.score" type="number" value="{{data.score}}" data-dtype="Number"/>
+            </div>
+        </div>
+    </header>
+    <div class="sheet-content">
+        <h4>{{ localize "ITEM.Description" }}</h4>   
+        <textarea rows="12" name="data.description">{{data.description}}</textarea> 
+    </div>
+</form>

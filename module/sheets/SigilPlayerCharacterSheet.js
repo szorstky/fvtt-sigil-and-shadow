@@ -96,7 +96,6 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
         new ContextMenu(html, ".weapon-item", this.itemContextMenu);
         new ContextMenu(html, ".armour-item", this.itemContextMenu);
         new ContextMenu(html, ".vehicle-item", this.itemContextMenu);
-        new ContextMenu(html, ".equipment-item", this.itemContextMenu);
         new ContextMenu(html, ".stat-item", this.itemContextMenu);
         
         super.activateListeners(html);

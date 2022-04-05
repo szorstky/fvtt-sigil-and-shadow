@@ -204,7 +204,8 @@
   height: 40px;
   padding: 0;
   border-color: #b5b3a4;
-  border-bottom-width: 1px;
+  border-style: dashed;
+  border-bottom-width: 2px;
   margin: 0 4px 4px 4px;
 }
 .sis.sheet.actor.player-character .sheet-body .sheet-profile .character-name input {
@@ -238,7 +239,7 @@
   background-color: transparent;
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #b5b3a4;
+  border-bottom: 2px dashed #b5b3a4;
   margin: 0;
   font-size: 1.2em;
 }

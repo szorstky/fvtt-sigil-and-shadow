@@ -35,6 +35,8 @@
     "ITEM.DescriptorName" : "Descriptor",
     "ITEM.DescriptorType" : "Type",
 
+    "ITEM.PowerName": "Power",
+    "ITEM.PowerKind": "Kind",
     "ITEM.PowerKindPlaceholder": "Burdens, Gifts, Manifestations, Perks, Spells, etc",
 
     "ACTOR.PlayerAlignmentTheIlluminated": "The Illuminated",

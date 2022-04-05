@@ -232,7 +232,6 @@
   background-color: transparent;
   border-radius: 0;
   border: none;
-  border-bottom: 1px solid #b5b3a4;
   margin: 0;
   font-size: 1.2em;
 }
@@ -305,7 +304,6 @@
 }
 .sis.sheet.actor.player-character .sheet-body .stat-pane .stat-list li {
   color: #4b4a44;
-  border-bottom: 1px solid #b5b3a4;
 }
 .sis.sheet.actor.player-character .sheet-body .stat-pane .stat-list li.stat-item {
   padding: 0 2px;

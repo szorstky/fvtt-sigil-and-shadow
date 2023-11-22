@@ -6,15 +6,15 @@ import SigilPlayerCharacterSheet from "../module/sheets/SigilPlayerCharacterShee
 
 async function preloadHandlebarsTemplates() {
     const templatePaths = [
-        "systems/sigil_and_shadow/templates/actor/partials/actor-oddities.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-descriptors.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-skills.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-perks.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-powers.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-weapons.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-armour.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-equipment.hbs",
-        "systems/sigil_and_shadow/templates/actor/partials/actor-vehicles.hbs"
+        "systems/fvtt-sigil-and-shadow/templates/actor/partials/actor-oddities.hbs",
+        "systems/fvtt-sigil-and-shadow/templates/actor/partials/actor-descriptors.hbs",
+        "systems/fvtt-sigil-and-shadow/templates/actor/partials/actor-skills.hbs",
+        "systems/fvtt-sigil-and-shadow/templates/actor/partials/actor-perks.hbs",
+        "systems/fvtt-sigil-and-shadow/templates/actor/partials/actor-powers.hbs",
+        "systems/fvtt-sigil-and-shadow/templates/actor/partials/actor-weapons.hbs",
+        "systems/fvtt-sigil-and-shadow/templates/actor/partials/actor-armour.hbs",
+        "systems/fvtt-sigil-and-shadow/templates/actor/partials/actor-equipment.hbs",
+        "systems/fvtt-sigil-and-shadow/templates/actor/partials/actor-vehicles.hbs"
     ];
     return loadTemplates(templatePaths);
 }

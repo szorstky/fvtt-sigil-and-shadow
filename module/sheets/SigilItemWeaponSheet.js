@@ -15,7 +15,7 @@ export default class SigilItemWeaponSheet extends ItemSheet {
 
     /** @override */
     get template() {
-        return `systems/sigil_and_shadow/templates/item/${this.item.data.type}-sheet.hbs`
+        return `systems/fvtt-sigil-and-shadow/templates/item/${this.item.data.type}-sheet.hbs`
     }    
 
     /** @override */

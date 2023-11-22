@@ -16,8 +16,8 @@ export default class SigilPlayerCharacterSheet extends ActorSheet {
 
     /** @override */
     get template() {
-        // return `systems/sigil_and_shadow/templates/actor/${this.actor.data.type}-sheet.html`
-        return "systems/sigil_and_shadow/templates/actor/player-character-sheet.hbs"
+        // return `systems/fvtt-sigil-and-shadow/templates/actor/${this.actor.data.type}-sheet.html`
+        return "systems/fvtt-sigil-and-shadow/templates/actor/player-character-sheet.hbs"
     }    
 
     itemContextMenu = [
